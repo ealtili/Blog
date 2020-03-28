@@ -188,6 +188,7 @@ Figure 4 Shows the relationship of the Create Program or Portfolio Components pr
 Scrum Guidance Body Recommendations are regularly reviewed by the members of the Scrum Guidance Body and are updated when and if necessary. Changes in the membership of the Scrum Guidance Body are also handled.
 
 ![](https://www.scrumstudy.com/Scrum-Images/Scrum-Guidance-Body.png)
+
 Figure 5 Shows the relationship of the Review and Update Scrum Guidance Body process
 
 ### Create and Groom Program or Portfolio Backlog
