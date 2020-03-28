@@ -195,16 +195,19 @@ Program or Portfolio Backlog is created, updated, and maintained. Suggested impr
 Following figure shows the relationship of the Create and Groom Program or Portfolio Backlog process to the fundamental Scrum processes.
 
 ![](https://www.scrumstudy.com/Scrum-Images/Portfolio-Backlog.png)
+
 Figure 6 Shows the relationship of the Create and Groom Program or Portfolio Backlog process
 
 ### Coordinate Program or Portfolio Components
 Components of the program or portfolio are coordinated. Dependencies between projects are addressed, common impediments are discussed, and best practices are shared. 
 
 ![](https://www.scrumstudy.com/Scrum-Images/Portfolio-Components.png)
+
 Figure 7 Shows the relationship of the Coordinate Program or Portfolio Components process
 
 ### Retrospect Program or Portfolio Releases
 
 Program or Portfolio Product Owner and key stakeholders get together to retrospect a program or portfolio Release and internalize the lessons learned to agreed actionable improvements to be implemented in future releases. 
 ![](https://www.scrumstudy.com/Scrum-Images/Portfolio-Releases.png)
+
 Figure 8 Shows the relationship of the Retrospect Program or Portfolio Releases
