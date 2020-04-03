@@ -42,10 +42,14 @@ Windows Sandbox builds on [Windows Containers](https://docs.microsoft.com/en-us/
 
 **Snapshot and clone** 
 Improves start time of the sandbox
+
 **Graphics virtualization** 
+
 Benefit from hardware accelerated rendering. A system with a compatible GPU and graphics drivers (WDDM 2.5 or newer) is required. Incompatible systems will render apps in Windows Sandbox with Microsoft's CPU-based rendering technology, Windows Advanced Rasterization Platform (WARP).
 ![WDDM GPU virtualization](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/images/5-wddm-gpu-virtualization.png)
+
 **Battery pass-through** 
+
 Aware of the host’s battery state, which allows it to optimize power consumption. Similar to the Windows 10 Hyper-V Battery pass-through.
 
 **Prerequisites for Windows Sandbox**
