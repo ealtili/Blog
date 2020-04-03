@@ -84,11 +84,17 @@ Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -Onli
 [![Windows 10 Windows Sandbox Start](https://www.thomasmaurer.ch/wp-content/uploads/2019/05/Windows-10-Windows-Sandbox-Start-768x491.jpg)](https://www.thomasmaurer.ch/wp-content/uploads/2019/05/Windows-10-Windows-Sandbox-Start.jpg)
 
 or just run WindowsSandbox.exe cmd C:\Users\\%username%\WindowsSandbox.exe
+
 5.  Copy an executable file from the host
+
 6.  Paste the executable file in the window of Windows Sandbox (on the Windows desktop)
+
 7.  Run the executable in the Windows Sandbox; if it is an installer go ahead and install it
+
 8.  Run the application and use it as you normally do
+
 9. When you're done experimenting, you can simply close the Windows Sandbox application. All sandbox content will be discarded and permanently deleted
+
 10. Confirm that the host does not have any of the modifications that you made in Windows Sandbox.
 
 [![Windows Sandbox](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/62786i559AE3EDA7C968A4?v=1.0)](https://www.microsoft.com/en-us/videoplayer/embed/RE4rFAo)
