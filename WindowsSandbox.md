@@ -73,6 +73,7 @@ Quick start
 Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true 
 ```
 3.  Open Windows Features, and then select Windows Sandbox. Select **OK** to install Windows Sandbox. You might be asked to restart the computer.
+  
   ![Optional Windows Features dlg.png](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/62785i7A89663EBE5E0521/image-size/medium?v=1.0&px=400 "Optional Windows Features dlg.png")
 
 You can also run the following PowerShell command:
