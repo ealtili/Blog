@@ -1,4 +1,4 @@
-Microsoft365
+Microsoft365 Fundamentals
 ============
 
 Microsoft 365 is a bundled suite of SaaS applications and services that businesses can subscribe to. Microsoft 365 offers Windows 10, Office 365, and Enterprise Mobility + Security, all bundled together. Microsoft 365 products and services enhance security and productivity and help to meet compliance requirements. In this series of blog, I will provide a guide to all the features, capabilities, and opportunities within Microsoft 365. I will explain each major topic and technology and demonstrations for key scenarios. You'll learn how to manage Microsoft 365 and assist you to pass Microsoft 365 exams and certifications.
