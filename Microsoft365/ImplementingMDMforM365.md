@@ -272,7 +272,7 @@ Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.co
 
 Select Add.
 
-![]()https://www.thelazyadministrator.com/wp-content/uploads/2018/10/de2-768x490.png
+![](https://www.thelazyadministrator.com/wp-content/uploads/2018/10/de2-768x490.png)
 
 On the Add User blade, enter a user principal name for the DEM user, and select Add. The DEM user is added to the list of DEM users.
 
