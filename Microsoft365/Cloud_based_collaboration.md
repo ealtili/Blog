@@ -1,5 +1,5 @@
 Cloud Based Collaboration: Sharepoint Online, OneDrive and Teams
-_
+-
 
 ![](https://d3kash6km939m8.cloudfront.net/s3fs-public/styles/resave/public/images/image/2020-04/4_Office%20365%20ecosystem.png?K1rZQspRBMmVoV9z1WwZbXg.l7OgFnF.&itok=cbCA_xTb)
 
