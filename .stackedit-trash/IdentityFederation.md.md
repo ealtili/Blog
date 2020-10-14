@@ -14,11 +14,7 @@ So an AWS account contains users which you log in with
 and resources which you provision inside of that account.
 
 The email address that you provide when creating an AWS account is used to create a special type of identity within the AWS account known as the account root user.
-Every AWS account has an account root user. Account root user has full control over that one specific AWS account and any resources which are created inside it. Account root user can't be restricted and will always have full access to everything
-
-within that one AWS account,
-
-which it belongs to.
+Every AWS account has an account root user. Account root user has full control over that one specific AWS account and any resources which are created inside it. Account root user can't be restricted and will always have full access to everything within that specific AWS account it belongs to. For that reason it is the most important account to to protect.
 
 Now, this is the reason
 
@@ -429,5 +425,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTIzMzUxOSwtMTkyMjkwMzM2XX0=
+eyJoaXN0b3J5IjpbLTEzNjY0NzE4NjUsLTE5MjI5MDMzNl19
 -->
