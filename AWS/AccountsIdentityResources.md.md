@@ -251,7 +251,7 @@ is for misconfiguration.
 And so it's much better
 to use brand new accounts
 
-for this course.
+
 
 I want you to learn how
 to configure all of this
@@ -260,11 +260,7 @@ in a correct way
 
 using best practices.
 
-So please,
 
-go ahead and create
-
-brand new AWS accounts for this course.
 
 I'll even show you a trick
 
@@ -284,5 +280,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTEzNDkxM119
+eyJoaXN0b3J5IjpbLTM2MjAyNDE1XX0=
 -->
