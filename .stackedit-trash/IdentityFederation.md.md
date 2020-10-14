@@ -16,85 +16,7 @@ and resources which you provision inside of that account.
 The email address that you provide when creating an AWS account is used to create a special type of identity within the AWS account known as the account root user.
 Every AWS account has an account root user. Account root user has full control over that one specific AWS account and any resources which are created inside it. Account root user can't be restricted and will always have full access to everything within that specific AWS account it belongs to. For that reason it is the most important account to to protect.
 
-Now, this is the reason
-
-why we need to be really careful
-
-with the account root user
-
-because if the username
-
-and password ever become known
-
-the results can be disastrous,
-
-because the details can be used
-
-to delete everything
-within the AWS account.
-
-The credit card that you provide
-
-when you create the AWS account,
-
-that's set as the account payment method.
-
-So you can create resources
-within an AWS account,
-
-and I'll be covering these
-throughout the course,
-
-and if those resources
-have any billable usage
-
-then that usage is billed
-
-to the account payment method.
-
-In this case,
-
-a credit card.
-
-I'll talk about this later in the course,
-
-but on the whole,
-
-AWS is what's known as
-a pay-as-you-consume
-
-or pay-as-you-go platform.
-
-If you use a service within
-an AWS account for two minutes
-
-then you pay you for two
-minutes of that service.
-
-Certain services include
-
-a certain allocation of
-free usage per month,
-
-and this is known as the free tier.
-
-And this is what we're
-going to take advantage of
-
-in this course
-
-to keep costs at an absolute minimum.
-
-So now that I've covered
-the account root user
-
-and billing within an account,
-
-now I want to touch on the security
-
-as it relates to AWS accounts.
-
-So you know that the account root user
+Just to emphasize the importance one more the account root user
 
 has full control over this
 one specific AWS account
@@ -425,5 +347,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY0NzE4NjUsLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTk5MzIwNDI5MCwtMTkyMjkwMzM2XX0=
 -->
