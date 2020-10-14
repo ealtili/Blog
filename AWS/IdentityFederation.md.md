@@ -77,83 +77,44 @@ then you will have precedence over any allow
 and so that means that inclusive deny's
 always have the highest priority
 and we'll have a lecture exactly to understand
-
 how IAM policies and everything else are evaluated in order.
-
 Okay, so the best practice, we know this already,
-
 is to use the least privilege for maximum security.
-
 That means that you need to make sure
-
 that the IAM policies are allowed
-
 just to do what they need to be doing and not more.
-
 Some tools we can use to make sure that this is the case,
-
 there is IAM access advisor.
-
 We can see all the permissions
-
 you have granted to an IAM policy
-
 and the last time each
-
 of these permissions was last accessed.
-
 So in case, you have a policy
-
 or something that was not used for a year,
-
 maybe it's worth removing it from the IAM policy
-
 to ensure there's less privilege.
-
 Okay, another one is going to be Access Analyzer
-
 and this is to analyze resources
-
 that are shared with external entities,
-
 for example, S3 buckets and this will allow you to look
-
 at if other accounts have access to your S3 buckets.
-
 Maybe there's something you're not expecting here
-
 and you want to make sure to look there on the S3 buckets.
-
 Okay, if you're not very familiar with IAM policy,
-
 I would encourage you to go to this URL
-
 to make sure you look at a few of them
-
 and understand them better
-
 but I would assume that by now you know
-
 what they look like already and how they work.
-
 A few common IAM policies we'll get across
-
 is going to be the AdministrativeAccess
-
 which is meaning that everything
-
 should be allowed on any resource
-
 and so this is a policy you have to specify.
-
 So by default if you set nothing in an IAM policy
-
 then everything will be denied
-
 but if you add that statement,
-
 which is allow action*resource*
-
 then everything will be allowed
 
 and that will give you administrative access
@@ -493,5 +454,5 @@ I will see you in the next lecture.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjgxMTQ5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc1OTc4NzY4Myw3MzA5OTgxMTZdfQ==
 -->
