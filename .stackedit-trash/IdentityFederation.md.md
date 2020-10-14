@@ -6,100 +6,6 @@ Let's have a look at AWS accounts.
 What is an AWS account ?
 What benefits it provides ?
 
-is one of the most important things
-
-within AWS.
-
-Many students, especially at the start
-
-confuse AWS accounts
-
-with users inside of those accounts.
-
-And I want you to be a
-hundred percent clear
-
-on the difference.
-
-If you've used AWS before,
-
-you might already have an idea
-
-of what AWS accounts are
-
-and how they work.
-
-But understanding accounts
-
-at a really instinctive level
-
-is essential for a solutions architect,
-
-developer
-
-or engineer.
-
-Simple systems which you design
-
-might operate from within
-
-a single AWS account,
-
-but more complex systems
-
-or environments operated
-by large enterprises
-
-might use tens or in some cases,
-
-hundreds of AWS accounts.
-
-And for that reason
-
-it's important
-
-that you really understand the features
-
-and benefits provided by AWS accounts.
-
-Now, this might seem pretty basic,
-
-but it's really powerful
-
-when you do fully understand it
-
-and really dangerous to
-operate at production scale
-
-if you don't.
-
-So let's jump in and get started.
-
-Now, this is an AWS account.
-
-When you're just starting with AWS,
-
-you might only create one of these,
-
-you might even already have one.
-
-Bigger, more complex
-projects or businesses
-
-will generally use many AWS accounts.
-
-And in this course,
-
-you're going to use multiple AWS accounts
-
-for the demo lessons.
-
-And this will help you understand
-
-how businesses actually use AWS
-
-in the real world.
-
 At a high level,
 
 an AWS account is a container
@@ -668,5 +574,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDMxODA0MjcsLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTEwMTc2OTQ0NTksLTE5MjI5MDMzNl19
 -->
