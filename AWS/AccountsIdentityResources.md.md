@@ -188,7 +188,7 @@ access your AWS account.
 Now external identities
 can be granted access
 
-such as Julie in the middle
+such as John in the middle
 
 if you explicitly want
 to allow this access.
@@ -274,5 +274,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjg0OTE3OV19
+eyJoaXN0b3J5IjpbLTI1NDQ1Mzk0M119
 -->
