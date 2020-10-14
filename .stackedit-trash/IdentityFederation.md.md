@@ -13,17 +13,8 @@ Identities are things like users. So these things which lets you to log in to sy
 So an AWS account contains users which you log in with
 and resources which you provision inside of that account.
 
-The email address that you provide when creating an AWS account
-
-is used to create a
-special type of identity
-
-within the AWS account
-
-which is known as the account root user.
-
-So every AWS account has
-an account root user.
+The email address that you provide when creating an AWS account is used to create a special type of identity within the AWS account known as the account root user.
+Every AWS account has an account root user. 
 
 So the root user of that AWS account.
 
@@ -499,5 +490,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTQ0NzAsLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTI1MDQ5NDMzMywtMTkyMjkwMzM2XX0=
 -->
