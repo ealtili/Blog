@@ -6,16 +6,9 @@ Let's have a look at AWS accounts.
 What is an AWS account ?
 What benefits it provides ?
 
-At a high level,
+An AWS account is a container for identities and AWS resources.
 
-an AWS account is a container
-
-for identities and AWS resources.
-
-Identities is just the
-technically correct way
-
-of referring to things like users.
+Identities are things like users.
 
 So the things which you use to log in
 
@@ -574,5 +567,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc2OTQ0NTksLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbMTI4MjM3MTczMywtMTkyMjkwMzM2XX0=
 -->
