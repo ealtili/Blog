@@ -13,66 +13,7 @@ Identities are things like users. So these things which lets you to log in to sy
 So an AWS account contains users which you log in with
 and resources which you provision inside of that account.
 
-So keep this idea of an AWS
-account being a container
-
-in your mind constantly
-
-as you move through the course.
-
-But this is especially important
-
-in this stage of the course
-
-where you're going to be creating
-
-the AWS accounts
-
-that you'll use constantly,
-
-as you move through the content.
-
-When you create an AWS account,
-
-you give the account a name,
-
-you need to provide a unique email address
-
-and you also need to
-provide a payment method
-
-which is generally a credit card.
-
-So if we're creating a production account
-
-we might name the account
-PROD for production.
-
-We would use a unique email address
-
-which is unique for this
-specific AWS account
-
-and provide a credit card
-for this production account.
-
-So just to reiterate,
-
-the credit card can be used
-
-for multiple AWS accounts,
-
-but the email address can't,
-
-it has to be unique.
-
-You need one unique email address
-
-for every AWS account.
-
-Now, the email address that you provide
-
-when creating the account
+The email address that you provide when creating an AWS account
 
 is used to create a
 special type of identity
@@ -558,5 +499,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg1MDc4ODYsLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTI2OTQ0NzAsLTE5MjI5MDMzNl19
 -->
