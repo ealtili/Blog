@@ -223,13 +223,7 @@ you need to be comfortable
 
 with how to use AWS accounts effectively.
 
-In the following lessons
 
-you're going to create the AWS accounts
-
-which you'll be using
-
-for the duration of this course.
 
 Now, I'm strongly recommending
 
@@ -280,5 +274,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjAyNDE1XX0=
+eyJoaXN0b3J5IjpbLTYzNjg0OTE3OV19
 -->
