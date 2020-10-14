@@ -24,20 +24,11 @@ Identity and Access Management service (known as IAM)  can create other identiti
 
 Types of identities:
 
-We've got IAM users,
+- IAM users
+- IAM groups
+- IAM roles
 
-IAM groups
-
-and IAM roles.
-
-And I'll cover these in detail
-
-in the relevant section of the course.
-
-But at this point, it's
-important to understand
-
-that all of these IAM identities
+It is important to know that all of these IAM identities
 
 start off with no access
 to the AWS account,
@@ -326,5 +317,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE0MDAyNjgsLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTcyNDM4NDk4NSwtMTkyMjkwMzM2XX0=
 -->
