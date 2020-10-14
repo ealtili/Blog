@@ -1,458 +1,677 @@
-So let's get started with IAM.
-So first, there's a lot of things you should know
-about IAM already so I'm not gonna go over the basics,
-I will just try to remind you what it is.
-So, users have long-term credentials
-and therefore you're AWS users.
-You can group them, and you can also define roles
-which are going to be short-term credentials.
-And then we use the STS service
-to endorse these roles and get credentials
-that are going to be temporary out of those
-to do the actions that the roles are authorized to do.
-A specific kind of role we've been seeing all along
-in the courses is the EC2 Instance Role,
-where it's going to use the EC2 metadata service
-to get these short-term credentials on an EC2 Instance.
-And you can assign only one role at a time for the instance.
-But this way your instance can access, for example,
-an S3 bucket or within an OTB table and so on.
-There's also service roles,
-which are assigned to services directly,
-so that if you have a service such as API Gateway
-or CodeDeploy that needs to do an action
-on an auto-scanning group or another function
-or something else, then that service needs to have a role
-and that role needs to be able
-and provisioned to do all the actions it needs.
-Okay, and then finally we have Cross Account roles
-and these roles are going to be really helpful
-in case you need to access another account
-to perform actions in that other account.
-You never share users credentials Cross Account,
-you always allow to assume roles
-and we'll see this in detail in this course.
-Now you have policies in IAM
-and they will define what a roll or user can do.
-And so you have three kinds.
-You have AWS Managed, which is policies defined by AWS
-that are going to be changing over time maybe
-but they will do something specific.
-Customer Managed, which is you creating these policies
-and you can assign them to multiple users
-or multiple roles and you can make
-them evolve over time, version them.
-Or Inline Policies, which are going to be policies assigned
-to one specific user or one specific role
-and you can make them evolve over time
-but you cannot share them across users
-or across roles.
-And finally we'll do a discussion on Resource Based Policies
-so this is when you have an S3 bucket policy
-or an SQS queue policy and so on,
-which would allow us to perform
-some really interesting patterns
-and we'll see this in this lecture.
-So what does an IAM Policy look like?
-Well, first of all, it's going to be adjacent documents
-and they will have four things or five things.
-Effects, action, resources, conditions
-and sometimes in it policy variables.
-We'll do a deep dive in all of those.
-But the idea is that, adjacent policy looks like this
-and then we have some statement, for example,
-allow ec2 attach volume,
-ec2 detach volume on the resource,
-which is all ec2 instances
-and the condition is
-StringEquals resource tag department developments
-that means that only the ec2 instances tagged
-with this tag can be attached
-or detached to a volume and so on.
-So this is quite specific and you can get very very crazy
-with IAM policies but this is how all
-of AWS works and we know this already.
-If there's an explicit deny in your IAM policy
-then you will have precedence over any allow
-and so that means that inclusive deny's
-always have the highest priority
-and we'll have a lecture exactly to understand
-how IAM policies and everything else are evaluated in order.
-Okay, so the best practice, we know this already,
-is to use the least privilege for maximum security.
-That means that you need to make sure
-that the IAM policies are allowed
-just to do what they need to be doing and not more.
-Some tools we can use to make sure that this is the case,
-there is IAM access advisor.
-We can see all the permissions
-you have granted to an IAM policy
-and the last time each
-of these permissions was last accessed.
-So in case, you have a policy
-or something that was not used for a year,
-maybe it's worth removing it from the IAM policy
-to ensure there's less privilege.
-Okay, another one is going to be Access Analyzer
-and this is to analyze resources
-that are shared with external entities,
-for example, S3 buckets and this will allow you to look
-at if other accounts have access to your S3 buckets.
-Maybe there's something you're not expecting here
-and you want to make sure to look there on the S3 buckets.
-Okay, if you're not very familiar with IAM policy,
-I would encourage you to go to this URL
-to make sure you look at a few of them
-and understand them better
-but I would assume that by now you know
-what they look like already and how they work.
-A few common IAM policies we'll get across
-is going to be the AdministrativeAccess
-which is meaning that everything
-should be allowed on any resource
-and so this is a policy you have to specify.
-So by default if you set nothing in an IAM policy
-then everything will be denied
-but if you add that statement,
-which is allow action*resource*
-then everything will be allowed
 
-and that will give you administrative access
+# AWS Accounts
 
-and because this is something very common
+Welcome back and in this lesson,
 
-for administrators, AWS provides this as a manage policy.
+I want to introduce AWS accounts.
 
-Another very interesting policy, a bit less privileged,
+Really understanding
+what an AWS account is
 
-is called AWS PowerUserAccess.
+and what benefits it provides
 
-And so in the first front the effect is allow,
+is one of the most important things
 
-not action on IAM* organizations
+within AWS.
 
-and account* for resource*.
+Many students, especially at the start
 
-So that means that it's not going to allow anything
+confuse AWS accounts
 
-to be done on IAM, organizations and accounts
+with users inside of those accounts.
 
-and also it's going to allow still
+And I want you to be a
+hundred percent clear
 
-a few IAM actions such as,
+on the difference.
 
-iam:CreateServiceLinkedRole,
+If you've used AWS before,
 
-iam:DeleteServiceLinkedRole,
+you might already have an idea
 
-iam:ListRoles,
+of what AWS accounts are
 
-organizations:DescribeOrganization
+and how they work.
 
-and account:ListRegions.
+But understanding accounts
 
-So you may be asking me why on the left-hand side
+at a really instinctive level
 
-is NotAction used and not just effect denied.
+is essential for a solutions architect,
 
-So if you use effect deny
+developer
 
-and then you specify these three actions,
+or engineer.
 
-and then you specify effect allow
+Simple systems which you design
 
-and these five actions will automatically be denied
+might operate from within
 
-because there will be an explicit deny
+a single AWS account,
 
-on the left-hand side.
+but more complex systems
 
-So here we have a very interesting use case,
+or environments operated
+by large enterprises
 
-in case we don't want to deny everything in there
+might use tens or in some cases,
 
-because we want to explicitly allow a few things in there
+hundreds of AWS accounts.
 
-then we can use the NotAction instead of deny
+And for that reason
 
-to allow for these two things to co-exist together.
+it's important
 
-Okay, next.
+that you really understand the features
 
-Conditions in IAM policies.
+and benefits provided by AWS accounts.
 
-So this is what a condition would look like.
+Now, this might seem pretty basic,
 
-So we have a condition operator,
+but it's really powerful
 
-a condition key and a condition value
+when you do fully understand it
 
-and so we can do a lot of crazy things with conditions.
+and really dangerous to
+operate at production scale
 
-The first one is going to be a string operator,
+if you don't.
 
-so for example, you're saying I want my principle tag
+So let's jump in and get started.
 
-to be job category IAM user admin.
+Now, this is an AWS account.
 
-So this is when you look at tags.
+When you're just starting with AWS,
 
-Or you can look at, for example, on this prefix
+you might only create one of these,
 
-for an S3 policy, to say that we want
+you might even already have one.
 
-the users to only access a specific home directory.
+Bigger, more complex
+projects or businesses
 
-There's numeric operators,
+will generally use many AWS accounts.
 
-where we can look at is it equal, equal than
+And in this course,
 
-or not equal and so on.
+you're going to use multiple AWS accounts
 
-Dates, to look at compare dates.
+for the demo lessons.
 
-This is very helpful when you want
+And this will help you understand
 
-to provide temporary access to a specific service.
+how businesses actually use AWS
 
-Booleans, which is going to be really helpful,
+in the real world.
 
-for example, if you want to evaluate SSL,
+At a high level,
 
-such as secure transport true
+an AWS account is a container
 
-and also when you want to look at MFA
+for identities and AWS resources.
 
-using multi factor authentication present true.
+Identities is just the
+technically correct way
 
-There's also an IP address condition
+of referring to things like users.
 
-or a not IP address condition
+So the things which you use to log in
 
-and these conditions will be really helpful
+to systems such as AWS.
 
-for buckets, S3 buckets policies for example
+So an AWS account contains users
 
-or any kind of policy when you want to ensure
+which you log in with
 
-that only a specific kind of source IP
+and resources which you provision
 
-can access a service.
+inside of that account.
 
-So, we can have
+So keep this idea of an AWS
+account being a container
 
-an "{Ipaddress":{aws:SourceIp":"203.2.113 0/24"}}.
+in your mind constantly
 
-And finally we can look at ArnEquals, ArnLike
+as you move through the course.
 
-and the null condition,
+But this is especially important
 
-which we're checking if something is null or not.
+in this stage of the course
 
-Now right now, I just want to reassure you,
+where you're going to be creating
 
-you don't have to remember all of these things okay.
+the AWS accounts
 
-I just want to show you these things exist,
+that you'll use constantly,
 
-so that you know you can have very specific IAM policies,
+as you move through the content.
 
-such as if the exam is asking you to use an IAM policy
+When you create an AWS account,
 
-as an answer to your problem,
+you give the account a name,
 
-this would be possible instead of using,
+you need to provide a unique email address
 
-for example, a custom script.
+and you also need to
+provide a payment method
 
-But you don't need to remember exactly all these things,
+which is generally a credit card.
 
-the exact conditions and so on.
+So if we're creating a production account
 
-Okay next, there is policy variables and tags
+we might name the account
+PROD for production.
 
-and these are really really powerful.
+We would use a unique email address
 
-One we've seen is ${aws:username}
+which is unique for this
+specific AWS account
 
-and this is most commonly used, for example,
+and provide a credit card
+for this production account.
 
-in an S3 bucket policy.
+So just to reiterate,
 
-So we have,
+the credit card can be used
 
-"Resource",["Am:awss3:::mybucket/${aswusername}/*"]
+for multiple AWS accounts,
 
-and what this does is that it will allow your username
+but the email address can't,
 
-to perform actions, all the actions on just the prefix
+it has to be unique.
 
-that starts with aws username.
+You need one unique email address
 
-And so that means that every user will have
+for every AWS account.
 
-it's own little directory in your S3 bucket
+Now, the email address that you provide
 
-and that is a very common usage for this.
+when creating the account
 
-There's AWS specific policy variable in tags, for example,
+is used to create a
+special type of identity
 
-current time, token issue time, principle type,
+within the AWS account
 
-secure transport which is for SSL, source Ip,
+which is known as the account root user.
 
-user ID and source instance ARN
+So every AWS account has
+an account root user.
 
-and these are provided by AWS.
+So the root user of that AWS account.
 
-There's service specific policy roles and tags,
+In this example, if you create
+a production AWS account
 
-for example, S3 prefix, max keys, sns Endpoint, sns Protocol
+then the account root user of that account
 
-and finally you can have tag based policy variables,
+can only log in
 
-for example if you use
+to that one production AWS account.
 
-iam:ResourceTag/key-name,aws:PrincipleTag/key-name
+If you make another AWS account,
 
-and so one.
+let's say a developer account
 
-So you can start having some really powerful IAM policies
+then that account will have its own
 
-and this why I would encourage you
+unique account root user
 
-to use the link from before to just look at a few of them
+with its own unique email address.
 
-and try to understand them, so you can really see
+So those account root users are different.
 
-the whole range of what can be done in IAM.
+The production account root user
 
-Okay, more importantly and more exam focused,
+can only access the production account
 
-is going to be the difference if IAM roles
+and the developer account root user
 
-in resource based policies
+can only access the developer account.
 
-and it may not be very clear exactly what the difference is,
+Now, initially the account root user
 
-but there is a very very clear difference.
+is the only identity,
 
-So we have two options right,
+the only user created
 
-we can attach a policy to a resource, for example,
+with an AWS account.
 
-a S3 bucket versus attaching of using a role as a proxy.
+So initially, you have the blank account,
 
-So here is an example,
+the container
 
-we have a user in account A and he's trying to access
+and inside that
 
-an S3 bucket in account B.
+is the account root user of that account.
 
-Now there's two ways of doing this, right.
+Now, the account root
+user has full control
 
-The first one is to use a role in account B
+over that one specific AWS account
 
-and we'll be assuming that role from account A.
+and any resources which
+are created inside it.
 
-And once you've assumed the role in account B,
+Now, the account root
+user can't be restricted.
 
-the role will have the necessary permissions
+It will always have full
+access to everything
 
-to access the S3 buckets and that works.
+within that one AWS account,
 
-Another option is to use an S3 bucket policy
+which it belongs to.
 
-and in the S3 bucket policy,
+Now, this is the reason
 
-we're saying okay, user in account A can access
+why we need to be really careful
 
-my Amazon S3 bucket in account B.
+with the account root user
 
-In both these solutions, it will allow user account A
+because if the username
 
-to access the Amazon S3 bucket in account B.
+and password ever become known
 
-But there is a very, very big difference.
+the results can be disastrous,
 
-What is it?
+because the details can be used
 
-It is that when you assume a role, would it be a user,
+to delete everything
+within the AWS account.
 
-an application or a service,
+The credit card that you provide
 
-you're going to give up all your original permissions
+when you create the AWS account,
 
-and you're going to take the permissions
+that's set as the account payment method.
 
-assigned to the roll.
+So you can create resources
+within an AWS account,
 
-So that means that before, when we do assume the role
+and I'll be covering these
+throughout the course,
 
-in account B, the orange situation,
+and if those resources
+have any billable usage
 
-then the user in account A gives up all his permissions
+then that usage is billed
 
-in account A, while it's been assuming a role in account B.
+to the account payment method.
 
-So what this means, that when you're using
+In this case,
 
-a resource based policy otherwise
+a credit card.
 
-the principle doesn't have to give up any permissions.
+I'll talk about this later in the course,
 
-So if we have a more complex example,
+but on the whole,
 
-where the user in account A needs to scan a DynamoDB table
+AWS is what's known as
+a pay-as-you-consume
 
-in account A and dump it in an S3 bucket in account B,
+or pay-as-you-go platform.
 
-save very very regularly.
+If you use a service within
+an AWS account for two minutes
 
-In this case, if we use a role to assume a role
+then you pay you for two
+minutes of that service.
 
-in account B, then we will not be able
+Certain services include
 
-to scan that DynamoDB table in account A anymore
+a certain allocation of
+free usage per month,
 
-because we've been giving up our permissions
+and this is known as the free tier.
 
-and that won't fit the use case.
+And this is what we're
+going to take advantage of
 
-So in this case, much better is to use an S3 bucket policy
+in this course
 
-which would allow us to access the S3 bucket,
+to keep costs at an absolute minimum.
 
-yes and also access the DynamoDB table in account A.
+So now that I've covered
+the account root user
 
-So where are these things reported,
+and billing within an account,
 
-these resource based policies.
+now I want to touch on the security
 
-There's quite a few services
+as it relates to AWS accounts.
 
-but some of the main ones you should know is,
+So you know that the account root user
 
-Amazon S3 Buckets, SNS topics and SQS queues.
+has full control over this
+one specific AWS account
 
-Okay, so I hope everything make sense in this lecture,
+and this can't be restricted.
 
-just a quick revision on IAM
+Well, you can create additional identities
 
-to show you the whole possibilities
+inside the AWS account,
 
-and very important, you need to understand
+which can be restricted.
 
-the difference between IAM roles
+I'll talk about this more soon,
 
-and resource based policies.
+but this uses a service called
 
-And that's it from me.
+Identity and Access Management,
 
-I will see you in the next lecture.
+known as IAM.
+
+And with IAM you can
+create other identities
+
+inside the account.
+
+So these can be different
+types of identities.
+
+We've got IAM users,
+
+IAM groups
+
+and IAM roles.
+
+And I'll cover these in detail
+
+in the relevant section of the course.
+
+But at this point, it's
+important to understand
+
+that all of these IAM identities
+
+start off with no access
+to the AWS account,
+
+but they can all be given
+
+full or limited access rights
+
+over this one specific AWS account.
+
+So just like the account root user,
+
+the IAM service is also
+dedicated to your account.
+
+So unless you specify otherwise,
+
+any IAM identities created in my account
+
+won't be able to access your account,
+
+only identities which you
+create inside your account
+
+and then grant access
+
+will be able to access resources
+
+within your AWS account.
+
+Now later in the course
+
+I'll talk about how you can do
+
+cross account permissions.
+
+But for this point in the course
+
+just think of AWS accounts as containers,
+
+only things within the accounts
+
+can access anything else
+
+within that same account.
+
+And another key thing to remember
+
+is that with the exception
+of the account root user,
+
+any IAM identity starts off
+
+with no permissions.
+
+You have to explicitly grant permissions
+
+to any identities managed
+by the IAM service.
+
+Now, another concept which I want you
+
+to be really familiar with
+
+is the boundary of the account.
+
+So on screen now,
+
+the orange line around the account,
+
+think of this as a wall.
+
+It can keep things inside the account
+
+from getting out
+
+and also keep things outside the account
+
+from getting in.
+
+AWS accounts are really good
+
+at containing any damage caused
+
+within those accounts.
+
+So things such as
+
+an inexperienced system
+administrator doing something silly
+
+or a bad actor attempting to intentionally
+
+harm your account.
+
+If the credentials for the
+account root user are leaked,
+
+then these could be used
+to delete everything
+
+inside that one specific AWS account.
+
+And if your entire business
+
+runs from that one single account
+
+then this can be really, really bad.
+
+However, if you create
+separate AWS accounts
+
+for different uses
+
+maybe a development account,
+
+a test account
+
+and a production account,
+
+then you can limit the damage.
+
+If you have any credential leakage,
+
+or if you have any system admins
+
+doing any silly mistakes
+
+causing resources to be deleted
+
+then generally these will be isolated
+
+to that one specific AWS account.
+
+You can also create AWS accounts
+
+for different teams within your business
+
+or even different products
+that your business sells.
+
+AWS accounts are great
+for keeping bad things
+
+inside one specific part
+of your AWS environment.
+
+They're also really good
+
+for keeping things
+outside of that boundary.
+
+By default, all access to
+an AWS account is denied.
+
+So unless you configure otherwise
+
+no external identity
+
+is allowed access to an AWS account.
+
+The exception to this of course
+
+is the account root user of that account
+
+who always has full control.
+
+Now, this means that
+any external identities,
+
+for example, external
+users are denied by default
+
+if they attempt to
+access your AWS account.
+
+Now external identities
+can be granted access
+
+such as Julie in the middle
+
+if you explicitly want
+to allow this access.
+
+But the default security stance
+
+is that unless you
+explicitly allow something
+
+then no access is allowed
+to your AWS account.
+
+So that's AWS accounts.
+
+They're a crucial part
+
+of the AWS product set
+
+and understanding them
+
+to really instinctive level
+
+is important.
+
+Whether you're a solutions architect,
+
+a developer,
+
+assist admin or a DevOps engineer,
+
+you need to be comfortable
+
+with how to use AWS accounts effectively.
+
+In the following lessons
+
+you're going to create the AWS accounts
+
+which you'll be using
+
+for the duration of this course.
+
+Now, I'm strongly recommending
+
+that you create brand new AWS accounts.
+
+Don't make the mistake of trying to use
+
+your existing AWS account or accounts
+
+because they're likely to be
+
+in a pretty bad state.
+
+The longer an AWS account exists
+
+the more potential there
+is for misconfiguration.
+
+And so it's much better
+to use brand new accounts
+
+for this course.
+
+I want you to learn how
+to configure all of this
+
+in a correct way
+
+using best practices.
+
+So please,
+
+go ahead and create
+
+brand new AWS accounts for this course.
+
+I'll even show you a trick
+
+so that you can use one email account
+
+to create all of the unique
+email addresses needed
+
+for these multiple accounts.
+
+So it shouldn't take that
+much in the way of effort.
+
+With that being said,
+
+go ahead and complete this lesson.
+
+And then when you're ready,
+
+I look forward to your joining me
+
+in the next lesson
+
+where we're going to get started
+
+on creating the AWS
+accounts for this course.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTc4NzY4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI1ODk3MzI5MywtNzU5Nzg3NjgzLDczMD
+k5ODExNl19
 -->
