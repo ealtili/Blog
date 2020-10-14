@@ -51,13 +51,13 @@ will be able to access resources
 
 within your AWS account.
 
-Now later in the course
+
 
 I'll talk about how you can do
 
 cross account permissions.
 
-But for this point in the course
+But for this point
 
 just think of AWS accounts as containers,
 
@@ -87,19 +87,7 @@ to be really familiar with
 
 is the boundary of the account.
 
-So on screen now,
 
-the orange line around the account,
-
-think of this as a wall.
-
-It can keep things inside the account
-
-from getting out
-
-and also keep things outside the account
-
-from getting in.
 
 AWS accounts are really good
 
@@ -296,5 +284,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ4MjA2MTldfQ==
+eyJoaXN0b3J5IjpbMjAyOTEzNDkxM119
 -->
