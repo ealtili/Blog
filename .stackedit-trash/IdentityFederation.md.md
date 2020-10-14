@@ -20,23 +20,9 @@ Just to emphasize the importance one more the account root user has full control
 
 You can create additional identities inside the AWS account and they can be restricted.
 
+Identity and Access Management service (known as IAM)  can create other identities inside the account.
 
-
-I'll talk about this more soon,
-
-but this uses a service called
-
-Identity and Access Management,
-
-known as IAM.
-
-And with IAM you can
-create other identities
-
-inside the account.
-
-So these can be different
-types of identities.
+Types of identities:
 
 We've got IAM users,
 
@@ -340,5 +326,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTM0NjE5OSwtMTkyMjkwMzM2XX0=
+eyJoaXN0b3J5IjpbLTExMTE0MDAyNjgsLTE5MjI5MDMzNl19
 -->
