@@ -1,12 +1,10 @@
 
 # AWS Accounts
 
-I want to introduce AWS accounts.
+Let's have a look at AWS accounts. 
 
-Really understanding
-what an AWS account is
-
-and what benefits it provides
+What is an AWS account ?
+What benefits it provides ?
 
 is one of the most important things
 
@@ -670,5 +668,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI5MDMzNl19
+eyJoaXN0b3J5IjpbLTE2MDMxODA0MjcsLTE5MjI5MDMzNl19
 -->
