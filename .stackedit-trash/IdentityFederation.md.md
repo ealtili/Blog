@@ -28,16 +28,8 @@ Types of identities:
 - IAM groups
 - IAM roles
 
-It is important to know that all of these IAM identities
-
-start off with no access
-to the AWS account,
-
-but they can all be given
-
-full or limited access rights
-
-over this one specific AWS account.
+It is important to know that all of these IAM identities has no access to the AWS account, unless they are given
+some (like full or limited) access rights over one specific AWS account.
 
 So just like the account root user,
 
@@ -317,5 +309,5 @@ accounts for this course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDM4NDk4NSwtMTkyMjkwMzM2XX0=
+eyJoaXN0b3J5IjpbLTQ3Njg0NDUzNywtMTkyMjkwMzM2XX0=
 -->
