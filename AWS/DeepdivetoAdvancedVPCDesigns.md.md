@@ -22,10 +22,6 @@ Anything outside of the VPC is generally public unless you build a
 private connection to that service such as s3, DynamoDB, lambda, SQS, SNS etc. all of these services are all public services.
 
 
-out in the public
-
-AWS realm
-
 so when we're communicating inside the
 
 VPC will actually use route tables that
@@ -2810,6 +2806,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI5ODkxMTAsLTE0Nzc5MTkyNjQsMT
-Q5NzI0OTgxLDM4Nzc4ODk1NiwyMTEwODA2ODc4XX0=
+eyJoaXN0b3J5IjpbODA1NjUwNTE3LC0xNDc3OTE5MjY0LDE0OT
+cyNDk4MSwzODc3ODg5NTYsMjExMDgwNjg3OF19
 -->
