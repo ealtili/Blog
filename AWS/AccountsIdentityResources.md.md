@@ -43,33 +43,13 @@ AWS accounts are really good at containing any damage caused within those accoun
 or a bad actor attempting to intentionally harm your account. If the credentials for the account root user are leaked, then these could be used to delete everything
 inside that one specific AWS account. And if your entire business runs from that one single account then this can be really, really bad.
 
-However, if you create separate AWS accounts for different uses maybe a development account, a test account and a production account, then you can limit the damage. If you have any credential leakage, or if you have any system admins
+However, if you create separate AWS accounts for different uses maybe a development account, a test account and a production account, then you can limit the damage. If you have any credential leakage, or if you have any system admins doing any mistakes causing resources to be deleted then generally these will be isolated to that one specific AWS account.
 
-doing any silly mistakes
-
-causing resources to be deleted
-
-then generally these will be isolated
-
-to that one specific AWS account.
-
-You can also create AWS accounts
-
-for different teams within your business
-
-or even different products
-that your business sells.
-
-AWS accounts are great
-for keeping bad things
-
-inside one specific part
-of your AWS environment.
-
-They're also really good
-
-for keeping things
-outside of that boundary.
+You can also create AWS accounts for different teams within your business or even different products
+that your business sells. AWS accounts are great
+for keeping bad things inside one specific part
+of your AWS environment. They're also really good 
+for keeping things outside of that boundary.
 
 By default, all access to
 an AWS account is denied.
@@ -184,5 +164,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NDIzOTU1LC0yNTQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbLTE2Nzc5NjM4MzIsLTI1NDQ1Mzk0M119
 -->
