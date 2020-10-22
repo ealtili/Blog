@@ -14,7 +14,9 @@ VPC is a region level service which you assign a cidr address range. There are m
 
 So we can use ec2 as a base level service here  to use as an example for connectivity. 
 
-AWS services has two different classes or types of services which are public services and private services that are running inside the VPC. 
+AWS services has two different classes or types of services which are public services and private services. 
+
+Anything inside the VPC is private and it's a domain that you manage and you control that are running inside the VPC. 
 
 Anything outside of the VPC is generally public unless you build a 
 private connection to that service such as s3, DynamoDB, lambda, SQS and s all of
@@ -2809,6 +2811,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDQ0NjE5NiwtMTQ3NzkxOTI2NCwxND
-k3MjQ5ODEsMzg3Nzg4OTU2LDIxMTA4MDY4NzhdfQ==
+eyJoaXN0b3J5IjpbLTE0OTg0OTkyNDgsLTE0Nzc5MTkyNjQsMT
+Q5NzI0OTgxLDM4Nzc4ODk1NiwyMTEwODA2ODc4XX0=
 -->
