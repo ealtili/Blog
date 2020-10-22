@@ -16,15 +16,8 @@ So we can use ec2 as a base level service here  to use as an example for connect
 
 AWS services has two different classes or types of services which are public services and private services that are running inside the VPC. 
 
-it's a domain that you manage your
-
-control but anything outside of the V PC
-
-is generally public unless you build a
-
-private connection to that service so s3
-
-DynamoDB lambda s Q s s and s all of
+Anything outside of the VPC is generally public unless you build a 
+private connection to that service such as s3, DynamoDB, lambda, SQS and s all of
 
 these services are all public services
 
@@ -2816,6 +2809,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTY5MTAzNCwtMTQ3NzkxOTI2NCwxND
+eyJoaXN0b3J5IjpbMjAxNDQ0NjE5NiwtMTQ3NzkxOTI2NCwxND
 k3MjQ5ODEsMzg3Nzg4OTU2LDIxMTA4MDY4NzhdfQ==
 -->
