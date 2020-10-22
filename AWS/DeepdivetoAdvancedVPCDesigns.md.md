@@ -9,28 +9,6 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 -   How to take existing architecture to the next level
 
 
-thanks folks this is the advanced VPC
-
-design and new capabilities for Amazon
-
-VPC session or in short we're going to
-
-be talking a little bit about how an
-
-Amazon VPC architecture looks like with
-
-all of the components that are involved
-
-but then we're going to be diving into
-
-all of the new features that have come
-
-out over the last 12 to 18 months
-
-so I met Lee with some a principal
-
-developer advocate over here for AWS and
-
 let's get rolling
 
 got a whole bunch of stuff to cover
@@ -2887,5 +2865,5 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDgwNjg3OF19
+eyJoaXN0b3J5IjpbLTEwNzk2NTMyNjgsMjExMDgwNjg3OF19
 -->
