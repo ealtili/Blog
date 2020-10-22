@@ -34,28 +34,9 @@ some (like full or limited) access rights over one specific AWS account.
 So just like the account root user, the IAM service is also
 dedicated to your account. So unless you specify otherwise, any IAM identities created in your account won't be able to access any other account.  If you grant access to other accounts they will be able to access resources within your AWS account.
 
-I'll talk about how you can do
+Let's talk about how you can do cross account permissions. But for this point just think of AWS accounts as containers, only things within the accounts can access anything else within that same account.
 
-cross account permissions.
-
-But for this point
-
-just think of AWS accounts as containers,
-
-only things within the accounts
-
-can access anything else
-
-within that same account.
-
-And another key thing to remember
-
-is that with the exception
-of the account root user,
-
-any IAM identity starts off
-
-with no permissions.
+Key thing to remember is that with the exception of the account root user, any IAM identity starts off with no permissions.
 
 You have to explicitly grant permissions
 
@@ -255,5 +236,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM5NjIzODgsLTI1NDQ1Mzk0M119
+eyJoaXN0b3J5IjpbMjYwODkwODYxLC0yNTQ0NTM5NDNdfQ==
 -->
