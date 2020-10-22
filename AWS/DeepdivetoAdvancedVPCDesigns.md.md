@@ -9,15 +9,6 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 -   How to take existing architecture to the next level
 
 
-let's get rolling
-
-got a whole bunch of stuff to cover
-
-so firstly let's take a step back in
-
-time and we're going to rewind back to
-
-around about November 2018
 
 so in November 2018 we still had ec2 and
 
@@ -2865,5 +2856,5 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk2NTMyNjgsMjExMDgwNjg3OF19
+eyJoaXN0b3J5IjpbMzg3Nzg4OTU2LDIxMTA4MDY4NzhdfQ==
 -->
