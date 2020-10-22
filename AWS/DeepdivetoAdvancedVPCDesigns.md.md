@@ -10,15 +10,7 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 VPC Picture november 2018
 
-so in November 2018 we still had ec2 and
-
-Amazon VPC and we've got a region here
-
-and a VPC so a VPC is a region level
-
-construct which you assign a cedar
-
-address range to we're just gonna be
+VPC is a region level construct which you assign a cidr address range to we're just gonna be
 
 stepping through how we build that a VP
 
@@ -2856,6 +2848,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODcyOTI1NiwxNDk3MjQ5ODEsMzg3Nz
+eyJoaXN0b3J5IjpbMTUyNjM3Njc0MCwxNDk3MjQ5ODEsMzg3Nz
 g4OTU2LDIxMTA4MDY4NzhdfQ==
 -->
