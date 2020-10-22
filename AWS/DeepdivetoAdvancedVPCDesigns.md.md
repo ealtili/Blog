@@ -2,6 +2,12 @@
 
 Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS virtual networking environment.  How new Amazon VPC features might affect the way to design  AWS networking infrastructure, or even change existing architectures? Let's explore the new design and capabilities of VPC and how to use them.
 
+## Learning Objectives
+
+-   Understanding of all networking services and when to use each
+-   Understand the latest updates and how each is used
+-   How to take existing architecture to the next level
+
 
 thanks folks this is the advanced VPC
 
@@ -2881,5 +2887,5 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjY4NjI1N119
+eyJoaXN0b3J5IjpbMjExMDgwNjg3OF19
 -->
