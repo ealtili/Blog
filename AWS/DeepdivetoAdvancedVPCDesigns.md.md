@@ -10,19 +10,7 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 VPC Picture november 2018
 
-VPC is a region level construct which you assign a cidr address range to we're just gonna be
-
-stepping through how we build that a VP
-
-C and that sort of thing so we've got
-
-multiple availability zones we've got
-
-public subnets private subnets and then
-
-you can deploy ec2 instances inside your
-
-subnets in the availability zones in the
+VPC is a region level construct which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones the
 
 V PC in the region
 
@@ -2848,6 +2836,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjM3Njc0MCwxNDk3MjQ5ODEsMzg3Nz
-g4OTU2LDIxMTA4MDY4NzhdfQ==
+eyJoaXN0b3J5IjpbLTExOTkxNjY4MzgsMTQ5NzI0OTgxLDM4Nz
+c4ODk1NiwyMTEwODA2ODc4XX0=
 -->
