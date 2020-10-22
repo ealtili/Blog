@@ -32,22 +32,7 @@ It is important to know that all of these IAM identities has no access to the AW
 some (like full or limited) access rights over one specific AWS account.
 
 So just like the account root user, the IAM service is also
-dedicated to your account.
-
-So unless you specify otherwise,
-
-any IAM identities created in my account
-
-won't be able to access your account,
-
-only identities which you
-create inside your account
-
-and then grant access
-
-will be able to access resources
-
-within your AWS account.
+dedicated to your account. So unless you specify otherwise, any IAM identities created in your account won't be able to access any other account, only identities which you create inside your account and then  grant access will be able to access resources within your AWS account.
 
 
 
@@ -272,5 +257,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMTEzMTk1LC0yNTQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbMjA4MzY3MDczNywtMjU0NDUzOTQzXX0=
 -->
