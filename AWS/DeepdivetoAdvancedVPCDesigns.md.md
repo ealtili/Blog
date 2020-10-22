@@ -1,3 +1,8 @@
+# Deepdive Advanced VPC Design
+
+Amazon Virtual Private Cloud (Amazon VPC) enables you to have complete control over your AWS virtual networking environment. Given this control, have you ever wondered how new Amazon VPC features might affect the way you design your AWS networking infrastructure, or even change existing architectures that you use today? In this tech talk, we explore the new design and capabilities of Amazon VPC and how you might use them.
+
+
 thanks folks this is the advanced VPC
 
 design and new capabilities for Amazon
@@ -2876,5 +2881,5 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ1Nzc1MzNdfQ==
+eyJoaXN0b3J5IjpbLTEwODgwNzExNF19
 -->
