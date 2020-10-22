@@ -40,41 +40,10 @@ Key thing to remember is that with the exception of the account root user, any I
 
 Now, another concept is the boundary of the account.
 AWS accounts are really good at containing any damage caused within those accounts. So things such as an inexperienced system administrator doing some mistake
+or a bad actor attempting to intentionally harm your account. If the credentials for the account root user are leaked, then these could be used to delete everything
+inside that one specific AWS account. And if your entire business runs from that one single account then this can be really, really bad.
 
-or a bad actor attempting to intentionally
-
-harm your account.
-
-If the credentials for the
-account root user are leaked,
-
-then these could be used
-to delete everything
-
-inside that one specific AWS account.
-
-And if your entire business
-
-runs from that one single account
-
-then this can be really, really bad.
-
-However, if you create
-separate AWS accounts
-
-for different uses
-
-maybe a development account,
-
-a test account
-
-and a production account,
-
-then you can limit the damage.
-
-If you have any credential leakage,
-
-or if you have any system admins
+However, if you create separate AWS accounts for different uses maybe a development account, a test account and a production account, then you can limit the damage. If you have any credential leakage, or if you have any system admins
 
 doing any silly mistakes
 
@@ -215,5 +184,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY5NTY5MjcsLTI1NDQ1Mzk0M119
+eyJoaXN0b3J5IjpbNzU1NDIzOTU1LC0yNTQ0NTM5NDNdfQ==
 -->
