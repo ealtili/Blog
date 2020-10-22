@@ -15,12 +15,7 @@ VPC in the region.
 
 So we can use ec2 as a base level service here  to use as an example for connectivity. 
 
-AWS services has two different classes or types of services which are public 
-services and private services so
-
-anything inside the V PC is really
-
-private
+AWS services has two different classes or types of services which are public services and private services that are running inside the VPC. 
 
 it's a domain that you manage your
 
@@ -2822,6 +2817,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0OTQ5MDc2LDE0OTcyNDk4MSwzODc3OD
-g5NTYsMjExMDgwNjg3OF19
+eyJoaXN0b3J5IjpbLTE0Nzc5MTkyNjQsMTQ5NzI0OTgxLDM4Nz
+c4ODk1NiwyMTEwODA2ODc4XX0=
 -->
