@@ -13,15 +13,9 @@ VPC Picture november 2018
 VPC is a region level construct which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the
 VPC in the region.
 
-So we can use ec2 as a base level service here just to use as an example for connectivity and
-that sort of thing it just makes a lot of sense
+So we can use ec2 as a base level service here  to use as an example for connectivity. 
 
-now I also think about EWS services
-
-being in two different classes or two
-
-different types of services public
-
+AWS services has two different classes or types of services which are public 
 services and private services so
 
 anything inside the V PC is really
@@ -2828,6 +2822,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTA0ODYxMSwxNDk3MjQ5ODEsMzg3Nz
-g4OTU2LDIxMTA4MDY4NzhdfQ==
+eyJoaXN0b3J5IjpbODc0OTQ5MDc2LDE0OTcyNDk4MSwzODc3OD
+g5NTYsMjExMDgwNjg3OF19
 -->
