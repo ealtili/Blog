@@ -36,31 +36,10 @@ dedicated to your account. So unless you specify otherwise, any IAM identities c
 
 Let's talk about how you can do cross account permissions. But for this point just think of AWS accounts as containers, only things within the accounts can access anything else within that same account.
 
-Key thing to remember is that with the exception of the account root user, any IAM identity starts off with no permissions.
+Key thing to remember is that with the exception of the account root user, any IAM identity starts off with no permissions. You have to explicitly grant permissions to any identities managed by the IAM service.
 
-You have to explicitly grant permissions
-
-to any identities managed
-by the IAM service.
-
-Now, another concept which I want you
-
-to be really familiar with
-
-is the boundary of the account.
-
-
-
-AWS accounts are really good
-
-at containing any damage caused
-
-within those accounts.
-
-So things such as
-
-an inexperienced system
-administrator doing something silly
+Now, another concept is the boundary of the account.
+AWS accounts are really good at containing any damage caused within those accounts. So things such as an inexperienced system administrator doing some mistake
 
 or a bad actor attempting to intentionally
 
@@ -236,5 +215,5 @@ much in the way of effort.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwODkwODYxLC0yNTQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbLTE4NDY5NTY5MjcsLTI1NDQ1Mzk0M119
 -->
