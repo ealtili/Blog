@@ -19,7 +19,7 @@ AWS services has two different classes or types of services which are public ser
 Anything inside the VPC is private and it's a domain that you manage and you control.  
 
 Anything outside of the VPC is generally public unless you build a 
-private connection to that service such as s3, DynamoDB, lambda, SQS, SNS etc. all of these services are all public services.
+private connection to that service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
 
 
 so when we're communicating inside the
@@ -2806,6 +2806,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NjUwNTE3LC0xNDc3OTE5MjY0LDE0OT
-cyNDk4MSwzODc3ODg5NTYsMjExMDgwNjg3OF19
+eyJoaXN0b3J5IjpbNDA3NjAxMjA1LDgwNTY1MDUxNywtMTQ3Nz
+kxOTI2NCwxNDk3MjQ5ODEsMzg3Nzg4OTU2LDIxMTA4MDY4Nzhd
+fQ==
 -->
