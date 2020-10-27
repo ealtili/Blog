@@ -12,8 +12,6 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 **VPC** is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
-So we can use ec2 as a base level service here to use as an example for connectivity. 
-
 AWS services has two different classes or types of services which are public services and private services. 
 
 Anything inside the VPC is **private** and it's a domain that you manage and you control.  
@@ -99,7 +97,7 @@ A carrier gateway supports IPv4 traffic.
 
 Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region.
 
-The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
+The diagram above demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2757,11 +2755,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDg3Mjk4MywxOTMwNzcxMjY4LC0zMT
-gwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1
-NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOT
-gzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcx
-LC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5Nj
-Y5MTIsODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2Mzhd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMz
+E4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0
+NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMj
+k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
+MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
+Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
+XX0=
 -->
