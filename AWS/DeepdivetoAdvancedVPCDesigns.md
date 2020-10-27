@@ -23,13 +23,7 @@ Anything outside of the VPC is generally public unless you build a private conne
 When we're communicating inside the VPC we will actually use route tables that are assigned to subnets.
 The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
 
-Let's start here with an Internet gateway (IGW) the internet gateway
-
-gives us access to public services and
-
-also the public Internet and we just
-
-build a default route to the igw we have
+Internet gateway (IGW) gives us access to public services and also the public Internet. We just build a default route to the igw. we have
 
 an elastic IP assigned to our instance a
 
@@ -2779,6 +2773,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkwMjQ3NjEsLTE4NjEyODEwMTAsLT
+eyJoaXN0b3J5IjpbLTE3OTg2OTc2MzgsLTE4NjEyODEwMTAsLT
 ExMzMwMDIzNDZdfQ==
 -->
