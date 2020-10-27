@@ -68,7 +68,7 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
 
-![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
+![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
 **Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
 
@@ -2765,10 +2765,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNT
-I2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQs
-MTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2OD
-g2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0x
-OTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OT
-c2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbLTMxODA2MDIzNiwxMDE0NTMwNjExLC02Mz
+I0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1MTgs
+MTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNj
+MzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEy
+MjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOT
+A0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0
+Nl19
 -->
