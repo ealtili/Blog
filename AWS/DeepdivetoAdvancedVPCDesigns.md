@@ -59,6 +59,12 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 
 We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes on the left hand side.
 
+A carrier gateway serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway.
+
+A carrier gateway supports IPv4 traffic.
+
+Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region.
+
 The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone.
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
@@ -2741,8 +2747,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjA4NjU5LDE5MzY4ODYwNzEsLTY1MD
-cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4
-NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MT
-I4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbLTE2OTI5ODQ5ODcsMTkzNjg4NjA3MSwtNj
+UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
+LDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xOD
+YxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
