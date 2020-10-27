@@ -12,14 +12,13 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 VPC is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
-So we can use ec2 as a base level service here  to use as an example for connectivity. 
+So we can use ec2 as a base level service here to use as an example for connectivity. 
 
 AWS services has two different classes or types of services which are public services and private services. 
 
 Anything inside the VPC is private and it's a domain that you manage and you control.  
 
-Anything outside of the VPC is generally public unless you build a 
-private connection to that service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
+Anything outside of the VPC is generally public unless you build a private connection to that service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
 
 
 so when we're communicating inside the
@@ -2806,7 +2805,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODMyMTU4OSw0MDc2MDEyMDUsODA1Nj
-UwNTE3LC0xNDc3OTE5MjY0LDE0OTcyNDk4MSwzODc3ODg5NTYs
-MjExMDgwNjg3OF19
+eyJoaXN0b3J5IjpbOTE5Mzc1OTQzLDQwNzYwMTIwNSw4MDU2NT
+A1MTcsLTE0Nzc5MTkyNjQsMTQ5NzI0OTgxLDM4Nzc4ODk1Niwy
+MTEwODA2ODc4XX0=
 -->
