@@ -8,7 +8,7 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 -   Understand the latest updates and how each is used
 -   How to take existing architecture to the next level
 
-![VPC Picture november 2018](./vpcdeepdive/november2018vpc.png)
+![VPC Picture november 2018](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/november2018vpc.png)
 
 VPC is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
@@ -2746,6 +2746,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OT
-g2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbLTQzMDg3MDA4OSw4NjcyNTI4NTEsLTgwMz
+kyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAw
+MjM0Nl19
 -->
