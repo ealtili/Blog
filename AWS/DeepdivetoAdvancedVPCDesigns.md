@@ -53,6 +53,8 @@ Private link is going to enable you to configure SaaS services. You can create y
 
 ![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
+In the diagram above, the account owner of VPC B is a service provider, and has a service running on instances in subnet B. The owner of VPC B has a service endpoint (vpce-svc-1234) with an associated Network Load Balancer that points to the instances in subnet B as targets. Instances in subnet A of VPC A use an interface endpoint to access the services in subnet B.
+
 We might want to connect to our own premises so we'll use Direct Connect or VPN. 
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
@@ -2768,7 +2770,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODQ1MTE2OSwxMDM0MzI2MDE0LDEyMj
+eyJoaXN0b3J5IjpbMTk5NDI3NDkyMywxMDM0MzI2MDE0LDEyMj
 k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
 MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
 Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
