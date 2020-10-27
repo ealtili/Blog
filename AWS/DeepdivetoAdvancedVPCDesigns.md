@@ -33,9 +33,15 @@ For a private subnet we can send traffic via NAT instance or NAT Gateway instead
 
 ![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
-We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  A gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC.  VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
+A VPC endpoint enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+
+A VP gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC.  VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
+
+
+
+
 
 We might want to connect to our own premises so we'll use Direct Connect or VPN. 
 
@@ -69,7 +75,6 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
-A VPC endpoint enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
 
 
@@ -2749,9 +2754,9 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTc3ODU1OSwxMzk0MTA1NTg0LDYzMj
-YzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5Nywx
-MjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5Mj
-kwNDEsLTE3OTg2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIz
-NDZdfQ==
+eyJoaXN0b3J5IjpbMjMwMzA2MzQzLDEzOTQxMDU1ODQsNjMyNj
+MzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEy
+MjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOT
+A0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0
+Nl19
 -->
