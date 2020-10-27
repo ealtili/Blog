@@ -65,7 +65,7 @@ A carrier gateway supports IPv4 traffic.
 
 Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region.
 
-The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone.
+The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
@@ -2747,8 +2747,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI5ODQ5ODcsMTkzNjg4NjA3MSwtNj
-UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
-LDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xOD
-YxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTU3MjE1MDkwMSwxOTM2ODg2MDcxLC02NT
+A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIs
+ODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4Nj
+EyODEwMTAsLTExMzMwMDIzNDZdfQ==
 -->
