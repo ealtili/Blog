@@ -101,18 +101,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
-
-
-
-
-
-
-
-
-
-
-
-
+![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
 for me to data of traffic going in and
 
@@ -2768,11 +2757,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDcxNDA5LDE5MzA3NzEyNjgsLTMxOD
-A2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0
-LDE4ODg4NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5OD
-M0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEs
-LTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2Nj
-kxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOF19
-
+eyJoaXN0b3J5IjpbMTM0MDg3Mjk4MywxOTMwNzcxMjY4LC0zMT
+gwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1
+NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOT
+gzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcx
+LC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5Nj
+Y5MTIsODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2Mzhd
+fQ==
 -->
