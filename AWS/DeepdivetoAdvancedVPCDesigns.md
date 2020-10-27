@@ -46,6 +46,8 @@ Transit gateway is a service that was launched in about November 2018. Transit g
 - A transit gateway when you have multiple VPCs in the same Region
 - A virtual private gateway
 
+The diagram illustrates how the Direct Connect gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
+
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
 
 Attach a transit gateway to a Direct Connect gateway using a transit virtual interface. This configuration offers the following benefits. You can:
@@ -53,13 +55,9 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 - Manage a single connection for multiple VPCs or VPNs that are in the same Region.
 - Advertise prefixes from on-premises to AWS and from AWS to on-premises.
 
-The diagram above illustrates how the Direct Connect gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
-
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
 We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes on the left hand side.
-
-
 
 Private link private link is going to
 
@@ -2737,7 +2735,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Njk1NjIxNSwxOTM2ODg2MDcxLC02NT
+eyJoaXN0b3J5IjpbMTYzOTg4MzgzNiwxOTM2ODg2MDcxLC02NT
 A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIs
 ODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4Nj
 EyODEwMTAsLTExMzMwMDIzNDZdfQ==
