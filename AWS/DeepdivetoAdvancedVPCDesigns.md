@@ -29,9 +29,9 @@ Internet gateway (IGW) gives us access to public services and also the public In
 
 ![NAT Instance](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance-diagram.png)
 
-For a private subnet we can send traffic via NAT instance or NAT Gateway instead of directly to the public Internet.  Then the NAT instance or NAT Gateway has the ability to communicate with the public internet. 
+For a private subnet we can send traffic via NAT instance or NAT Gateway instead of directly to the public Internet.  Then the NAT instance or NAT Gateway (is a managed scalable service) has the ability to communicate with the public internet. 
 
-![NAT Gateway](
+![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 and so we build out a routing on the
 
@@ -2755,6 +2755,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NjgzMzAwLC04MDM5MjkwNDEsLTE3OT
-g2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbLTI5NjI4MDQxNCwtODAzOTI5MDQxLC0xNz
+k4Njk3NjM4LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
