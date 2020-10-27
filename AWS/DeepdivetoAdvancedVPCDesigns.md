@@ -144,9 +144,7 @@ architecture and then take a step
 
 forward in time and talk about all of
 
-the new features that that have been
-
-released over the last 18 - to 12 months
+the features. 
 
 so firstly what's changed
 
@@ -2748,11 +2746,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MD
-MyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcx
-MjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMT
-AzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYw
-MTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOT
-M2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1
+eyJoaXN0b3J5IjpbMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNT
+UxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEy
+OTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNjExLC
+02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1
+MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNj
+MyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3
 XX0=
 -->
