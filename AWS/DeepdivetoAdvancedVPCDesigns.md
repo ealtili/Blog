@@ -21,23 +21,9 @@ Anything inside the VPC is private and it's a domain that you manage and you con
 Anything outside of the VPC is generally public unless you build a private connection to a service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
 
 When we're communicating inside the VPC we will actually use route tables that are assigned to subnets.
-The route tables basically give you control over everything that's going on inside the VPC. Where traffic can  communicate to and that sort of thing.  so
+The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
 
-here we've got a couple of route tables
-
-on the left hand side we're just gonna
-
-build out what an advanced BBC
-
-architecture looks like and routing is
-
-really the key here on on how we
-
-communicate with everything else so
-
-we'll start here with an Internet
-
-gateway or an IG W the internet gateway
+Let's start here with an Internet gateway (IGW) the internet gateway
 
 gives us access to public services and
 
@@ -2793,6 +2779,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ
-==
+eyJoaXN0b3J5IjpbLTE3OTkwMjQ3NjEsLTE4NjEyODEwMTAsLT
+ExMzMwMDIzNDZdfQ==
 -->
