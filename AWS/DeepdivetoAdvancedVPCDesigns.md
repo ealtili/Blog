@@ -27,9 +27,11 @@ The route tables basically give you control over everything that's going on insi
 
 Internet gateway (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
 
-
+![NAT Instance](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance-diagram.png)
 
 For a private subnet we can send traffic via NAT instance or NAT Gateway instead of directly to the public Internet.  Then the NAT instance or NAT Gateway has the ability to communicate with the public internet. 
+
+![NAT Gateway](
 
 and so we build out a routing on the
 
@@ -2753,6 +2755,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzU2NTg2LC04MDM5MjkwNDEsLTE3OT
+eyJoaXN0b3J5IjpbNDU5NjgzMzAwLC04MDM5MjkwNDEsLTE3OT
 g2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
 -->
