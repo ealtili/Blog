@@ -10,19 +10,19 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 ![VPC Picture november 2018](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/november2018vpc.png)
 
-VPC is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
+**VPC** is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
 So we can use ec2 as a base level service here to use as an example for connectivity. 
 
 AWS services has two different classes or types of services which are public services and private services. 
 
-Anything inside the VPC is private and it's a domain that you manage and you control.  
+Anything inside the VPC is **private** and it's a domain that you manage and you control.  
 
-Anything outside of the VPC is generally public unless you build a private connection to a service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
+Anything outside of the VPC is generally **public** unless you build a private connection to a service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
 
 ![Internet VPC](https://docs.aws.amazon.com/vpc/latest/userguide/images/default-vpc-diagram.png)
 
-When we're communicating inside the VPC we will actually use route tables that are assigned to subnets.
+When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. 
 The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
 
 Internet gateway (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
@@ -101,24 +101,6 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 
 
 
-
-and that sort of thing inside of EPC that we
-
-call a service provider V PC or you can
-
-connect to a bunch of services by a
-
-private link and so any other services
-
-outside of s3 and dynamodb when you can
-
-communicate to those privately within
-
-the V PC it's generally using a private
-
-link enabled service or an interface
-
-endpoint
 
 for me to data of traffic going in and
 
@@ -2774,9 +2756,10 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMj
-k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
-MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
-Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
-LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbMTMxMjAwMDMxMiwtOTc4MzUwNTE4LDEwMz
+QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
+MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
+I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDEs
+LTE3OTg2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ
+==
 -->
