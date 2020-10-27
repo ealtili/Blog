@@ -55,6 +55,8 @@ Private link is going to enable you to configure SaaS services. You can create y
 
 In the diagram above, the account owner of VPC B is a service provider, and has a service running on instances in subnet B. The owner of VPC B has a service endpoint (vpce-svc-1234) with an associated Network Load Balancer that points to the instances in subnet B as targets. Instances in subnet A of VPC A use an interface endpoint to access the services in subnet B.
 
+![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
+
 We might want to connect to our own premises so we'll use Direct Connect or VPN. 
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
@@ -2772,7 +2774,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU2NTkxODUsMTAzNDMyNjAxNCwxMj
+eyJoaXN0b3J5IjpbLTE1MjAzOTI4NzAsMTAzNDMyNjAxNCwxMj
 I5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYw
 NzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mj
 k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
