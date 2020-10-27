@@ -89,7 +89,10 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 
 ![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
-Private link is going to enable you to configure SaaS services. and that sort of thing inside of EPC that we
+Private link is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers.
+
+
+and that sort of thing inside of EPC that we
 
 call a service provider V PC or you can
 
@@ -2761,9 +2764,9 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOT
-QxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMs
-NzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNT
-I4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAx
-MCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbLTEzNjA2Nzk3OTEsMTAzNDMyNjAxNCwxMj
+I5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYw
+NzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mj
+k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
+OCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
 -->
