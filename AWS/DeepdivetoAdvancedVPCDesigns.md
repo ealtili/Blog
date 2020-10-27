@@ -66,11 +66,13 @@ You can connect your Amazon VPC to remote networks and users using the following
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
 
-AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
+AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
 
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
-**Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use **AWS Direct Connect gateway** to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
+**Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  
+
+Use **AWS Direct Connect gateway** to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
 
 - A transit gateway when you have multiple VPCs in the same Region
 - A virtual private gateway
@@ -2765,7 +2767,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTAxMzc4MywtMzE4MDYwMjM2LDEwMT
+eyJoaXN0b3J5IjpbMTg1MjkzOTcxOCwtMzE4MDYwMjM2LDEwMT
 Q1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1NzYs
 LTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5ND
 EwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3
