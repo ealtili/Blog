@@ -117,11 +117,8 @@ accelerator is like a and any car
 
 service it's much much more than that
 
-but it basically allows you to front
-
-things in the V PC at our edge locations
-
-using global accelerator a global
+but 
+ a global
 
 accelerator now what you see here is
 
@@ -2759,7 +2756,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjQ5MjY1MiwtMzMwMzMwNzE4LC0xMj
+eyJoaXN0b3J5IjpbLTU3MjA1NTMyMCwtMzMwMzMwNzE4LC0xMj
 E4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMw
 NjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nz
 gzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1
