@@ -65,6 +65,8 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
+With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router for Amazon VPCs over a private dedicated connection, as shown in the following figure
+
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
 Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
@@ -2756,11 +2758,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzkzNTA3OCwtMTIxODMxMjk5NiwxOT
-MwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEz
-NywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMz
-QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
-MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
-I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDFd
-fQ==
+eyJoaXN0b3J5IjpbLTI0NzE4NTU3LC0xMjE4MzEyOTk2LDE5Mz
+A3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3
+LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1MTgsMTAzND
+MyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcw
+LDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2Mj
+Q2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MV19
+
 -->
