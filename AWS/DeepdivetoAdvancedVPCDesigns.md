@@ -66,8 +66,6 @@ You can connect your Amazon VPC to remote networks and users using the following
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
 
-
-
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
@@ -2767,10 +2765,10 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4OD
-g1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQs
-MTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNz
-I5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2
-NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMj
-gxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNT
+I2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQs
+MTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2OD
+g2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0x
+OTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OT
+c2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
 -->
