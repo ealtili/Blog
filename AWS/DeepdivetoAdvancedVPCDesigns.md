@@ -77,6 +77,8 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 
 We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 
+![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
+
 A carrier gateway serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway.
 
 A carrier gateway supports IPv4 traffic.
@@ -85,7 +87,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 The following diagram demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
-![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
+
 
 
 
@@ -2770,9 +2772,9 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDI3NDkyMywxMDM0MzI2MDE0LDEyMj
-k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
-MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
-Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
-LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE1MzU2NTkxODUsMTAzNDMyNjAxNCwxMj
+I5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYw
+NzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mj
+k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
+OCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
 -->
