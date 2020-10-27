@@ -86,7 +86,7 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
-We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
+We can a **peer VPC** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
@@ -2765,7 +2765,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjExNjkwMCwtMzE4MDYwMjM2LDEwMT
+eyJoaXN0b3J5IjpbMTI2NTAxMzc4MywtMzE4MDYwMjM2LDEwMT
 Q1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1NzYs
 LTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5ND
 EwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3
