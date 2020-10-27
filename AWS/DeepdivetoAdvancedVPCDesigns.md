@@ -33,13 +33,9 @@ For a private subnet we can send traffic via NAT instance or NAT Gateway instead
 
 ![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
-and so we build out a routing on the
 
-left-hand side here you can also talk to
 
-s3 and dynamodb privately using VPC
-
-endpoints and we'll use prefix lists
+We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  We'll use prefix lists
 
 there to communicate privately and a VPC
 
@@ -2755,6 +2751,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjI4MDQxNCwtODAzOTI5MDQxLC0xNz
-k4Njk3NjM4LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE5NjY1NDc3MzYsLTgwMzkyOTA0MSwtMT
+c5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
 -->
