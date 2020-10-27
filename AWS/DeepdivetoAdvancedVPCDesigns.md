@@ -41,7 +41,7 @@ A VPC gateway endpoint is a gateway that you specify as a target for a route in 
 
 An interface endpoint is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway.
 
-In the example shown in the following diagram, there is an interface endpoint for Amazon Kinesis Data Streams and an endpoint network interface in subnet 2
+In the example shown in the following diagram, there is an interface endpoint for Amazon Kinesis Data Streams and an endpoint network interface in subnet 2. Private DNS for the interface endpoint is not enabled.
 
 ![Interface Endpoint no Private DNS](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-kinesis-diagram.png)
 
@@ -2758,7 +2758,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2NjMyNjk3LDEzOTQxMDU1ODQsNjMyNj
+eyJoaXN0b3J5IjpbOTg4OTEyMDY1LDEzOTQxMDU1ODQsNjMyNj
 MzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEy
 MjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOT
 A0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0
