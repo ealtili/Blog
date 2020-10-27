@@ -69,10 +69,13 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
+A VPC endpoint enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
-We have also Private link.
+Endpoints are virtual devices. They are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
+
+
 
 Private link is going to enable you to configure SaaS services and that sort of thing inside of EPC that we
 
@@ -2746,8 +2749,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MD
-cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4
-NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MT
-I4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNj
+g4NjA3MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwt
+MTkyOTY2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Nj
+k3NjM4LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
