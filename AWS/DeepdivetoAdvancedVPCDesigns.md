@@ -35,9 +35,11 @@ For a private subnet we can send traffic via NAT instance or NAT Gateway instead
 
 A VPC endpoint enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
-A VP gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC.  VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
-
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
+
+A VPC gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
+
+
 
 
 
@@ -2754,7 +2756,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMzA2MzQzLDEzOTQxMDU1ODQsNjMyNj
+eyJoaXN0b3J5IjpbOTI1ODc5NTA1LDEzOTQxMDU1ODQsNjMyNj
 MzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEy
 MjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOT
 A0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0
