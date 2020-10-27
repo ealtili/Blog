@@ -107,6 +107,8 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
 
+Las
+
 then lastly we've got global accelerator
 
 up here on the left hand side and global
@@ -2757,7 +2759,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDIzOTk3MCwtMzMwMzMwNzE4LC0xMj
+eyJoaXN0b3J5IjpbLTIzNjc3MzgyNCwtMzMwMzMwNzE4LC0xMj
 E4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMw
 NjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nz
 gzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1
