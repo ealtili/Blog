@@ -105,9 +105,7 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-for me to data of traffic going in and
-
-out of EPC we can use VPC flow logs and
+**VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
 
 then lastly we've got global accelerator
 
@@ -2759,11 +2757,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOT
-MwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEz
-NywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMz
-QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
-MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
-I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDFd
-fQ==
+eyJoaXN0b3J5IjpbLTE2NjE1NDcxMzQsLTMzMDMzMDcxOCwtMT
+IxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUz
+MDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOT
+c4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1
+NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3Mz
+EyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUx
+XX0=
 -->
