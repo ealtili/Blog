@@ -43,10 +43,13 @@ We might want to connect to our own premises so we'll use Direct Connect or VPN.
 
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
 
-Maybe a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. You associate an AWS Direct Connect gateway with either of the following gateways:
+Maybe a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. 
+Attach a transit gateway to a Direct Connect gateway using a transit virtual interface. This configuration offers the following benefits. You can:
 
-- A transit gateway when you have multiple VPCs in the same Region
-- A virtual private gateway
+- Manage a single connection for multiple VPCs or VPNs that are in the same Region.
+- Advertise prefixes from on-premises to AWS and from AWS to on-premises.
+
+The diagram above illustrates how the Direct Connect gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
 
 We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes on the left hand side.
 
@@ -2728,7 +2731,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDM1MTUyMiwtNjUwNzI5Myw3NzMxMj
+eyJoaXN0b3J5IjpbMTkzNjg4NjA3MSwtNjUwNzI5Myw3NzMxMj
 g5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mjg1MSwt
 ODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMjgxMDEwLC0xMT
 MzMDAyMzQ2XX0=
