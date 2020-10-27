@@ -73,6 +73,8 @@ Consider taking this approach when you want to simplify management and minimize 
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
+You can create a global network that includes transit gateways in multiple AWS Regions. This enables you to monitor the global health of your AWS network. In the following diagram, the global network includes a transit gateway in the us-east-2 Region and a transit gateway in the us-west-2 Region. Each transit gateway has VPC and VPN attachments. You can use the Network Manager console to view and monitor both of the transit gateways and their attachments
+
 ![Transit Gateway Manager](https://docs.aws.amazon.com/vpc/latest/tgw/images/nm-multi-region-tgw.png)
 
 **Transit Gateway Network Manager** (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
@@ -110,6 +112,25 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
+
+Traffic Mirroring is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. You can then send the traffic to out-of-band security and monitoring appliances for:
+
+Content inspection
+
+Threat monitoring
+
+Troubleshooting
+
+The security and monitoring appliances can be deployed as individual instances, or as a fleet of instances behind a Network Load Balancer with a UDP listener. Traffic Mirroring supports filters and packet truncation, so that you only extract the traffic of interest to monitor by using monitoring tools of your choice.
+
+Traffic Mirroring concepts
+The following are the key concepts for Traffic Mirroring:
+
+Target — The destination for mirrored traffic.
+
+Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
+
+Session — An entity that describes Traffic Mirroring from a source to a target using filters.
 
 Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
@@ -2726,11 +2747,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MDM5NzYzLDUwMzI4OTUxMSwtMzMwMz
-MwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIz
-NiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4OD
-g4NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0
-LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MD
-cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMl19
-
+eyJoaXN0b3J5IjpbMTI1MTUyNjYzNiw1MDMyODk1MTEsLTMzMD
+MzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAy
+MzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxOD
+g4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkx
+NCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NT
+A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTJd
+fQ==
 -->
