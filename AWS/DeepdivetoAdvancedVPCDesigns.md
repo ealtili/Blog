@@ -76,7 +76,8 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 
 You can connect your Amazon VPC to remote networks and users using the following VPN connectivity options.
 
-- AWS Site-to-Site VPN: You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the Site-to-Site VPN connection, a virtual private gateway or transit gateway provides two VPN endpoints (tunnels) for automatic failover. You configure your customer gateway device on the remote side of the Site-to-Site VPN connection.
+- **AWS Site-to-Site VPN**: You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the Site-to-Site VPN connection, a virtual private gateway or transit gateway provides two VPN endpoints (tunnels) for automatic failover. You configure your customer gateway device on the remote side of the Site-to-Site VPN connection.
+- **AWS Client VPN**: This is a managed client-based VPN service that enables you to securely access your AWS resources or your on-premises network. With AWS Client VPN, you configure an endpoint to which your users can connect to establish a secure TLS VPN session. This enables clients to access resources in AWS or an on-premises from any location using an OpenVPN-based VPN client.
 - 
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
@@ -2760,10 +2761,10 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzIxMjc0MSwtMTAzNTI2MjQ1NCwtOT
-c4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1
-NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3Mz
-EyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUx
-LC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4NjEyODEwMTAsLT
-ExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbMTg4ODg1NzYsLTEwMzUyNjI0NTQsLTk3OD
+M1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5NDEwNTU4
+NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3NzMxMj
+g5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mjg1MSwt
+ODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMjgxMDEwLC0xMT
+MzMDAyMzQ2XX0=
 -->
