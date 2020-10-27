@@ -113,6 +113,8 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
 
+![Traffic Mirroring](https://docs.aws.amazon.com/vpc/latest/mirroring/images/traffic-mirroring.png)
+
 **Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. You can then send the traffic to out-of-band security and monitoring appliances for:
 
 - Content inspection
@@ -2743,11 +2745,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQyOTkyODIsNTAzMjg5NTExLC0zMz
-AzMzA3MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYw
-MjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMT
-g4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5
-MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNj
-UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
-XX0=
+eyJoaXN0b3J5IjpbLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMD
+MzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAy
+MzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxOD
+g4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkx
+NCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NT
+A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTJd
+fQ==
 -->
