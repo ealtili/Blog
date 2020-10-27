@@ -107,19 +107,9 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
 
-Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations
+Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
-using global accelerator **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
-then lastly we've got global accelerator
-
-up here on the left hand side and global
-
-accelerator is like a and any car
-
-service it's much much more than that
-
-but 
  a global
 
 accelerator now what you see here is
@@ -2758,11 +2748,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYzODM4MzAsLTMzMDMzMDcxOCwtMT
-IxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUz
-MDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOT
-c4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1
-NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3Mz
-EyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUx
-XX0=
+eyJoaXN0b3J5IjpbMTgyMzEyMzgxMiwtMzMwMzMwNzE4LC0xMj
+E4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMw
+NjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nz
+gzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1
+ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMT
+I4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTFd
+fQ==
 -->
