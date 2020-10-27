@@ -54,9 +54,21 @@ In the next diagram, private DNS for the endpoint has been enabled. Instances in
 
 In the diagram above, the account owner of VPC B is a service provider, and has a service running on instances in subnet B. The owner of VPC B has a service endpoint (vpce-svc-1234) with an associated Network Load Balancer that points to the instances in subnet B as targets. Instances in subnet A of VPC A use an interface endpoint to access the services in subnet B.
 
+We might want to connect to our own premises so we'll use Direct Connect or VPN.  
+
+You can connect your Amazon VPC to remote networks and users using the following VPN connectivity options.
+
+- **AWS Site-to-Site VPN**: You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the Site-to-Site VPN connection, a virtual private gateway or transit gateway provides two VPN endpoints (tunnels) for automatic failover. You configure your customer gateway device on the remote side of the Site-to-Site VPN connection.
+- **AWS Client VPN**: This is a managed client-based VPN service that enables you to securely access your AWS resources or your on-premises network. With AWS Client VPN, you configure an endpoint to which your users can connect to establish a secure TLS VPN session. This enables clients to access resources in AWS or an on-premises from any location using an OpenVPN-based VPN client.
+- **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
+- **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
+
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
-We might want to connect to our own premises so we'll use Direct Connect or VPN.  AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
+
+
+
+AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2755,10 +2767,10 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTEwMz
-UyNjI0NTQsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5
-MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNj
-UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
-LDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xOD
-YxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4OD
+g1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQs
+MTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNz
+I5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2
+NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMj
+gxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
