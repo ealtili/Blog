@@ -63,10 +63,11 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
-
-AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
+AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
+
+Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC) and VPN connections and on premises. 
 
@@ -2755,11 +2756,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMz
-E4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0
-NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMj
-k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
-MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
-Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
-XX0=
+eyJoaXN0b3J5IjpbMTI3NzkzNTA3OCwtMTIxODMxMjk5NiwxOT
+MwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEz
+NywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMz
+QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
+MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
+I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDFd
+fQ==
 -->
