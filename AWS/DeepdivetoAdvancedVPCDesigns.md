@@ -110,33 +110,7 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
 
- a global
-
-accelerator now what you see here is
-
-really what is a combination of a whole
-
-bunch of different networking components
-
-but customers are basically building
-
-this architecture that you see in front
-
-of you or a combination of these
-
-services depending on what they want to
-
-build some customers use Direct Connect
-
-some use VPN some use IG W's and some
-
-use flow logs some don't so it really
-
-does depend but this gives you a bit of
-
-an idea of water and Amazon V PC
-
-architecture looks like so what we're
+  so what we're
 
 actually going to do now is take this
 
@@ -2748,11 +2722,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzEyMzgxMiwtMzMwMzMwNzE4LC0xMj
-E4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMw
-NjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nz
-gzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1
-ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMT
-I4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTFd
-fQ==
+eyJoaXN0b3J5IjpbNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMT
+gzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2
+MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTk3OD
+M1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5NDEwNTU4
+NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3NzMxMj
+g5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mjg1MV19
+
 -->
