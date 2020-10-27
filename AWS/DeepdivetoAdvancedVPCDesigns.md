@@ -73,6 +73,8 @@ Consider taking this approach when you want to simplify management and minimize 
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
+**Transit Gateway Network Manager (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
+
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account. A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions. 
 
 Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
@@ -2722,11 +2724,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMT
-gzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2
-MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTk3OD
-M1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5NDEwNTU4
-NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3NzMxMj
-g5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mjg1MV19
+eyJoaXN0b3J5IjpbMjQwNTY4ODgwLDUwMzI4OTUxMSwtMzMwMz
+MwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIz
+NiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4OD
+g4NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0
+LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MD
+cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMl19
 
 -->
