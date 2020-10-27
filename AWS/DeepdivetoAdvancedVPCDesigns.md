@@ -22,24 +22,23 @@ Anything outside of the VPC is generally **public** unless you build a private c
 
 ![Internet VPC](https://docs.aws.amazon.com/vpc/latest/userguide/images/default-vpc-diagram.png)
 
-When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. 
-The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
+When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
 
-Internet gateway (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
+**Internet gateway** (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
 
 ![NAT Instance](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance-diagram.png)
 
-For a private subnet we can send traffic via NAT instance or NAT Gateway instead of directly to the public Internet.  Then the NAT instance or NAT Gateway (is a managed scalable service) has the ability to communicate with the public internet. 
+For a private subnet we can send traffic via **NAT instance** or **NAT Gateway** instead of directly to the public Internet.  Then the NAT instance or NAT Gateway (is a managed scalable service) has the ability to communicate with the public internet. 
 
 ![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
-A VPC endpoint enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+A **VPC endpoint** enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
 
-A VPC gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
+A **VPC gateway endpoint** is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
-An interface endpoint is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway.
+An **interface endpoint** is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway.
 
 In the example shown in the following diagram, there is an interface endpoint for Amazon Kinesis Data Streams and an endpoint network interface in subnet 2. Private DNS for the interface endpoint is not enabled. Instances in either subnet can send requests to Amazon Kinesis Data Streams through the interface endpoint using an endpoint-specific DNS hostname. Instances in subnet 1 can communicate with Amazon Kinesis Data Streams over public IP address space in the AWS Region using its default DNS name.
 
@@ -49,7 +48,7 @@ In the next diagram, private DNS for the endpoint has been enabled. Instances in
 
 ![Interface Endpoint Private DNS Enabled](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-kinesis-private-dns-diagram.png)
 
-Private link is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers.
+**Private link** is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers.
 
 ![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
@@ -57,11 +56,11 @@ In the diagram above, the account owner of VPC B is a service provider, and has 
 
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
-We might want to connect to our own premises so we'll use Direct Connect or VPN.  AWS Direct Connect links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
+We might want to connect to our own premises so we'll use Direct Connect or VPN.  AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-Transit gateway is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
+**Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
 
 - A transit gateway when you have multiple VPCs in the same Region
 - A virtual private gateway
@@ -81,7 +80,7 @@ We can peer our VPC with other VPCs directly in a point-to-point fashion either 
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
-A carrier gateway serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway.
+A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway.
 
 A carrier gateway supports IPv4 traffic.
 
@@ -2756,10 +2755,10 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjAwMDMxMiwtOTc4MzUwNTE4LDEwMz
-QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
-MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
-I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDEs
-LTE3OTg2OTc2MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMzUyNjI0NTQsLTk3ODM1MDUxOCwxMD
+M0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3
+NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNj
+YyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQx
+LC0xNzk4Njk3NjM4LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX
+0=
 -->
