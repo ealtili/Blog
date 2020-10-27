@@ -39,21 +39,9 @@ We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  W
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-We might want to connect to our own premises so we'll use Direct Connect or VPN. Maybe a direct connect gateway.  We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes a left hand side here
+We might want to connect to our own premises so we'll use Direct Connect or VPN. Maybe a direct connect gateway.  We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes on the left hand side.
 
-again
-
-transit gateway which was a service that
-
-was launched in about November 2018 and
-
-transit gateway allows you to connect to
-
-many VPC so up to 5,000 V pcs can
-
-communicate to each other over a transit
-
-gateway and we can also use VPN from an
+Transit gateway is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an 
 
 on-premises to a transit gateway
 
@@ -2733,7 +2721,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTIxNDM1LDEyMjY2MjQ2MTUsLTE5Mj
-k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
-OCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbLTg5OTQ2OTM4MywxMjI2NjI0NjE1LC0xOT
+I5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2
+MzgsLTE4NjEyODEwMTAsLTExMzMwMDIzNDZdfQ==
 -->
