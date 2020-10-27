@@ -35,13 +35,7 @@ For a private subnet we can send traffic via NAT instance or NAT Gateway instead
 
 
 
-We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  We'll use prefix lists
-
-there to communicate privately and a VPC
-
-endpoint is almost like a bridge between
-
-say s3 and your V PC or dynamodb and
+We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  We'll use prefix lists in the route tables to communicate privately.  VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. or dynamodb and
 
 your B PC then we might want to connect
 
@@ -2751,6 +2745,6 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY1NDc3MzYsLTgwMzkyOTA0MSwtMT
-c5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbLTg4NDYzNzAxMCwtODAzOTI5MDQxLC0xNz
+k4Njk3NjM4LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
