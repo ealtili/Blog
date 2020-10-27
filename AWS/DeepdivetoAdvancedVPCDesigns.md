@@ -113,24 +113,20 @@ The diagram above demonstrates how you can create a subnet that uses resources i
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
 
-Traffic Mirroring is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. You can then send the traffic to out-of-band security and monitoring appliances for:
+**Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. You can then send the traffic to out-of-band security and monitoring appliances for:
 
-Content inspection
-
-Threat monitoring
-
-Troubleshooting
+- Content inspection
+- Threat monitoring
+- Troubleshooting
 
 The security and monitoring appliances can be deployed as individual instances, or as a fleet of instances behind a Network Load Balancer with a UDP listener. Traffic Mirroring supports filters and packet truncation, so that you only extract the traffic of interest to monitor by using monitoring tools of your choice.
 
 Traffic Mirroring concepts
 The following are the key concepts for Traffic Mirroring:
 
-Target — The destination for mirrored traffic.
-
-Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
-
-Session — An entity that describes Traffic Mirroring from a source to a target using filters.
+- Target — The destination for mirrored traffic.
+- Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
+- Session — An entity that describes Traffic Mirroring from a source to a target using filters.
 
 Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
@@ -2747,11 +2743,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTUyNjYzNiw1MDMyODk1MTEsLTMzMD
-MzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAy
-MzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxOD
-g4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkx
-NCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NT
-A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMTQyOTkyODIsNTAzMjg5NTExLC0zMz
+AzMzA3MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYw
+MjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMT
+g4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5
+MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNj
+UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
+XX0=
 -->
