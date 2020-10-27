@@ -103,7 +103,7 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 
 
 
-![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
+
 
 
 
@@ -2765,11 +2765,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODA2MDIzNiwxMDE0NTMwNjExLC02Mz
-I0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1MTgs
-MTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNj
-MzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEy
-MjY2MjQ2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOT
-A0MSwtMTc5ODY5NzYzOCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0
-Nl19
+eyJoaXN0b3J5IjpbNTMzNTY0NzA4LC0zMTgwNjAyMzYsMTAxND
+UzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3Niwt
+OTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MT
+A1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3
+MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyOD
+UxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4NjEyODEwMTBd
+fQ==
 -->
