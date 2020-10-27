@@ -49,6 +49,10 @@ In the next diagram, private DNS for the endpoint has been enabled. Instances in
 
 ![Interface Endpoint Private DNS Enabled](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-kinesis-private-dns-diagram.png)
 
+Private link is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers.
+
+![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
+
 We might want to connect to our own premises so we'll use Direct Connect or VPN. 
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
@@ -87,9 +91,9 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
 
-![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
-Private link is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers.
+
+
 
 
 and that sort of thing inside of EPC that we
@@ -2764,9 +2768,9 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA2Nzk3OTEsMTAzNDMyNjAxNCwxMj
-I5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYw
-NzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mj
-k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
-OCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbMTYwODQ1MTE2OSwxMDM0MzI2MDE0LDEyMj
+k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
+MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
+Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
+LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
