@@ -39,15 +39,7 @@ We can also connect to s3 and Dynamodb privately using VPC gateway endpoints.  W
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-your B PC then we might want to connect
-
-to our own premises so we'll use Direct
-
-Connect or VPN maybe some direct connect
-
-gateway we can hear our V PC with other
-
-V pcs directly in a point-to-point
+We might want to connect to our own premises so we'll use Direct Connect or VPN. Maybe a direct connect gateway.  We can peer our VPC with other VPCs directly in a point-to-point
 
 fashion either within a region or across
 
@@ -2747,7 +2739,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDIzOTMyMywtMTkyOTY2OTEyLDg2Nz
-I1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMjgx
-MDEwLC0xMTMzMDAyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTY2MTk5NjE3LC0xOTI5NjY5MTIsODY3Mj
+UyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4NjEyODEw
+MTAsLTExMzMwMDIzNDZdfQ==
 -->
