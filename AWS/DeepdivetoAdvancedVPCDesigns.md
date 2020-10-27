@@ -70,7 +70,7 @@ AWS **Direct Connect** links your internal network to an AWS Direct Connect loca
 
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
-**Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
+**Transit gateway** is a service that was launched in about November 2018. Transit gateway allows you to connect to many VPCs. Up to 5,000 Vpcs can communicate to each other over a transit gateway. We can also use VPN from an on-premises to a transit gateway. We can use a direct connect gateway.  Use **AWS Direct Connect gateway** to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
 
 - A transit gateway when you have multiple VPCs in the same Region
 - A virtual private gateway
@@ -2765,11 +2765,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNTY0NzA4LC0zMTgwNjAyMzYsMTAxND
-UzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3Niwt
-OTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MT
-A1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3
-MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIsODY3MjUyOD
-UxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4NjEyODEwMTBd
-fQ==
+eyJoaXN0b3J5IjpbMTI1MjExNjkwMCwtMzE4MDYwMjM2LDEwMT
+Q1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1NzYs
+LTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMTM5ND
+EwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5Myw3
+NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEyLDg2NzI1Mj
+g1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xODYxMjgxMDEw
+XX0=
 -->
