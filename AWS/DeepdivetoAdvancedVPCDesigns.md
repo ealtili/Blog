@@ -70,7 +70,7 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
 
-
+We have also 
 Private link private link is going to
 
 enable you to configure SAS services and
@@ -2747,8 +2747,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjE1MDkwMSwxOTM2ODg2MDcxLC02NT
-A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIs
-ODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4Nj
-EyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbNzA0NTIxMDcyLDE5MzY4ODYwNzEsLTY1MD
+cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4
+NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MT
+I4MTAxMCwtMTEzMzAwMjM0Nl19
 -->
