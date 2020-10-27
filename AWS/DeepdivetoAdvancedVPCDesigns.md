@@ -59,6 +59,10 @@ Attach a transit gateway to a Direct Connect gateway using a transit virtual int
 
 We can peer our VPC with other VPCs directly in a point-to-point fashion either within a region or across to another region. So we build our routes on the left hand side.
 
+![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
+
+
+
 Private link private link is going to
 
 enable you to configure SAS services and
@@ -2735,8 +2739,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTg4MzgzNiwxOTM2ODg2MDcxLC02NT
-A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIs
-ODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4Nj
-EyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbLTE0MTE3MTA1OTUsMTkzNjg4NjA3MSwtNj
+UwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOTY2OTEy
+LDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4LC0xOD
+YxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
