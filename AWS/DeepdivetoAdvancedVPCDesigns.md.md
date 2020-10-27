@@ -18,18 +18,10 @@ AWS services has two different classes or types of services which are public ser
 
 Anything inside the VPC is private and it's a domain that you manage and you control.  
 
-Anything outside of the VPC is generally public unless you build a private connection to that service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
+Anything outside of the VPC is generally public unless you build a private connection to a service such as s3, DynamoDB, Lambda, SQS, SNS etc. all of these services are all public services.
 
-
-so when we're communicating inside the
-
-VPC will actually use route tables that
-
-are assigned to subnets now
-
-the round tables basically give you
-
-control over everything that's going on
+When we're communicating inside the VPC we will actually use route tables that are assigned to subnets.
+The route tables basically give you control over everything that's going on
 
 inside the V PC so where traffic can
 
@@ -2805,7 +2797,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5Mzc1OTQzLDQwNzYwMTIwNSw4MDU2NT
-A1MTcsLTE0Nzc5MTkyNjQsMTQ5NzI0OTgxLDM4Nzc4ODk1Niwy
-MTEwODA2ODc4XX0=
+eyJoaXN0b3J5IjpbLTU1NjExNTIsNDA3NjAxMjA1LDgwNTY1MD
+UxNywtMTQ3NzkxOTI2NCwxNDk3MjQ5ODEsMzg3Nzg4OTU2LDIx
+MTA4MDY4NzhdfQ==
 -->
