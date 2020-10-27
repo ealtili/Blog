@@ -57,7 +57,7 @@ In the diagram above, the account owner of VPC B is a service provider, and has 
 
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
-We might want to connect to our own premises so we'll use Direct Connect or VPN. 
+We might want to connect to our own premises so we'll use Direct Connect or VPN.  AWS Direct Connect links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2774,9 +2774,9 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjAzOTI4NzAsMTAzNDMyNjAxNCwxMj
-I5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYw
-NzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mj
-k2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYz
-OCwtMTg2MTI4MTAxMCwtMTEzMzAwMjM0Nl19
+eyJoaXN0b3J5IjpbLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMj
+k4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3
+MSwtNjUwNzI5Myw3NzMxMjg5OTcsMTIyNjYyNDYxNSwtMTkyOT
+Y2OTEyLDg2NzI1Mjg1MSwtODAzOTI5MDQxLC0xNzk4Njk3NjM4
+LC0xODYxMjgxMDEwLC0xMTMzMDAyMzQ2XX0=
 -->
