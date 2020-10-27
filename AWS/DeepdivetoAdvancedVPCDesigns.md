@@ -132,6 +132,9 @@ The following are the key concepts for Traffic Mirroring:
 
 Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
 
+![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
+
+Diagram above gives an idea about Amazon VPC Architecture.
 
   so what we're
 
@@ -2745,11 +2748,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMD
-MzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAy
-MzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxOD
-g4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkx
-NCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NT
-A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MD
+MyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcx
+MjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMT
+AzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYw
+MTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOT
+M2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1
+XX0=
 -->
