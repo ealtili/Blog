@@ -70,12 +70,11 @@ The following diagram demonstrates how you can create a subnet that uses resourc
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
 
-We have also 
-Private link private link is going to
+We have also Private link.
 
-enable you to configure SAS services and
+![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-that sort of thing inside of EPC that we
+Private link is going to enable you to configure SaaS services and that sort of thing inside of EPC that we
 
 call a service provider V PC or you can
 
@@ -2747,8 +2746,8 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDA1ODMxMywxOTM2ODg2MDcxLC02NT
-A3MjkzLDc3MzEyODk5NywxMjI2NjI0NjE1LC0xOTI5NjY5MTIs
-ODY3MjUyODUxLC04MDM5MjkwNDEsLTE3OTg2OTc2MzgsLTE4Nj
-EyODEwMTAsLTExMzMwMDIzNDZdfQ==
+eyJoaXN0b3J5IjpbNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MD
+cyOTMsNzczMTI4OTk3LDEyMjY2MjQ2MTUsLTE5Mjk2NjkxMiw4
+NjcyNTI4NTEsLTgwMzkyOTA0MSwtMTc5ODY5NzYzOCwtMTg2MT
+I4MTAxMCwtMTEzMzAwMjM0Nl19
 -->
