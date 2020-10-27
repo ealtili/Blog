@@ -71,9 +71,10 @@ With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Dir
 
 Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
 
-**Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC) and VPN connections and on premises. 
+**Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account.
+
 Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
 
 - A transit gateway when you have multiple VPCs in the same Region
@@ -2758,11 +2759,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzE4NTU3LC0xMjE4MzEyOTk2LDE5Mz
-A3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3
-LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1MTgsMTAzND
-MyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNjMyNjMzNzcw
-LDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3LDEyMjY2Mj
-Q2MTUsLTE5Mjk2NjkxMiw4NjcyNTI4NTEsLTgwMzkyOTA0MV19
-
+eyJoaXN0b3J5IjpbLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOT
+MwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEz
+NywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMz
+QzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3
+MCwxOTM2ODg2MDcxLC02NTA3MjkzLDc3MzEyODk5NywxMjI2Nj
+I0NjE1LC0xOTI5NjY5MTIsODY3MjUyODUxLC04MDM5MjkwNDFd
+fQ==
 -->
