@@ -36,7 +36,7 @@ A **VPC endpoint** enables private connections between your VPC and supported AW
 
 A **VPC gateway endpoint** is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
-![](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/interfaceendpoints.png)
+![Interface Endpoints](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/interfaceendpoints.png)
 
 An **interface endpoint** is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway.
 
@@ -2748,7 +2748,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA5MjIzMSwxMjg0NTEyMTk2LC0yMD
+eyJoaXN0b3J5IjpbLTkxNTA0NjY5MCwxMjg0NTEyMTk2LC0yMD
 k1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3
 MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LD
 EwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1
