@@ -50,10 +50,7 @@ In the next diagram, private DNS for the endpoint has been enabled. Instances in
 
 ![Interface Endpoint Private DNS Enabled](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-kinesis-private-dns-diagram.png)
 
-**Private link** is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers. Tagging is available for endpoint services
-Powered by AWS PrivateLink
-After:
-- Reachable over intra- and inter-Region VPC peering
+**Private link** is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers. Tagging is available for endpoint services and they are reachable over intra and inter-Region VPC peering.
 
 ![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
@@ -2753,11 +2750,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3OTA0NzM4LDEyODQ1MTIxOTYsLTIwOT
-U1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcx
-OCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMT
-AxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3
-NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMz
-k0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3Mjkz
-XX0=
+eyJoaXN0b3J5IjpbMTMxNTU5MjcxOCwxMjg0NTEyMTk2LC0yMD
+k1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3
+MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LD
+EwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1
+NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMT
+M5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5
+M119
 -->
