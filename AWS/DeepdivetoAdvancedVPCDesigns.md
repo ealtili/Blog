@@ -36,6 +36,8 @@ A **VPC endpoint** enables private connections between your VPC and supported AW
 
 A **VPC gateway endpoint** is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
+![](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/interfaceendpoints.png)
+
 An **interface endpoint** is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway.
 
 In the example shown in the following diagram, there is an interface endpoint for Amazon Kinesis Data Streams and an endpoint network interface in subnet 2. Private DNS for the interface endpoint is not enabled. Instances in either subnet can send requests to Amazon Kinesis Data Streams through the interface endpoint using an endpoint-specific DNS hostname. Instances in subnet 1 can communicate with Amazon Kinesis Data Streams over public IP address space in the AWS Region using its default DNS name.
@@ -2746,11 +2748,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNT
-UxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEy
-OTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNjExLC
-02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05NzgzNTA1
-MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQxMDU1ODQsNj
-MyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcyOTMsNzczMTI4OTk3
-XX0=
+eyJoaXN0b3J5IjpbLTIwNDA5MjIzMSwxMjg0NTEyMTk2LC0yMD
+k1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3
+MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LD
+EwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1
+NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMT
+M5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5
+M119
 -->
