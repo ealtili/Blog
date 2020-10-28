@@ -50,7 +50,13 @@ In the next diagram, private DNS for the endpoint has been enabled. Instances in
 
 ![Interface Endpoint Private DNS Enabled](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-kinesis-private-dns-diagram.png)
 
-**Private link** is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers. Tagging is available for endpoint services and they are reachable over intra and inter-Region VPC peering.
+**Private link** is going to enable you to configure SaaS services. You can create your own application in your VPC and configure it as an AWS PrivateLink-powered service (Service Provider VPC).  Other AWS principals can create a connection from their VPC to your endpoint service using an interface VPC endpoint. You are the service provider, and the AWS principals that create connections to your service are service consumers. Tagging is available for endpoint services and they are reachable over intra and inter-Region VPC peering or transit gateways 
+
+or maybe even over Direct Connect or
+
+something similar and reach out to any
+
+of those services
 
 ![VPC Privatelink](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-service.png)
 
@@ -2595,11 +2601,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzOTQ3NDgsMTI4NDUxMjE5NiwtMj
-A5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMw
-NzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNi
-wxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4
-NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LD
-EzOTQxMDU1ODQsNjMyNjMzNzcwLDE5MzY4ODYwNzEsLTY1MDcy
-OTNdfQ==
+eyJoaXN0b3J5IjpbNDA5ODY5NzI4LDEyODQ1MTIxOTYsLTIwOT
+U1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcx
+OCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMT
+AxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3
+NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMz
+k0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2MDcxLC02NTA3Mjkz
+XX0=
 -->
