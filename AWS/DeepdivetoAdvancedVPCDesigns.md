@@ -86,6 +86,8 @@ Attach a transit gateway to a Direct Connect transit virtual interface. This con
 - Manage a single connection for multiple VPCs or VPNs that are in the same Region.
 - Advertise prefixes from on-premises to AWS and from AWS to on-premises.
 
+**Transit Gateway Network Manager** (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
+
 You can create a global network that includes transit gateways in multiple AWS Regions. This enables you to monitor the global health of your AWS network. In the following diagram, the global network includes a transit gateway in the us-east-2 Region and a transit gateway in the us-west-2 Region. Each transit gateway has VPC and VPN attachments. You can use the Network Manager console to view and monitor both of the transit gateways and their attachments
 
 ![Transit Gateway Manager](https://docs.aws.amazon.com/vpc/latest/tgw/images/nm-multi-region-tgw.png)
@@ -94,7 +96,7 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account. A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions. 
 
-The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
+
 
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
@@ -2593,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODgyMjQwNSwtMTgzODE3NDY3NiwtNT
-E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
-Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
-gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
-MDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMz
-csLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0
-MzI2MDE0XX0=
+eyJoaXN0b3J5IjpbODAwNTI1MTQ1LC0xODM4MTc0Njc2LC01MT
+kyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2
+ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OC
+w1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMw
+NzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNy
+wtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQz
+MjYwMTRdfQ==
 -->
