@@ -40,7 +40,7 @@ A **VPC gateway endpoint** is a gateway that you specify as a target for a route
 
 An **interface endpoint** is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses. AWS PrivateLink restricts all network traffic between your VPC and services to the Amazon network. You do not need an internet gateway, a NAT device, or a virtual private gateway. 
 
-When you create an endpoint, you can attach an endpoint policy to it that controls access to the service to which you are connecting. A VPC endpoint policy is an IAM resource policy that you attach to an endpoint when you create or modify the endpoint. If you do not attach a policy when you create an endpoint, we attach a default policy for you that allows full access to the service. If a service does not support endpoint policies, the endpoint allows full access to the service. An endpoint policy does not override or replace IAM user policies or service-specific policies (such as S3 bucket policies). It is a separate policy for controlling access from the endpoint to the specified service. You cannot attach more than one policy to an endpoint. However, you can modify the policy at any time. If you do modify a policy, it can take a few minutes for the changes to take effect.
+When you create an endpoint, you can attach an endpoint policy to it that controls access to the service to which you are connecting. A VPC endpoint policy is an IAM resource policy that you attach to an endpoint when you create or modify the endpoint. If you do not attach a policy when you create an endpoint, a default policy is attached for you that allows full access to the service. If a service does not support endpoint policies, the endpoint allows full access to the service. An endpoint policy does not override or replace IAM user policies or service-specific policies (such as S3 bucket policies). It is a separate policy for controlling access from the endpoint to the specified service. You cannot attach more than one policy to an endpoint. However, you can modify the policy at any time. If you do modify a policy, it can take a few minutes for the changes to take effect.
 
 In the example shown in the following diagram, there is an interface endpoint for Amazon Kinesis Data Streams and an endpoint network interface in subnet 2. Private DNS for the interface endpoint is not enabled. Instances in either subnet can send requests to Amazon Kinesis Data Streams through the interface endpoint using an endpoint-specific DNS hostname. Instances in subnet 1 can communicate with Amazon Kinesis Data Streams over public IP address space in the AWS Region using its default DNS name.
 
@@ -2595,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjI3Njg5OSwtMjIwNzc2ODkyLDEyOD
-Q1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1
-MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC
-0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2
-MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMT
-IyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2
-MDcxXX0=
+eyJoaXN0b3J5IjpbLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMj
+IwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2
+NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5Ni
+wxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMy
+NDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LD
+EwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYz
+Mzc3MF19
 -->
