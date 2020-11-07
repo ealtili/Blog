@@ -103,12 +103,8 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 We use **peer VPC peering** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
-
+A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
-
-A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway.
-
-A carrier gateway supports IPv4 traffic.
 
 Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region.
 
@@ -2596,11 +2592,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5Mz
-Q1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3
-NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLT
-IyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2
-Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OT
-YsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYz
-MjQxMzddfQ==
+eyJoaXN0b3J5IjpbLTIwODcyMTM1MzYsMjA1NjMzMjYwMiwtNT
+g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
+MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LD
+E5MjYyNzY4OTksLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1
+NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3MT
+gsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEw
+MTQ1MzA2MTFdfQ==
 -->
