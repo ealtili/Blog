@@ -127,10 +127,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 - Threat monitoring
 - Troubleshooting
 
-The security and monitoring appliances can be deployed as individual instances, or as a fleet of instances behind a Network Load Balancer with a UDP listener. Traffic Mirroring supports filters and packet truncation, so that you only extract the traffic of interest to monitor by using monitoring tools of your choice.
-
-Traffic Mirroring concepts
-The following are the key concepts for Traffic Mirroring:
+The security and monitoring appliances can be deployed as individual instances, or as a fleet of instances behind a Network Load Balancer with a UDP listener. Traffic Mirroring supports filters and packet truncation, so that you only extract the traffic of interest to monitor by using monitoring tools of your choice. The following are the key concepts for Traffic Mirroring:
 
 - Target — The destination for mirrored traffic.
 - Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
@@ -2597,11 +2594,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0Mjg2NDY3LDEzNjg3NTU4MzgsLTM0ND
-E1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQz
-LDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MT
-kyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2
-ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OC
-w1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMw
-NzcxMjY4XX0=
+eyJoaXN0b3J5IjpbLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMz
+Q0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAw
+NDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLT
+UxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3
+NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3Nj
+Q4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5
+MzA3NzEyNjhdfQ==
 -->
