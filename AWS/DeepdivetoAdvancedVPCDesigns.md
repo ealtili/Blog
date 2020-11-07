@@ -100,10 +100,9 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 
 ![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
-
+We use **peer VPC peering** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
-We can a **peer VPC** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
@@ -2597,11 +2596,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MD
-c4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYw
-NSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMT
-I4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4
-OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNj
-gsLTMxODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1
-MjYyNDU0XX0=
+eyJoaXN0b3J5IjpbMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5Mz
+Q1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3
+NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLT
+IyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2
+Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OT
+YsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYz
+MjQxMzddfQ==
 -->
