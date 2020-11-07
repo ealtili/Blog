@@ -101,7 +101,12 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 ***A VPC peering** is a networking connection between two or more VPCs. This enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
-You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. You can't have tra
+You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. You can't have transitive peering. You have a VPC peering connection between VPC A and VPC B (pcx-aaaabbbb), and between VPC A and VPC C (pcx-aaaacccc). There is no VPC peering connection between VPC B and VPC C. You cannot route packets directly from VPC B to VPC C through VPC A.
+
+
+              
+            
+To route packets directly between VPC B and VPC C, you can create a separate VPC peering connection between them (provided they do not have overlapping CIDR blocks)
 
 
 A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
@@ -2593,7 +2598,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3Nzc5NTM0LDEzNjg3NTU4MzgsLTM0ND
+eyJoaXN0b3J5IjpbNzc0NjA4MDUyLDEzNjg3NTU4MzgsLTM0ND
 E1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQz
 LDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MT
 kyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2
