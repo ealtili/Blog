@@ -92,14 +92,13 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 ![Transit Gateway Manager](https://docs.aws.amazon.com/vpc/latest/tgw/images/nm-multi-region-tgw.png)
 
-
-
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account. A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions. 
 
 AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct Connect gateway, enables your network to connect up to three regional centralized routers over a private dedicated connection, as shown in the following diagram.
 
 ![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
+A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 We use **peer VPC peering** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
@@ -2592,11 +2591,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDE1OTE2MCwyMDU2MzMyNjAyLC01OD
-Q3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMTk4OTcy
-LC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2OTQsMT
-kyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1
-MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOC
-wtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAx
-NDUzMDYxMV19
+eyJoaXN0b3J5IjpbMTM2ODc1NTgzOCwtMzQ0MTU5MTYwLDIwNT
+YzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MDc4Nzc3
+LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYwNSwtMj
+A5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUx
+MjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMS
+wtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMx
+ODA2MDIzNl19
 -->
