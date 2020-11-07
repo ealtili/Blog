@@ -140,47 +140,7 @@ Lastly we have global accelerator. It basically allows you to front things in th
 Diagram above gives an idea about Amazon VPC Architecture.
 
 
-so we now have tagging for endpoint
 
-services seems like a no-brainer so
-
-pretty happy that one that one's there
-
-endpoint services are also reachable
-
-over intra and Inter region peering as
-
-well now so I'm we've got a V PC and
-
-that V PC is paired to your customer V
-
-PC that has the endpoint in in it you
-
-can actually reach from that V PC all
-
-the way through to the end point and all
-
-the way through to your service provider
-
-V PC now this is actually applicable for
-
-the other interface endpoints that we
-
-had for all of those other services so
-
-you could effectively had a bit have a V
-
-PC that has all these endpoints that
-
-exists within the V PC and then connect
-
-through over peering or transit gateways
-
-or maybe even over Direct Connect or
-
-something similar and reach out to any
-
-of those services pretty cool
 
 okay let's move on to global accelerator
 
@@ -2594,11 +2554,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMz
-Q0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAw
-NDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLT
-UxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3
-NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3Nj
-Q4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5
-MzA3NzEyNjhdfQ==
+eyJoaXN0b3J5IjpbNzUwNDk4NjY4LC0xOTY2NTg4OTc0LDEzNj
+g3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0
+MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xOD
+M4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3
+Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0Nz
+MsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIx
+ODMxMjk5Nl19
 -->
