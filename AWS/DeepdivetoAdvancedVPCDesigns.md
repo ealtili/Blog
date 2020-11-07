@@ -85,11 +85,6 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account. A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions. 
 
-Use AWS Direct Connect gateway to connect your VPCs. Associate an AWS Direct Connect gateway with either of the following gateways:
-
-- A transit gateway when you have multiple VPCs in the same Region
-- A virtual private gateway
-
 The diagram illustrates how the Direct Connect gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
 
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
@@ -2595,11 +2590,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOT
-I2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUz
-MjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC
-0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0
-NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC
-05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQx
-MDU1ODRdfQ==
+eyJoaXN0b3J5IjpbLTE5NzA4NjA1NTIsLTUxOTIyNTYwNSwtMj
+A5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUx
+MjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMS
+wtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMx
+ODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyND
+U0LDE4ODg4NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5
+ODM0OTE0XX0=
 -->
