@@ -115,8 +115,6 @@ A **carrier gateway** serves two purposes. It allows inbound traffic from a carr
 
 Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region. The diagram above demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
-
-
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
@@ -2599,11 +2597,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMxMTQzMjksMTM2ODc1NTgzOCwtMz
-Q0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAw
-NDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLT
-UxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3
-NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3Nj
-Q4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5
-MzA3NzEyNjhdfQ==
+eyJoaXN0b3J5IjpbNDc0Mjg2NDY3LDEzNjg3NTU4MzgsLTM0ND
+E1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQz
+LDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MT
+kyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2
+ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OC
+w1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMw
+NzcxMjY4XX0=
 -->
