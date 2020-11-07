@@ -77,6 +77,15 @@ Consider taking this approach when you want to simplify management and minimize 
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
+The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
+
+![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
+
+Attach a transit gateway to a Direct Connect gateway using a transit virtual interface. This configuration offers the following benefits. You can:
+
+- Manage a single connection for multiple VPCs or VPNs that are in the same Region.
+- Advertise prefixes from on-premises to AWS and from AWS to on-premises.
+
 You can create a global network that includes transit gateways in multiple AWS Regions. This enables you to monitor the global health of your AWS network. In the following diagram, the global network includes a transit gateway in the us-east-2 Region and a transit gateway in the us-west-2 Region. Each transit gateway has VPC and VPN attachments. You can use the Network Manager console to view and monitor both of the transit gateways and their attachments
 
 ![Transit Gateway Manager](https://docs.aws.amazon.com/vpc/latest/tgw/images/nm-multi-region-tgw.png)
@@ -87,12 +96,6 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
 
-![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
-
-Attach a transit gateway to a Direct Connect gateway using a transit virtual interface. This configuration offers the following benefits. You can:
-
-- Manage a single connection for multiple VPCs or VPNs that are in the same Region.
-- Advertise prefixes from on-premises to AWS and from AWS to on-premises.
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
@@ -2590,11 +2593,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzgxNzQ2NzYsLTUxOTIyNTYwNSwtMj
-A5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUx
-MjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMS
-wtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMx
-ODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyND
-U0LDE4ODg4NTc2LC05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5
-ODM0OTE0XX0=
+eyJoaXN0b3J5IjpbMTgwNzM4NzIwMywtMTgzODE3NDY3NiwtNT
+E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
+Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
+gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
+MDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMz
+csLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0
+MzI2MDE0XX0=
 -->
