@@ -107,7 +107,7 @@ You cannot create a VPC peering connection between VPCs with matching or overlap
 
 To route packets directly between VPC B and VPC C, you can create a separate VPC peering connection between them (provided they do not have overlapping CIDR blocks).
 You cant have Edge to edge routing through a gateway or private connection. 
-
+![](https://docs.aws.amazon.com/vpc/latest/peering/images/edge-to-edge-vpn-diagram.png)
 For example, if VPC A and VPC B are peered, and VPC A has any of these connections, then instances in VPC B cannot use the connection to access resources on the other side of the connection. Similarly, resources on the other side of a connection cannot use the connection to access VPC B.
 
 A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
@@ -2599,11 +2599,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzc1ODg5MSwxMzY4NzU1ODM4LC0zND
-QxNTkxNjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0
-MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNT
-E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
-Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
-gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
-MDc3MTI2OF19
+eyJoaXN0b3J5IjpbLTIwNDMxMTQzMjksMTM2ODc1NTgzOCwtMz
+Q0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAw
+NDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLT
+UxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3
+NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3Nj
+Q4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5
+MzA3NzEyNjhdfQ==
 -->
