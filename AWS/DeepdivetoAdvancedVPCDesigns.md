@@ -77,7 +77,7 @@ Consider taking this approach when you want to simplify management and minimize 
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
-The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection via Direct Connect Gateway to all of your VPCs can use in a single region.
+The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection via Direct Connect Gateway with transit virtual interface to all of your VPCs can in a single region.
 
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
 
@@ -2597,11 +2597,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMyMzQzNzYsNzkzNDUwMDQzLDI0OT
-A3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2
-MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLD
-EyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMy
-ODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMj
-Y4LC0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAz
-NTI2MjQ1NF19
+eyJoaXN0b3J5IjpbLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MD
+c4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYw
+NSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMT
+I4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4
+OTUxMSwtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNj
+gsLTMxODA2MDIzNiwxMDE0NTMwNjExLC02MzI0MTM3LC0xMDM1
+MjYyNDU0XX0=
 -->
