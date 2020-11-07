@@ -34,7 +34,7 @@ A **VPC endpoints** enables private connections between your VPC and supported A
 
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
 
-A **VPC gateway endpoint** is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints. We'll use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
+A **VPC gateway endpoint** is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. We can connect to s3 and Dynamodb privately using VPC gateway endpoints at the moment. We' use prefix lists in the route tables to communicate privately. VPC gateway endpoint is like a bridge between s3, dynamodb and VPC. VPC Gateway endpoints are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
 ![Interface Endpoints](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/interfaceendpoints.png)
 
@@ -2595,7 +2595,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTc4NjIxNSwtMjIwNzc2ODkyLDEyOD
+eyJoaXN0b3J5IjpbMTkyNjI3Njg5OSwtMjIwNzc2ODkyLDEyOD
 Q1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1
 MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC
 0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2
