@@ -98,7 +98,7 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct Connect gateway, enables your network to connect up to three regional centralized routers over a private dedicated connection, as shown in the following diagram.
 
-https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png
+![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
@@ -2597,11 +2597,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4Mz
-gxNzQ2NzYsLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2
-ODk5LC0yMjA3NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3My
-wtNTUxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4
-MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNj
-ExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nzgz
-NTA1MThdfQ==
+eyJoaXN0b3J5IjpbNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMT
+k4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2
+OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLT
+IwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMz
+MDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMz
+YsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4
+ODU3Nl19
 -->
