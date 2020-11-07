@@ -106,9 +106,9 @@ We use **peer VPC peering** with other VPCs directly in a point-to-point fashion
 A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
 
-Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region.
+Carrier gateways are only available for VPCs that contain subnets in a Wavelength Zone. The carrier gateway provides connectivity between your Wavelength Zone and the telecommunication carrier, and devices on the telecommunication carrier network. The carrier gateway performs NAT of the Wavelength instances' IP addresses to the Carrier IP addresses from a pool that is assigned to the network border group. The carrier gateway NAT function is similar to how an internet gateway functions in a Region. The diagram above demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
 
-The diagram above demonstrates how you can create a subnet that uses resources in a telecommunication carrier network at a specific location. You create a VPC in the Region. For resources that need to be within the telecommunication carrier network, you opt in to the Wavelength Zone, and then create resources in the Wavelength Zone. AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users.
+
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2592,11 +2592,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcyMTM1MzYsMjA1NjMzMjYwMiwtNT
-g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
-MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LD
-E5MjYyNzY4OTksLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1
-NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3MT
-gsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LDEw
-MTQ1MzA2MTFdfQ==
+eyJoaXN0b3J5IjpbLTM0NDE1OTE2MCwyMDU2MzMyNjAyLC01OD
+Q3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMTk4OTcy
+LC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2OTQsMT
+kyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1
+MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOC
+wtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAx
+NDUzMDYxMV19
 -->
