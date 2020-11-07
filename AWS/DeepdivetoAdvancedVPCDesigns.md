@@ -77,11 +77,11 @@ Consider taking this approach when you want to simplify management and minimize 
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
-The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use.
+The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection that all of your VPCs can use in a single region.
 
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
 
-Attach a transit gateway to a Direct Connect gateway using a transit virtual interface. This configuration offers the following benefits. You can:
+Attach a transit gateway to a Direct Connect transit virtual interface. This configuration offers the following benefits. You can:
 
 - Manage a single connection for multiple VPCs or VPNs that are in the same Region.
 - Advertise prefixes from on-premises to AWS and from AWS to on-premises.
@@ -90,7 +90,7 @@ You can create a global network that includes transit gateways in multiple AWS R
 
 ![Transit Gateway Manager](https://docs.aws.amazon.com/vpc/latest/tgw/images/nm-multi-region-tgw.png)
 
-**Transit Gateway Network Manager** (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
+
 
 **AWS Direct Connect gateway** is a grouping of virtual private gateways and private virtual interfaces that belong to the same AWS account. A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions. 
 
@@ -2593,7 +2593,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzM4NzIwMywtMTgzODE3NDY3NiwtNT
+eyJoaXN0b3J5IjpbMTMwODgyMjQwNSwtMTgzODE3NDY3NiwtNT
 E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
 Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
 gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
