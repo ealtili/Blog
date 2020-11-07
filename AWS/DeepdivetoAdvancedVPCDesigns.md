@@ -69,9 +69,9 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
-With AWS Direct Connect Gateway + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router for Amazon VPCs over a private dedicated connection, as shown in the following figure
+With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router for Amazon VPCs over a private dedicated connection, as shown in the following figure
 
-![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
+![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image11.png)
 
 Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
 
@@ -2595,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU5ODg0MzQsLTIwOTM5MDM2OTQsMT
-kyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1
-MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOC
-wtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC0zMTgwNjAyMzYsMTAx
-NDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2MjQ1NCwxODg4ODU3Ni
-wtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMTIyOTgzNDkxNCwxMzk0
-MTA1NTg0XX0=
+eyJoaXN0b3J5IjpbLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOT
+I2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUz
+MjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC
+0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0
+NTMwNjExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC
+05NzgzNTA1MTgsMTAzNDMyNjAxNCwxMjI5ODM0OTE0LDEzOTQx
+MDU1ODRdfQ==
 -->
