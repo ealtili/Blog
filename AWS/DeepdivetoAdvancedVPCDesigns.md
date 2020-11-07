@@ -30,7 +30,7 @@ For a private subnet we can send traffic via **NAT instance** or **NAT Gateway**
 
 ![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
-A **VPC endpoints** enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+A **VPC endpoints** enables private connections between your VPC and supported AWS services. VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
 
@@ -2595,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM1NDI2OTAsLTIyMDc3Njg5MiwxMj
-g0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5
-NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OC
-wtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUy
-NjI0NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LD
-EyMjk4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4
-NjA3MV19
+eyJoaXN0b3J5IjpbMTI4OTc4NjIxNSwtMjIwNzc2ODkyLDEyOD
+Q1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1
+MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC
+0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2
+MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMT
+IyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2
+MDcxXX0=
 -->
