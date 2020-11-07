@@ -103,7 +103,7 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 
 You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. You can't have transitive peering. You have a VPC peering connection between VPC A and VPC B (pcx-aaaabbbb), and between VPC A and VPC C (pcx-aaaacccc). There is no VPC peering connection between VPC B and VPC C. You cannot route packets directly from VPC B to VPC C through VPC A.
 
-
+![](https://docs.aws.amazon.com/vpc/latest/peering/images/transitive-peering-diagram.png)
               
             
 To route packets directly between VPC B and VPC C, you can create a separate VPC peering connection between them (provided they do not have overlapping CIDR blocks)
@@ -2598,11 +2598,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0NjA4MDUyLDEzNjg3NTU4MzgsLTM0ND
-E1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQz
-LDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MT
-kyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2
-ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OC
-w1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMw
-NzcxMjY4XX0=
+eyJoaXN0b3J5IjpbLTQwMTMxMTY0NCwxMzY4NzU1ODM4LC0zND
+QxNTkxNjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0
+MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNT
+E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
+Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
+gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
+MDc3MTI2OF19
 -->
