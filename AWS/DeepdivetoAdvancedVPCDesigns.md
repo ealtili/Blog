@@ -20,7 +20,7 @@ Anything outside of the VPC is generally **public** unless you build a private c
 
 ![Internet VPC](https://docs.aws.amazon.com/vpc/latest/userguide/images/default-vpc-diagram.png)
 
-When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate to and that sort of thing.  Routing is the key here on on how we communicate with everything else.
+When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate.  Routing is the key on on how we communicate with everything else.
 
 **Internet gateway** (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
 
@@ -2595,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMD
-k1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAzMzA3
-MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OCwtMzE4MDYwMjM2LD
-EwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUyNjI0NTQsMTg4ODg1
-NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LDEyMjk4MzQ5MTQsMT
-M5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4NjA3MSwtNjUwNzI5
-M119
+eyJoaXN0b3J5IjpbMjA3NDk2NzQ1NiwtMjIwNzc2ODkyLDEyOD
+Q1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1
+MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC
+0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2
+MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMT
+IyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2
+MDcxXX0=
 -->
