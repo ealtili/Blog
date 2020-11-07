@@ -81,7 +81,7 @@ The diagram illustrates how the Transit gateway enables you to create a single c
 
 ![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
 
-Attach a transit gateway to a Direct Connect transit virtual interface. This configuration offers the following benefits. You can:
+This configuration offers the following benefits. You can:
 
 - Manage a single connection for multiple VPCs or VPNs that are in the same Region.
 - Advertise prefixes from on-premises to AWS and from AWS to on-premises.
@@ -2597,11 +2597,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNT
-E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
-Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
-gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
-MDc3MTI2OCwtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMz
-csLTEwMzUyNjI0NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0
-MzI2MDE0XX0=
+eyJoaXN0b3J5IjpbMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4Mz
+gxNzQ2NzYsLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2
+ODk5LC0yMjA3NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3My
+wtNTUxNjY3NjQ4LDUwMzI4OTUxMSwtMzMwMzMwNzE4LC0xMjE4
+MzEyOTk2LDE5MzA3NzEyNjgsLTMxODA2MDIzNiwxMDE0NTMwNj
+ExLC02MzI0MTM3LC0xMDM1MjYyNDU0LDE4ODg4NTc2LC05Nzgz
+NTA1MThdfQ==
 -->
