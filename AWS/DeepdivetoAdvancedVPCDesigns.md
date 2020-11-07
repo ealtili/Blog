@@ -22,7 +22,7 @@ Anything outside of the VPC is generally **public** unless you build a private c
 
 When we're communicating inside the VPC we will actually use **route tables** that are assigned to subnets. The route tables basically give you control over everything that's going on inside the VPC. Where traffic can communicate.  Routing is the key on on how we communicate with everything else.
 
-**Internet gateway** (IGW) gives us access to public services and also the public Internet. We just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can then communicate with all of these public services and also the public internet. 
+**Internet gateway** (IGW) gives us access to public services and also the public Internet. Just build a default route to the IGW. When you have a Public IP or Elastic IP assigned to an instance we can communicate with all of these public services and also the public internet. 
 
 ![NAT Instance](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance-diagram.png)
 
@@ -30,7 +30,7 @@ For a private subnet we can send traffic via **NAT instance** or **NAT Gateway**
 
 ![NAT Gateway](![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
-A **VPC endpoint** enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+A **VPC endpoints** enables private connections between your VPC and supported AWS services and VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
 ![VPC Gateway Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/images/vpc-endpoint-s3-diagram.png)
 
@@ -2595,11 +2595,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDk2NzQ1NiwtMjIwNzc2ODkyLDEyOD
-Q1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1
-MTEsLTMzMDMzMDcxOCwtMTIxODMxMjk5NiwxOTMwNzcxMjY4LC
-0zMTgwNjAyMzYsMTAxNDUzMDYxMSwtNjMyNDEzNywtMTAzNTI2
-MjQ1NCwxODg4ODU3NiwtOTc4MzUwNTE4LDEwMzQzMjYwMTQsMT
-IyOTgzNDkxNCwxMzk0MTA1NTg0LDYzMjYzMzc3MCwxOTM2ODg2
-MDcxXX0=
+eyJoaXN0b3J5IjpbLTEyOTM1NDI2OTAsLTIyMDc3Njg5MiwxMj
+g0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5
+NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkzMDc3MTI2OC
+wtMzE4MDYwMjM2LDEwMTQ1MzA2MTEsLTYzMjQxMzcsLTEwMzUy
+NjI0NTQsMTg4ODg1NzYsLTk3ODM1MDUxOCwxMDM0MzI2MDE0LD
+EyMjk4MzQ5MTQsMTM5NDEwNTU4NCw2MzI2MzM3NzAsMTkzNjg4
+NjA3MV19
 -->
