@@ -98,9 +98,10 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 
 ![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
-A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
-We use **peer VPC peering** with other VPCs directly in a point-to-point fashion either within a region or across to another region. 
+***A VPC peering** is a networking connection between two or more VPCs. This enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
+
+
 
 A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
 ![Carrier Gateway](https://docs.aws.amazon.com/wavelength/latest/developerguide/images/aws-wz.png)
@@ -2591,11 +2592,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODc1NTgzOCwtMzQ0MTU5MTYwLDIwNT
-YzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MDc4Nzc3
-LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYwNSwtMj
-A5MzkwMzY5NCwxOTI2Mjc2ODk5LC0yMjA3NzY4OTIsMTI4NDUx
-MjE5NiwtMjA5NTUzMjQ3MywtNTUxNjY3NjQ4LDUwMzI4OTUxMS
-wtMzMwMzMwNzE4LC0xMjE4MzEyOTk2LDE5MzA3NzEyNjgsLTMx
-ODA2MDIzNl19
+eyJoaXN0b3J5IjpbLTI3NzcxMzY4MSwxMzY4NzU1ODM4LC0zND
+QxNTkxNjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0
+MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNT
+E5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYyNzY4OTksLTIyMDc3
+Njg5MiwxMjg0NTEyMTk2LC0yMDk1NTMyNDczLC01NTE2Njc2ND
+gsNTAzMjg5NTExLC0zMzAzMzA3MTgsLTEyMTgzMTI5OTYsMTkz
+MDc3MTI2OF19
 -->
