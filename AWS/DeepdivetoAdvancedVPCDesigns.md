@@ -133,7 +133,7 @@ The security and monitoring appliances can be deployed as individual instances, 
 - Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
 - Session — An entity that describes Traffic Mirroring from a source to a target using filters.
 
-Lastly we have global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions.
+Lastly there is global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions. By default, Global Accelerator provides you with two static IP addresses that you associate with your accelerator. (Or, instead of using the IP addresses that Global Accelerator provides, you can configure these entry points to be IPv4 addresses from your own IP address ranges that you bring to Global Accelerator.) The static IP addresses are anycast from the AWS edge network and distribute incoming application traffic across multiple endpoint resources in multiple AWS Regions, which increases the availability of your applications. Endpoints can be Network Load Balancers, Application Load Balancers, Amazon EC2 instances, or Elastic IP addresses that are located in one AWS Region or multiple Regions.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2554,11 +2554,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNDk4NjY4LC0xOTY2NTg4OTc0LDEzNj
-g3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMyNjAyLC01ODQ3ODM0
-MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMTk4OTcyLC0xOD
-M4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2OTQsMTkyNjI3
-Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1MzI0Nz
-MsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMzMDMzMDcxOCwtMTIx
-ODMxMjk5Nl19
+eyJoaXN0b3J5IjpbLTE1NTU3NDQ2MjgsNzUwNDk4NjY4LC0xOT
+Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
+NjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNT
+gxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5
+MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOT
+YsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMyODk1MTEsLTMz
+MDMzMDcxOF19
 -->
