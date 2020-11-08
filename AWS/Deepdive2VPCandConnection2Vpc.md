@@ -75,11 +75,10 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 ![ClientVPN](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/clientvpn.png?raw=true)
 
-- **AWS VPN CloudHub**	If you have multiple AWS Site-to-Site VPN connections, you can provide secure communication between sites using the AWS VPN CloudHub. This enables your remote sites to communicate with each other, and not just with the VPC. The VPN CloudHub operates on a simple hub-and-spoke model that you can use with or without a VPC. This design is suitable if you have multiple branch offices and existing internet connections and would like to implement a convenient, potentially low-cost hub-and-spoke model for primary or backup connectivity between these remote offices.
-
-The sites must not have overlapping IP ranges.
+- **AWS VPN CloudHub**	If you have multiple AWS Site-to-Site VPN connections, you can provide secure communication between sites using the AWS VPN CloudHub. This enables your remote sites to communicate with each other, and not just with the VPC. The VPN CloudHub operates on a simple hub-and-spoke model that you can use with or without a VPC. This design is suitable if you have multiple branch offices and existing internet connections and would like to implement a convenient, potentially low-cost hub-and-spoke model for primary or backup connectivity between these remote offices.  The sites must not have overlapping IP ranges.
 
 ![AWS VPN Cloud HUB](https://docs.aws.amazon.com/vpn/latest/s2svpn/images/AWS_VPN_CloudHub-diagram.png)
+
 
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
 
@@ -172,5 +171,6 @@ You can use an accelerated VPN connection to avoid network disruptions that migh
 
 When you create an accelerated VPN connection, AWS create and manage two accelerators on your behalf, one for each VPN tunnel. You cannot view or manage these accelerators yourself by using the AWS Global Accelerator console or APIs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDYzNjgwLDQxMTUyNjg1NF19
+eyJoaXN0b3J5IjpbMTg5NDM2NzYyNiw3MzU0NjM2ODAsNDExNT
+I2ODU0XX0=
 -->
