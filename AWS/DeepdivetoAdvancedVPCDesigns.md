@@ -78,7 +78,7 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
-
+![AWS Direct Connect and VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image10.png)
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
@@ -2570,11 +2570,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNjgzMTg3LC0xMjgyOTA4Nzk5LC03Nz
-QyODg0NzUsLTYzODM4NTE1LDEyMDQ4NTU0MjIsLTMwMTE0MDkx
-MCwxMTkzOTM4NDQyLC0yMzg0NzU4MCw3NTA0OTg2NjgsLTE5Nj
-Y1ODg5NzQsMTM2ODc1NTgzOCwtMzQ0MTU5MTYwLDIwNTYzMzI2
-MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MDc4Nzc3LDE1OD
-ExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYwNSwtMjA5Mzkw
-MzY5NF19
+eyJoaXN0b3J5IjpbLTE4Nzc5MDI4NTUsLTEyODI5MDg3OTksLT
+c3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQw
+OTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMT
+k2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMz
+MjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMT
+U4MTE5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkz
+OTAzNjk0XX0=
 -->
