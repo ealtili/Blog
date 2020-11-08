@@ -91,21 +91,11 @@ By default direct connect traffic is not encrypted with this solution combines t
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
-The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection via Direct Connect Gateway with transit virtual interface to all of your VPCs can in a single region.
-
-![Direct Connect Gateway](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct-connect-tgw.png)
-
-This configuration offers the following benefits. You can:
-
-- Manage a single connection for multiple VPCs or VPNs that are in the same Region.
-- Advertise prefixes from on-premises to AWS and from AWS to on-premises.
-
 With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router which is Transit Gateway for Amazon VPCs over a private dedicated connection, as shown in the following figure
 
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image11.png)
 
 Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
-
 
 **Transit Gateway Network Manager** (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
 
@@ -2579,11 +2569,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjc3MjA3NiwxMDY3NTQxODM0LC0xMj
-gyOTA4Nzk5LC03NzQyODg0NzUsLTYzODM4NTE1LDEyMDQ4NTU0
-MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMzg0NzU4MCw3NT
-A0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMzQ0MTU5
-MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMj
-Q5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIy
-NTYwNV19
+eyJoaXN0b3J5IjpbMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyOD
+I5MDg3OTksLTc3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQy
+MiwtMzAxMTQwOTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MD
+Q5ODY2OCwtMTk2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkx
+NjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyND
+kwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1
+NjA1XX0=
 -->
