@@ -32,7 +32,7 @@ When we're communicating inside the VPC we will actually use **route tables** th
 
 For a private subnet we can send traffic via **NAT instance** or **NAT Gateway** instead of directly to the public Internet.  Then the NAT instance or NAT Gateway (is a managed scalable service) has the ability to communicate with the public internet. 
 
-![NAT Gateway]((https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
+![NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 A **VPC endpoints** enables private connections between your VPC and supported AWS services. VPC endpoint services powered by AWS PrivateLink. A VPC endpoint does not require an internet gateway, NAT device, VPN connection or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
@@ -172,5 +172,5 @@ You can use an accelerated VPN connection to avoid network disruptions that migh
 
 When you create an accelerated VPN connection, AWS create and manage two accelerators on your behalf, one for each VPN tunnel. You cannot view or manage these accelerators yourself by using the AWS Global Accelerator console or APIs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc4NzU4NjYsNDExNTI2ODU0XX0=
+eyJoaXN0b3J5IjpbNzM1NDYzNjgwLDQxMTUyNjg1NF19
 -->
