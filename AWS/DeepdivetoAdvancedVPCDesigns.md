@@ -112,7 +112,10 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 ***A VPC peering** is a networking connection between two or more VPCs. This enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
-You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. You can't have transitive peering. You have a VPC peering connection between VPC A and VPC B (pcx-aaaabbbb), and between VPC A and VPC C (pcx-aaaacccc). There is no VPC peering connection between VPC B and VPC C. You cannot route packets directly from VPC B to VPC C through VPC A.
+You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. 
+
+
+You can't have transitive peering. You have a VPC peering connection between VPC A and VPC B (pcx-aaaabbbb), and between VPC A and VPC C (pcx-aaaacccc). There is no VPC peering connection between VPC B and VPC C. You cannot route packets directly from VPC B to VPC C through VPC A.
 
 ![](https://docs.aws.amazon.com/vpc/latest/peering/images/transitive-peering-diagram.png)
 
@@ -2569,11 +2572,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjM4OTQxLDEwNDk1OTY2NywxMDY3NT
-QxODM0LC0xMjgyOTA4Nzk5LC03NzQyODg0NzUsLTYzODM4NTE1
-LDEyMDQ4NTU0MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMz
-g0NzU4MCw3NTA0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgz
-OCwtMzQ0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OT
-M0NTAwNDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTQ5MDE5NzU4NywtODE2Mzg5NDEsMTA0OT
+U5NjY3LDEwNjc1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3
+NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOT
+M5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3
+NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNT
+g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
+Ml19
 -->
