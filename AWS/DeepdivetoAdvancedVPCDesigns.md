@@ -133,7 +133,11 @@ The security and monitoring appliances can be deployed as individual instances, 
 - Filter — A set of rules that defines the traffic that is copied in a traffic mirror session.
 - Session — An entity that describes Traffic Mirroring from a source to a target using filters.
 
-Lastly there is global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. Global Accelerator is a global service that supports endpoints in multiple AWS Regions. By default, Global Accelerator provides you with two static IP addresses that you associate with your accelerator. (Or, instead of using the IP addresses that Global Accelerator provides, you can configure these entry points to be IPv4 addresses from your own IP address ranges that you bring to Global Accelerator.) The static IP addresses are anycast from the AWS edge network and distribute incoming application traffic across multiple endpoint resources in multiple AWS Regions, which increases the availability of your applications. Endpoints can be Network Load Balancers, Application Load Balancers, Amazon EC2 instances, or Elastic IP addresses that are located in one AWS Region or multiple Regions. Global Accelerator uses the AWS global network to route traffic to the optimal regional endpoint based on health, client location, and policies that you configure. The service reacts instantly to changes in health or configuration to ensure that internet traffic from clients is always directed to healthy endpoints.
+Lastly there is global accelerator. It basically allows you to front things in the VPC at edge locations. **AWS Global Accelerator** is a service in which you create accelerators to improve availability and performance of your applications for local and global users. Global Accelerator directs traffic to optimal endpoints over the AWS global network. This improves the availability and performance of your internet applications that are used by a global audience. 
+
+![AWS Global Accelerator](https://d1.awsstatic.com/Networking/AGA-Multi-Region-Usecase-2000px.39194f2f7dd49fca26217836d10d522298c1abcc.png)
+
+Global Accelerator is a global service that supports endpoints in multiple AWS Regions. By default, Global Accelerator provides you with two static IP addresses that you associate with your accelerator. (Or, instead of using the IP addresses that Global Accelerator provides, you can configure these entry points to be IPv4 addresses from your own IP address ranges that you bring to Global Accelerator.) The static IP addresses are anycast from the AWS edge network and distribute incoming application traffic across multiple endpoint resources in multiple AWS Regions, which increases the availability of your applications. Endpoints can be Network Load Balancers, Application Load Balancers, Amazon EC2 instances, or Elastic IP addresses that are located in one AWS Region or multiple Regions. Global Accelerator uses the AWS global network to route traffic to the optimal regional endpoint based on health, client location, and policies that you configure. The service reacts instantly to changes in health or configuration to ensure that internet traffic from clients is always directed to healthy endpoints.
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
@@ -2554,11 +2558,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2Nj
-U4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYw
-MiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MT
-E5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAz
-Njk0LDE5MjYyNzY4OTksLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC
-0yMDk1NTMyNDczLC01NTE2Njc2NDgsNTAzMjg5NTExLC0zMzAz
-MzA3MThdfQ==
+eyJoaXN0b3J5IjpbMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwND
+k4NjY4LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2
+MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OT
+A3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2
+MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLD
+EyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMy
+ODk1MTFdfQ==
 -->
