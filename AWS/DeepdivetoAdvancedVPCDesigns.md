@@ -1,4 +1,4 @@
-# Deepdive VPC and Advanced VPC Designs
+# Deepdive to VPC and Connection to VPC
 
 Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS virtual networking environment.  How new Amazon VPC features might affect the way to design AWS networking infrastructure, or even change existing architectures? Let's explore the new design and capabilities of VPC and how to use them.
 
@@ -10,7 +10,7 @@ Amazon VPC (Virtual Private Cloud ) enables to have complete control over AWS vi
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-Diagram above gives an idea about Amazon VPC Architecture. We will have a look at these com
+Diagram above gives an idea about Amazon VPC Architecture. We will have a look at these components and carrier gateway which is not in the diagram.
 
 **VPC** is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
@@ -2579,7 +2579,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTA2NDQzMSwxNjkwMzc5ODkyLC04MT
+eyJoaXN0b3J5IjpbMTMxODE1MTU2MSwxNjkwMzc5ODkyLC04MT
 YzODk0MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5
 OSwtNzc0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMD
 ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
