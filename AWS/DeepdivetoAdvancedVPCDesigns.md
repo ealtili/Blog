@@ -135,6 +135,10 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  You can create a flow log for a VPC, subnet, or individual network interface.  You can Determine the direction of the traffic to and from the network interfaces. Flow log data is published to CloudWatch Logs or Amazon S3, and can help you Monitoring the traffic, diagnose overly restrictive or overly permissive security group and network ACL rules. Flow log data is collected outside of the path of your network traffic, and therefore does not affect network throughput or latency. You can create or delete flow logs without any risk of impact to network performance.
 
+![VPC Flow log](https://docs.aws.amazon.com/vpc/latest/userguide/images/flow-logs-diagram.png)
+
+In the example above, you create a flow log (fl-aaa) that captures accepted traffic for the network interface for instance A1 and publishes the flow log records to an Amazon S3 bucket. You create a second flow log that captures all traffic for subnet B and publishes the flow log records to Amazon CloudWatch Logs. The flow log (fl-bbb) captures traffic for all network interfaces in subnet B. There are no flow logs that capture traffic for instance A2's network interface.
+
 **Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances.  You can then send the traffic to out-of-band security and monitoring appliances for:
 
 - Content inspection
@@ -2574,11 +2578,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTkxMTc4MCwxNjkwMzc5ODkyLC04MT
-YzODk0MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5
-OSwtNzc0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMD
-ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
-LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMD
-U2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3
-N119
+eyJoaXN0b3J5IjpbLTEwODEwMjU4NTQsMTY5MDM3OTg5MiwtOD
+E2Mzg5NDEsMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyODI5MDg3
+OTksLTc3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMz
+AxMTQwOTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2
+OCwtMTk2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMj
+A1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3
+NzddfQ==
 -->
