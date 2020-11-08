@@ -130,13 +130,16 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 **VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
 
-![Traffic Mirroring](https://docs.aws.amazon.com/vpc/latest/mirroring/images/traffic-mirroring.png)
 
-**Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. You can then send the traffic to out-of-band security and monitoring appliances for:
+
+**Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. 
+You can then send the traffic to out-of-band security and monitoring appliances for:
 
 - Content inspection
 - Threat monitoring
 - Troubleshooting
+
+![Traffic Mirroring](https://docs.aws.amazon.com/vpc/latest/mirroring/images/traffic-mirroring.png)
 
 The security and monitoring appliances can be deployed as individual instances, or as a fleet of instances behind a Network Load Balancer with a UDP listener. Traffic Mirroring supports filters and packet truncation, so that you only extract the traffic of interest to monitor by using monitoring tools of your choice. The following are the key concepts for Traffic Mirroring:
 
@@ -2569,11 +2572,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyOD
-I5MDg3OTksLTc3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQy
-MiwtMzAxMTQwOTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MD
-Q5ODY2OCwtMTk2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkx
-NjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyND
-kwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTEwMzY1NTA1MjksMTA0OTU5NjY3LDEwNj
+c1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNjM4Mzg1
+MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0NDIsLT
+IzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMzY4NzU1
+ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNTg0NzgzNDIyLD
+c5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMTgzODE3
+NDY3Nl19
 -->
