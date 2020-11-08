@@ -164,6 +164,9 @@ Global Accelerator is a global service that supports endpoints in multiple AWS R
 ![Accelerated S2S VPN](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/images/image7.png)
 
 You can optionally enable acceleration for your Site-to-Site VPN connection. An accelerated Site-to-Site VPN connection (accelerated VPN connection) uses AWS Global Accelerator to route traffic from your on-premises network to an AWS edge location that is closest to your customer gateway device. AWS Global Accelerator optimizes the network path, using the congestion-free AWS global network to route traffic to the endpoint that provides the best application performance.
+You can use an accelerated VPN connection to avoid network disruptions that might occur when traffic is routed over the public internet.
+
+When you create an accelerated VPN connection, AWS create and manage two accelerators on your behalf, one for each VPN tunnel. You cannot view or manage these accelerators yourself by using the AWS Global Accelerator console or APIs.
 
 
 
@@ -2579,11 +2582,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDY3NDA0MCwtMjkzMDQ5Nzg2LDEzMT
-gxNTE1NjEsMTY5MDM3OTg5MiwtODE2Mzg5NDEsMTA0OTU5NjY3
-LDEwNjc1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNj
-M4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0
-NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMz
-Y4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNTg0Nzgz
-NDIyXX0=
+eyJoaXN0b3J5IjpbLTE3NDg1MDcxNzYsMTQyNDY3NDA0MCwtMj
+kzMDQ5Nzg2LDEzMTgxNTE1NjEsMTY5MDM3OTg5MiwtODE2Mzg5
+NDEsMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyODI5MDg3OTksLT
+c3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQw
+OTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMT
+k2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMz
+MjYwMl19
 -->
