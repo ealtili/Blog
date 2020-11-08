@@ -73,7 +73,7 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 - **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
 
-
+![AWS VPN Cloud HUB](https://docs.aws.amazon.com/vpn/latest/s2svpn/images/AWS_VPN_CloudHub-diagram.png)
 
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
 
@@ -2580,11 +2580,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTM3Nzg0OSwtMTI4MjkwODc5OSwtNz
-c0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMDExNDA5
-MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOT
-Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
-NjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNT
-gxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5
-MDM2OTRdfQ==
+eyJoaXN0b3J5IjpbLTIwMjIyOTczNjYsLTEyODI5MDg3OTksLT
+c3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQw
+OTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMT
+k2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMz
+MjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMT
+U4MTE5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkz
+OTAzNjk0XX0=
 -->
