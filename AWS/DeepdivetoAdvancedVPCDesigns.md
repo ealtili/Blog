@@ -78,7 +78,7 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
-With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router whfor Amazon VPCs over a private dedicated connection, as shown in the following figure
+With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router which is Transit Gateway for Amazon VPCs over a private dedicated connection, as shown in the following figure
 
 ![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image11.png)
 
@@ -2567,11 +2567,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNTI0MDIwLC03NzQyODg0NzUsLTYzOD
-M4NTE1LDEyMDQ4NTU0MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQy
-LC0yMzg0NzU4MCw3NTA0OTg2NjgsLTE5NjY1ODg5NzQsMTM2OD
-c1NTgzOCwtMzQ0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQy
-Miw3OTM0NTAwNDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4Mz
-gxNzQ2NzYsLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2
-ODk5XX0=
+eyJoaXN0b3J5IjpbLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNj
+M4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0
+NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMz
+Y4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNTg0Nzgz
+NDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMT
+gzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYy
+NzY4OTldfQ==
 -->
