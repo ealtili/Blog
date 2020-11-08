@@ -132,8 +132,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 
 
-**Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances. 
-You can then send the traffic to out-of-band security and monitoring appliances for:
+**Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances.  You can then send the traffic to out-of-band security and monitoring appliances for:
 
 - Content inspection
 - Threat monitoring
@@ -2572,7 +2571,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY1NTA1MjksMTA0OTU5NjY3LDEwNj
+eyJoaXN0b3J5IjpbLTEyOTIxMTMwODksMTA0OTU5NjY3LDEwNj
 c1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNjM4Mzg1
 MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0NDIsLT
 IzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMzY4NzU1
