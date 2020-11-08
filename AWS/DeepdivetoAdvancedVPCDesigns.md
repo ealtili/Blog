@@ -161,9 +161,9 @@ Lastly there is global accelerator. It basically allows you to front things in t
 
 Global Accelerator is a global service that supports endpoints in multiple AWS Regions. By default, Global Accelerator provides you with two static IP addresses that you associate with your accelerator. (Or, instead of using the IP addresses that Global Accelerator provides, you can configure these entry points to be IPv4 addresses from your own IP address ranges that you bring to Global Accelerator.) The static IP addresses are anycast from the AWS edge network and distribute incoming application traffic across multiple endpoint resources in multiple AWS Regions, which increases the availability of your applications. Endpoints can be Network Load Balancers, Application Load Balancers, Amazon EC2 instances, or Elastic IP addresses that are located in one AWS Region or multiple Regions. Global Accelerator uses the AWS global network to route traffic to the optimal regional endpoint based on health, client location, and policies that you configure. The service reacts instantly to changes in health or configuration to ensure that internet traffic from clients is always directed to healthy endpoints.
 
+![Accelerated S2S VPN](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/images/image7.png)
 
-
-You can optionally enable acceleration for your Site-to-Site VPN connection. An accelerated Site-to-Site VPN connection (accelerated VPN connection) uses AWS Global Accelerator to route traffic from your on-premises network to an AWS edge location that is closest to your customer gateway device. AWS Global Accelerator optimizes the network path, using the congestion-free AWS global network to route traffic to the endpoint that provides the best application performance (
+You can optionally enable acceleration for your Site-to-Site VPN connection. An accelerated Site-to-Site VPN connection (accelerated VPN connection) uses AWS Global Accelerator to route traffic from your on-premises network to an AWS edge location that is closest to your customer gateway device. AWS Global Accelerator optimizes the network path, using the congestion-free AWS global network to route traffic to the endpoint that provides the best application performance.
 
 
 
@@ -2579,11 +2579,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzA0OTc4NiwxMzE4MTUxNTYxLDE2OT
-AzNzk4OTIsLTgxNjM4OTQxLDEwNDk1OTY2NywxMDY3NTQxODM0
-LC0xMjgyOTA4Nzk5LC03NzQyODg0NzUsLTYzODM4NTE1LDEyMD
-Q4NTU0MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMzg0NzU4
-MCw3NTA0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMz
-Q0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAw
-NDNdfQ==
+eyJoaXN0b3J5IjpbMTQyNDY3NDA0MCwtMjkzMDQ5Nzg2LDEzMT
+gxNTE1NjEsMTY5MDM3OTg5MiwtODE2Mzg5NDEsMTA0OTU5NjY3
+LDEwNjc1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNj
+M4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0
+NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMz
+Y4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNTg0Nzgz
+NDIyXX0=
 -->
