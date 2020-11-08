@@ -64,6 +64,8 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 ![site2sitevpn](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/site2sitevpn.png?raw=true)
 
+You can migrate S2S VPN to AWS transit gateway. 
+ 
 - **AWS Client VPN**: This is a managed client-based VPN service that enables you to securely access your AWS resources or your on-premises network. With AWS Client VPN, you configure an endpoint to which your users can connect to establish a secure TLS VPN session. This enables clients to access resources in AWS or an on-premises from any location using an OpenVPN-based VPN client.
 
 
@@ -2564,11 +2566,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOT
-M5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3
-NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNT
-g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
-MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LD
-E5MjYyNzY4OTksLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1
-NTMyNDczXX0=
+eyJoaXN0b3J5IjpbLTM5NjQ1ODQyNSwxMjA0ODU1NDIyLC0zMD
+ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
+LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMD
+U2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3
+NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLT
+IwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1
+MTIxOTZdfQ==
 -->
