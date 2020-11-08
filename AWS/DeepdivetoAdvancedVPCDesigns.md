@@ -159,9 +159,8 @@ Lastly there is global accelerator. It basically allows you to front things in t
 
 Global Accelerator is a global service that supports endpoints in multiple AWS Regions. By default, Global Accelerator provides you with two static IP addresses that you associate with your accelerator. (Or, instead of using the IP addresses that Global Accelerator provides, you can configure these entry points to be IPv4 addresses from your own IP address ranges that you bring to Global Accelerator.) The static IP addresses are anycast from the AWS edge network and distribute incoming application traffic across multiple endpoint resources in multiple AWS Regions, which increases the availability of your applications. Endpoints can be Network Load Balancers, Application Load Balancers, Amazon EC2 instances, or Elastic IP addresses that are located in one AWS Region or multiple Regions. Global Accelerator uses the AWS global network to route traffic to the optimal regional endpoint based on health, client location, and policies that you configure. The service reacts instantly to changes in health or configuration to ensure that internet traffic from clients is always directed to healthy endpoints.
 
-![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-Diagram above gives an idea about Amazon VPC Architecture.
+
 
 
 
@@ -2578,11 +2577,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEwMjU4NTQsMTY5MDM3OTg5MiwtOD
-E2Mzg5NDEsMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyODI5MDg3
-OTksLTc3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMz
-AxMTQwOTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2
-OCwtMTk2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMj
-A1NjMzMjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3
-NzddfQ==
+eyJoaXN0b3J5IjpbMTY5OTU2MjcwNSwxNjkwMzc5ODkyLC04MT
+YzODk0MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5
+OSwtNzc0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMD
+ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
+LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMD
+U2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3
+N119
 -->
