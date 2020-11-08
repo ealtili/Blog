@@ -61,6 +61,9 @@ We might want to connect to our own premises so we'll use Direct Connect or VPN.
 You can connect your Amazon VPC to remote networks and users using the following VPN connectivity options.
 
 - **AWS Site-to-Site VPN**: You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the Site-to-Site VPN connection, a virtual private gateway or transit gateway provides two VPN endpoints (tunnels) for automatic failover. You configure your customer gateway device on the remote side of the Site-to-Site VPN connection.
+
+![site2sitevpn](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/site2sitevpn.png)
+
 - **AWS Client VPN**: This is a managed client-based VPN service that enables you to securely access your AWS resources or your on-premises network. With AWS Client VPN, you configure an endpoint to which your users can connect to establish a secure TLS VPN session. This enables clients to access resources in AWS or an on-premises from any location using an OpenVPN-based VPN client.
 - **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
@@ -2558,11 +2561,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwND
-k4NjY4LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2
-MCwyMDU2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OT
-A3ODc3NywxNTgxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2
-MDUsLTIwOTM5MDM2OTQsMTkyNjI3Njg5OSwtMjIwNzc2ODkyLD
-EyODQ1MTIxOTYsLTIwOTU1MzI0NzMsLTU1MTY2NzY0OCw1MDMy
-ODk1MTFdfQ==
+eyJoaXN0b3J5IjpbLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMz
+g0NzU4MCw3NTA0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgz
+OCwtMzQ0MTU5MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OT
+M0NTAwNDMsMjQ5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2
+NzYsLTUxOTIyNTYwNSwtMjA5MzkwMzY5NCwxOTI2Mjc2ODk5LC
+0yMjA3NzY4OTIsMTI4NDUxMjE5NiwtMjA5NTUzMjQ3MywtNTUx
+NjY3NjQ4XX0=
 -->
