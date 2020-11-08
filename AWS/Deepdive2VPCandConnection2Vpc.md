@@ -14,6 +14,8 @@ Diagram above gives an idea about Amazon VPC Architecture. We will have a look a
 
 **VPC** is a region level service which you assign a cidr address range. There are multiple availability zones, public subnets, private subnets. We can deploy ec2 instances inside these subnets in the availability zones of the VPC in the region.
 
+![VPC](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/VPC.png)
+
 AWS services has two different classes or types of services which are public services and private services. 
 
 Anything inside the VPC is **private** and it's a domain that you manage and you control.  
@@ -170,5 +172,5 @@ You can use an accelerated VPN connection to avoid network disruptions that migh
 
 When you create an accelerated VPN connection, AWS create and manage two accelerators on your behalf, one for each VPN tunnel. You cannot view or manage these accelerators yourself by using the AWS Global Accelerator console or APIs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNTI2ODU0XX0=
+eyJoaXN0b3J5IjpbMTI0MzU2NzY5Miw0MTE1MjY4NTRdfQ==
 -->
