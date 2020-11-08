@@ -79,8 +79,6 @@ The sites must not have overlapping IP ranges.
 
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
 
-
-
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
 ![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
@@ -2582,11 +2580,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzU0MTgzNCwtMTI4MjkwODc5OSwtNz
-c0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMDExNDA5
-MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOT
-Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
-NjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNT
-gxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5
-MDM2OTRdfQ==
+eyJoaXN0b3J5IjpbMTU3NjEwMzIwNiwxMDY3NTQxODM0LC0xMj
+gyOTA4Nzk5LC03NzQyODg0NzUsLTYzODM4NTE1LDEyMDQ4NTU0
+MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMzg0NzU4MCw3NT
+A0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMzQ0MTU5
+MTYwLDIwNTYzMzI2MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMj
+Q5MDc4Nzc3LDE1ODExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIy
+NTYwNV19
 -->
