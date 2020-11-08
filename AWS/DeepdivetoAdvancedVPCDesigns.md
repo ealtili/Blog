@@ -72,12 +72,16 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 ![ClientVPN](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/clientvpn.png?raw=true)
 
 - **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
+
+
+
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
 
-![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
+
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
+![AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/images/direct_connect_overview.png)
 
 AWS Direct Connect + VPN, you can combine AWS Direct Connect dedicated network connections with the Amazon VPC VPN. AWS Direct Connect public VIF established a dedicated network connection between your network to public AWS resources, such as an Amazon virtual private gateway IPsec endpoint. The following figure illustrates this option.
 
@@ -2576,7 +2580,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTQ5NzM0NywtMTI4MjkwODc5OSwtNz
+eyJoaXN0b3J5IjpbMTM2OTM3Nzg0OSwtMTI4MjkwODc5OSwtNz
 c0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMDExNDA5
 MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOT
 Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
