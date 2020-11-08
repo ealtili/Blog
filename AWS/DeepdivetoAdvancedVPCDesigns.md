@@ -133,7 +133,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-**VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  You can create a flow log for a VPC, subnet, or individual network interface. Flow log data is published to CloudWatch Logs or Amazon S3, and can help you Monitoring the traffic, diagnose overly restrictive or overly permissive security group and network ACL rules. Flow log data is collected outside of the path of your network traffic, and therefore does not affect network throughput or latency. You can create or delete flow logs without any risk of impact to network performance.
+**VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  You can create a flow log for a VPC, subnet, or individual network interface.  You can Determine the direction of the traffic to and from the network interfaces. Flow log data is published to CloudWatch Logs or Amazon S3, and can help you Monitoring the traffic, diagnose overly restrictive or overly permissive security group and network ACL rules. Flow log data is collected outside of the path of your network traffic, and therefore does not affect network throughput or latency. You can create or delete flow logs without any risk of impact to network performance.
 
 **Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances.  You can then send the traffic to out-of-band security and monitoring appliances for:
 
@@ -2574,7 +2574,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDU0MjA1NCwxNjkwMzc5ODkyLC04MT
+eyJoaXN0b3J5IjpbMTE0NTkxMTc4MCwxNjkwMzc5ODkyLC04MT
 YzODk0MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5
 OSwtNzc0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMD
 ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
