@@ -133,7 +133,7 @@ Carrier gateways are only available for VPCs that contain subnets in a Wavelengt
 
 ![VPC](https://raw.githubusercontent.com/ealtili/Blog/master/AWS/vpcdeepdive/VPC.png)
 
-**VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  Flow log data can be published to Amazon CloudWatch Logs or Amazon S3.
+**VPC Flow Logs** is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.  You can create a flow log for a VPC, subnet, or individual network interface. Flow log data is published to CloudWatch Logs or Amazon S3, and can help you Monitoring the traffic, diagnose overly restrictive or overly permissive security group and network ACL rules. Flow log data is collected outside of the path of your network traffic, and therefore does not affect network throughput or latency. You can create or delete flow logs without any risk of impact to network performance.
 
 **Traffic Mirroring** is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances.  You can then send the traffic to out-of-band security and monitoring appliances for:
 
@@ -2574,11 +2574,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDM3OTg5MiwtODE2Mzg5NDEsMTA0OT
-U5NjY3LDEwNjc1NDE4MzQsLTEyODI5MDg3OTksLTc3NDI4ODQ3
-NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOT
-M5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3
-NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNT
-g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
-Ml19
+eyJoaXN0b3J5IjpbMTM1MDU0MjA1NCwxNjkwMzc5ODkyLC04MT
+YzODk0MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5
+OSwtNzc0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMD
+ExNDA5MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4
+LC0xOTY2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMD
+U2MzMyNjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3
+N119
 -->
