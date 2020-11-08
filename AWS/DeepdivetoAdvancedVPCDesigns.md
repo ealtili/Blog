@@ -71,7 +71,9 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 ![ClientVPN](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/clientvpn.png?raw=true)
 
-- **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
+- **AWS VPN CloudHub**	If you have multiple AWS Site-to-Site VPN connections, you can provide secure communication between sites using the AWS VPN CloudHub. This enables your remote sites to communicate with each other, and not just with the VPC. The VPN CloudHub operates on a simple hub-and-spoke model that you can use with or without a VPC. This design is suitable if you have multiple branch offices and existing internet connections and would like to implement a convenient, potentially low-cost hub-and-spoke model for primary or backup connectivity between these remote offices.
+
+The sites must not have overlapping IP ranges.
 
 ![AWS VPN Cloud HUB](https://docs.aws.amazon.com/vpn/latest/s2svpn/images/AWS_VPN_CloudHub-diagram.png)
 
@@ -2580,11 +2582,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIyOTczNjYsLTEyODI5MDg3OTksLT
-c3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQw
-OTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMT
-k2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMz
-MjYwMiwtNTg0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMT
-U4MTE5ODk3MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkz
-OTAzNjk0XX0=
+eyJoaXN0b3J5IjpbMTA2NzU0MTgzNCwtMTI4MjkwODc5OSwtNz
+c0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMDExNDA5
+MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOT
+Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
+NjAyLC01ODQ3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNT
+gxMTk4OTcyLC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5
+MDM2OTRdfQ==
 -->
