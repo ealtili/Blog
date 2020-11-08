@@ -78,11 +78,7 @@ https://aws.amazon.com/about-aws/whats-new/2019/04/migrate-your-aws-site-to-site
 
 AWS **Direct Connect** links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create virtual interfaces directly to public AWS services (for example, to Amazon S3) or private virtual interfaces to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the Region with which it is associated. 
 
-With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router which is Transit Gateway for Amazon VPCs over a private dedicated connection, as shown in the following figure
 
-![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image11.png)
-
-Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
 
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
@@ -94,6 +90,13 @@ This configuration offers the following benefits. You can:
 
 - Manage a single connection for multiple VPCs or VPNs that are in the same Region.
 - Advertise prefixes from on-premises to AWS and from AWS to on-premises.
+
+With AWS Direct Connect + AWS Transit Gateway + VPN, using public VIF on AWS Direct Connect, enables end-to-end IPSec-encrypted connections between your networks and a regional centralized router which is Transit Gateway for Amazon VPCs over a private dedicated connection, as shown in the following figure
+
+![AWS Direct Connect + AWS Transit Gateway + VPN](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image11.png)
+
+Consider taking this approach when you want to simplify management and minimize the cost of IPSec VPN connections to multiple Amazon VPCs in the same region, with the low latency and consistent network experience benefits of a private dedicated connection over an internet-based VPN
+
 
 **Transit Gateway Network Manager** (Network Manager) enables you to centrally manage your networks that are built around transit gateways. You can visualize and monitor your global network across AWS Regions and on-premises locations.
 
@@ -2567,11 +2570,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI5MDg3OTksLTc3NDI4ODQ3NSwtNj
-M4Mzg1MTUsMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOTM5Mzg0
-NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3NCwxMz
-Y4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNTg0Nzgz
-NDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3MiwtMT
-gzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LDE5MjYy
-NzY4OTldfQ==
+eyJoaXN0b3J5IjpbOTMxNjgzMTg3LC0xMjgyOTA4Nzk5LC03Nz
+QyODg0NzUsLTYzODM4NTE1LDEyMDQ4NTU0MjIsLTMwMTE0MDkx
+MCwxMTkzOTM4NDQyLC0yMzg0NzU4MCw3NTA0OTg2NjgsLTE5Nj
+Y1ODg5NzQsMTM2ODc1NTgzOCwtMzQ0MTU5MTYwLDIwNTYzMzI2
+MDIsLTU4NDc4MzQyMiw3OTM0NTAwNDMsMjQ5MDc4Nzc3LDE1OD
+ExOTg5NzIsLTE4MzgxNzQ2NzYsLTUxOTIyNTYwNSwtMjA5Mzkw
+MzY5NF19
 -->
