@@ -62,9 +62,12 @@ You can connect your Amazon VPC to remote networks and users using the following
 
 - **AWS Site-to-Site VPN**: You can create an IPsec VPN connection between your VPC and your remote network. On the AWS side of the Site-to-Site VPN connection, a virtual private gateway or transit gateway provides two VPN endpoints (tunnels) for automatic failover. You configure your customer gateway device on the remote side of the Site-to-Site VPN connection.
 
-![site2sitevpn](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/site2sitevpn.png)
+![site2sitevpn](https://github.com/ealtili/Blog/blob/master/AWS/vpcdeepdive/site2sitevpn.png?raw=true)
 
 - **AWS Client VPN**: This is a managed client-based VPN service that enables you to securely access your AWS resources or your on-premises network. With AWS Client VPN, you configure an endpoint to which your users can connect to establish a secure TLS VPN session. This enables clients to access resources in AWS or an on-premises from any location using an OpenVPN-based VPN client.
+
+
+
 - **AWS VPN CloudHub**	If you have more than one remote network (for example, multiple branch offices), you can create multiple AWS Site-to-Site VPN connections via your virtual private gateway to enable communication between these networks. 
 - **Third party software VPN appliance** You can create a VPN connection to your remote network by using an Amazon EC2 instance in your VPC that's running a third party software VPN appliance. AWS does not provide or maintain third party software VPN appliances; however, you can choose from a range of products provided by partners and open source communities
 
@@ -2561,11 +2564,11 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjA3MjIwLC0zMDExNDA5MTAsMTE5Mz
-kzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOTY2NTg4OTc0
-LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMyNjAyLC01OD
-Q3ODM0MjIsNzkzNDUwMDQzLDI0OTA3ODc3NywxNTgxMTk4OTcy
-LC0xODM4MTc0Njc2LC01MTkyMjU2MDUsLTIwOTM5MDM2OTQsMT
-kyNjI3Njg5OSwtMjIwNzc2ODkyLDEyODQ1MTIxOTYsLTIwOTU1
-MzI0NzNdfQ==
+eyJoaXN0b3J5IjpbMTIwNDg1NTQyMiwtMzAxMTQwOTEwLDExOT
+M5Mzg0NDIsLTIzODQ3NTgwLDc1MDQ5ODY2OCwtMTk2NjU4ODk3
+NCwxMzY4NzU1ODM4LC0zNDQxNTkxNjAsMjA1NjMzMjYwMiwtNT
+g0NzgzNDIyLDc5MzQ1MDA0MywyNDkwNzg3NzcsMTU4MTE5ODk3
+MiwtMTgzODE3NDY3NiwtNTE5MjI1NjA1LC0yMDkzOTAzNjk0LD
+E5MjYyNzY4OTksLTIyMDc3Njg5MiwxMjg0NTEyMTk2LC0yMDk1
+NTMyNDczXX0=
 -->
