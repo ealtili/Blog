@@ -112,6 +112,7 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 ![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
 ***A VPC peering** is a networking connection between two or more VPCs. This enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
+
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
 
 You cannot create a VPC peering connection between VPCs with matching or overlapping IPv4 CIDR blocks. 
@@ -126,6 +127,7 @@ To route packets directly between VPC B and VPC C, you can create a separate VPC
 
 You cant have Edge to edge routing through a gateway or private connection. 
 ![](https://docs.aws.amazon.com/vpc/latest/peering/images/edge-to-edge-vpn-diagram.png)
+
 For example, if VPC A and VPC B are peered, and VPC A has any of these connections, then instances in VPC B cannot use the connection to access resources on the other side of the connection. Similarly, resources on the other side of a connection cannot use the connection to access VPC B.
 
 A **carrier gateway** serves two purposes. It allows inbound traffic from a carrier network in a specific location, and it allows outbound traffic to the carrier network and the internet. There is no inbound connection configuration from the internet to a Wavelength Zone through the carrier gateway. A carrier gateway supports IPv4 traffic.
@@ -168,11 +170,11 @@ You can use an accelerated VPN connection to avoid network disruptions that migh
 
 When you create an accelerated VPN connection, AWS create and manage two accelerators on your behalf, one for each VPN tunnel. You cannot view or manage these accelerators yourself by using the AWS Global Accelerator console or APIs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTIyNjIxOCwxNDI0Njc0MDQwLC0yOT
-MwNDk3ODYsMTMxODE1MTU2MSwxNjkwMzc5ODkyLC04MTYzODk0
-MSwxMDQ5NTk2NjcsMTA2NzU0MTgzNCwtMTI4MjkwODc5OSwtNz
-c0Mjg4NDc1LC02MzgzODUxNSwxMjA0ODU1NDIyLC0zMDExNDA5
-MTAsMTE5MzkzODQ0MiwtMjM4NDc1ODAsNzUwNDk4NjY4LC0xOT
-Y2NTg4OTc0LDEzNjg3NTU4MzgsLTM0NDE1OTE2MCwyMDU2MzMy
-NjAyXX0=
+eyJoaXN0b3J5IjpbNDExNTI2ODU0LDEyMDEyMjYyMTgsMTQyND
+Y3NDA0MCwtMjkzMDQ5Nzg2LDEzMTgxNTE1NjEsMTY5MDM3OTg5
+MiwtODE2Mzg5NDEsMTA0OTU5NjY3LDEwNjc1NDE4MzQsLTEyOD
+I5MDg3OTksLTc3NDI4ODQ3NSwtNjM4Mzg1MTUsMTIwNDg1NTQy
+MiwtMzAxMTQwOTEwLDExOTM5Mzg0NDIsLTIzODQ3NTgwLDc1MD
+Q5ODY2OCwtMTk2NjU4ODk3NCwxMzY4NzU1ODM4LC0zNDQxNTkx
+NjBdfQ==
 -->
