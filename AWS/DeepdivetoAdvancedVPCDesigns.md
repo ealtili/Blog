@@ -89,7 +89,6 @@ AWS Direct Connect + VPN, you can combine AWS Direct Connect dedicated network c
 
 By default direct connect traffic is not encrypted with this solution combines the benefits of the end-to-end secure IPSec connection with low latency and increased bandwidth of the AWS Direct Connect to provide a more consistent network experience than internet-based VPN connections. 
 
-
 **Transit gateway** is a service that was launched in about November 2018. A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks. A transit gateway acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC), VPN connections and on premises. 
 
 The diagram illustrates how the Transit gateway enables you to create a single connection to your Direct Connect connection via Direct Connect Gateway with transit virtual interface to all of your VPCs can in a single region.
@@ -2580,7 +2579,7 @@ with these new features thanks for
 
 listening folks catch you next time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjEwMzIwNiwxMDY3NTQxODM0LC0xMj
+eyJoaXN0b3J5IjpbLTIxNjc3MjA3NiwxMDY3NTQxODM0LC0xMj
 gyOTA4Nzk5LC03NzQyODg0NzUsLTYzODM4NTE1LDEyMDQ4NTU0
 MjIsLTMwMTE0MDkxMCwxMTkzOTM4NDQyLC0yMzg0NzU4MCw3NT
 A0OTg2NjgsLTE5NjY1ODg5NzQsMTM2ODc1NTgzOCwtMzQ0MTU5
