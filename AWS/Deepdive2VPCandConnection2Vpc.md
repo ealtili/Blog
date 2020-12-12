@@ -112,6 +112,14 @@ AWS Direct Connect + AWS Transit Gateway, using transit VIF attachment to Direct
 
 ![](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image9.png)
 
+**AWS Transit Gateway Connect** Transit Gateway Connect offers a native way to integrate your SD-WAN infrastructure into AWS. It helps you extend your SD-WAN into AWS without having to set up or manage IPsec VPNs between SD-WAN network virtual appliances and AWS Transit Gateway—reducing the complexity of integration, overall cost as well as significantly reducing operational overhead. ![**AWS Transit Gateway Connect**](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-connect.html)
+
+You can create a transit gateway Connect attachment to establish a connection between a transit gateway and third-party virtual appliances (such as SD-WAN appliances) running in a VPC. A Connect attachment supports the Generic Routing Encapsulation (GRE) tunnel protocol for high performance, and Border Gateway Protocol (BGP) for dynamic routing. After you create a Connect attachment, you can create one or more GRE tunnels (also referred to as Connect peers) on the Connect attachment to connect the transit gateway and the third-party appliance. You establish two BGP sessions over the GRE tunnel to exchange routing information. The two BGP sessions are for redundancy.
+
+A Connect attachment uses an existing VPC or AWS Direct Connect attachment as the underlying transport mechanism. This is referred to as the transport attachment. The transit gateway identifies matched GRE packets from the third-party appliance as traffic from the Connect attachment. It treats any other packets, including GRE packets with incorrect source or destination information, as traffic from the transport attachment.
+
+![**AWS Transit Gateway Appliance Mode**](https://aws.amazon.com/blogs/networking-and-content-delivery/simplify-sd-wan-connectivity-with-aws-transit-gateway-connect/)
+
 ***A VPC peering** is a networking connection between two or more VPCs. This enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 
 ![VPC](https://docs.aws.amazon.com/vpc/latest/peering/images/three-vpcs-peered-diagram.png)
