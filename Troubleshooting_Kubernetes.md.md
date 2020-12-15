@@ -9,11 +9,10 @@ troubleshooting these things is very
 similar. 
 
  1. **Line Endings Issues**
-Line ending issues are issues I encounter at least
-once a week where you have developers
-working on different operating systems
+Line ending issues are the most encountered issues. Mostly occurs because developers
+works on different operating systems and
 each operating system has its own way of
-defining where lines
+defining where lines e
 aim you can see windows over here user
 crlf to determine the end of lines but
 when you work on docker containers that
@@ -497,5 +496,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NjQ0OTc4LC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTkwMzgzNTgsLTk2ODg2OTM1MV19
 -->
