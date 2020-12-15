@@ -18,8 +18,8 @@ Windows uses crlf to determine the end of lines. But
 when you work on docker containers that
 run in kubernetes or any kind of a Linux
 system you have to make sure config file
-scripts and sometimes even coding ml
-files are set to L if you can do this by
+scripts and even yaml
+files are set to LF. if you can do this by
 going to vs code opening the file you
 see I have a file here some script which
 just echoes and you look at the bottom
@@ -496,5 +496,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NDM1MjEwLC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTU2NDM3NjIsLTk2ODg2OTM1MV19
 -->
