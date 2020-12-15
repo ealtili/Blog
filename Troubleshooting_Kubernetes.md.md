@@ -2,7 +2,7 @@
 
 Lets look at troubleshooting
 kubernetes workloads such as pods
-deployments and services. complicated to troubleshoot these things
+deployments and services. Troubleshooting these things is not that complicated  
 but the reality is it's actually quite
 simple
 and this video is gonna be a long one
@@ -500,5 +500,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjM4MzQ5MSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbLTE1NzA2ODY2NDIsLTk2ODg2OTM1MV19
 -->
