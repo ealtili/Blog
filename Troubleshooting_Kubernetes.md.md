@@ -14,10 +14,7 @@ the file.
 
 When you are working with git based source control tool it will automatically check out these files. So for windows developer it will checks out the file and it will automatically switch it back to crlf. If a linux developer
 checks it out it will set it to a lf. This can cause problems because sometimes that file, config file or code
-can end up in a docker container. 
-end up in your production environment
-you'll see ICD can fail and you can have
-problems in production to prevent this
+can be in a docker container. Which ends up in a production environment and CI/CD can fail and you can have problems in production. To prevent this
 at every git repository I'll normally
 try and create and its attributes file
 inside that file I target specifically
@@ -474,5 +471,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQyNDU2MzYsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbOTk3NTAwMjMzLC05Njg4NjkzNTFdfQ==
 -->
