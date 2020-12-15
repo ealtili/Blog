@@ -9,12 +9,12 @@ troubleshooting these things is very
 similar. 
 
  1. **Line Endings Issues**
+
 Line ending issues are the most encountered issues. Mostly occurs because developers
 works on different operating systems and
 each operating system has its own way of
 defining where and how lines ends.
-In windows over here user
-crlf to determine the end of lines but
+Windows uses crlf to determine the end of lines. But
 when you work on docker containers that
 run in kubernetes or any kind of a Linux
 system you have to make sure config file
@@ -496,5 +496,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjE0NjU3OCwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbMzk5NDM1MjEwLC05Njg4NjkzNTFdfQ==
 -->
