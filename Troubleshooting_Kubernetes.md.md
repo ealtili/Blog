@@ -1,12 +1,8 @@
 # Troubleshooting Kubernetes Deployments
 
-what is up YouTube and welcome to
-another video in this video we're going
-to be taking a look at troubleshooting
+Lets look at troubleshooting
 kubernetes workloads such as pods
-deployments and services now a lot of
-the new folks and find it really
-complicated to troubleshoot these things
+deployments and services. complicated to troubleshoot these things
 but the reality is it's actually quite
 simple
 and this video is gonna be a long one
@@ -504,5 +500,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbLTc0MjM4MzQ5MSwtOTY4ODY5MzUxXX0=
 -->
