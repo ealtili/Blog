@@ -4,11 +4,12 @@ Lets look at troubleshooting
 kubernetes workloads such as pods
 deployments and services. Troubleshooting these things is not that complicated. We will look at 
 different scenarios and we will see that
-thought and the pattern of
+thought process and the pattern of
 troubleshooting these things is very
-similar and quite simple so without
-further ado let's go the line ending
-issues are issues I encounter at least
+similar. 
+
+ 1. **Line Endings Issues**
+Line ending issues are issues I encounter at least
 once a week where you have developers
 working on different operating systems
 each operating system has its own way of
@@ -496,5 +497,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTg4MzYyOSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbNDA2NjQ0OTc4LC05Njg4NjkzNTFdfQ==
 -->
