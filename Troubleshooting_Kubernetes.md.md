@@ -12,9 +12,7 @@ the file.
 
 ![](https://i.stack.imgur.com/Bzehj.png)
 
-When you are working with git based source control tool it will automatically check out these files as well so for developer windows developer come and checks out
-the file it will automatically switch it
-back to crlf and if a linux person
+When you are working with git based source control tool it will automatically check out these files. So for windows developer it will checks out the file and it will automatically switch it back to crlf. If a linux person
 checks it out it will set it to a live
 and this can cause problems because
 sometimes that file config file or code
@@ -478,5 +476,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MzEyMjkwLC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbMTUyMDU5NTc2MCwtOTY4ODY5MzUxXX0=
 -->
