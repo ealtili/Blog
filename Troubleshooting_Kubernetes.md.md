@@ -54,10 +54,7 @@ and code files to keep things in lf.
 
 Now this will only help about 80% of the cases. A lot of the time files may still end up with the wrong line
 endings. When you work with docker you might have source files being copied into container images with the wrong line endings. When you have kubernetes clusters you might have config maps and secrets which are being
-uploaded from a developer in this
-machine right into the environment also
-containing the wrong line endings and
-these can cause weird problems now to
+uploaded from a developer machine right into the environment containing the wrong line endings. This can cause weird problems. now to
 show you some of the weirdness you can
 see I created a script a basic batch
 script I've set the line innings to crlf
@@ -491,6 +488,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzQ4MjYyNCwtMTIzNzI3MTAwNSwtOT
-Y4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbLTE4Mjc4MDM5ODAsLTEyMzcyNzEwMDUsLT
+k2ODg2OTM1MV19
 -->
