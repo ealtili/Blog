@@ -19,11 +19,7 @@ when you work on docker containers that
 run in kubernetes or any kind of a Linux
 system you have to make sure config file
 scripts and even yaml
-files are set to LF. In the vscode (Visual Studio Code) open the file you see I have a file here some script which
-just echoes and you look at the bottom
-right corner you will see crlf line
-endings so if we click this we can then
-toggle back to LF and remember to save
+files are set to LF. In the vscode (Visual Studio Code) open the file look at the bottom right corner you will see crlf line endings so just click this and we can toggle back to LF. and remember to save
 the file for that to take effect now
 when you're working with git and source
 control kids will automatically check
@@ -494,5 +490,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0ODM5NjksLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbMzc5OTQ4NDQ1LC05Njg4NjkzNTFdfQ==
 -->
