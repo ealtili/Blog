@@ -18,9 +18,12 @@ Windows uses crlf to determine the end of lines. But
 when you work on docker containers that
 run in kubernetes or any kind of a Linux
 system you have to make sure config file
-scripts and even yaml
-files are set to LF. In the vscode (Visual Studio Code) open the file look at the bottom right corner you will see crlf line endings so just click this and we can toggle back to LF. and remember to save
-the file for that to take effect now
+scripts and even yaml files are set to LF. In the vscode (Visual Studio Code) open the file look at the bottom right corner you will see crlf line endings so just click this and we can toggle back to LF and remember to save
+the file.
+
+![](https://i.stack.imgur.com/Bzehj.png)
+
+ for that to take effect now
 when you're working with git and source
 control kids will automatically check
 out these files as well so for developer
@@ -490,5 +493,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5OTQ4NDQ1LC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbLTQyNTMwNzAwNywtOTY4ODY5MzUxXX0=
 -->
