@@ -20,6 +20,39 @@ and code files.
 
 ![](https://i.stack.imgur.com/j64Es.png)
 
+    ```
+    
+# Handle line endings automatically for files detected as text 
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Never modify line endings of our bash scripts
+*.sh -crlf
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.css           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.properties    text
+*.txt           text
+*.xml           text
+
+# These files are binary and should be left untouched
+# (binary is macro for -text -diff)
+*.class         binary
+*.jar           binary
+*.gif           binary
+*.jpg           binary
+*.png           binary
+
+``
+
+
  and with the line innings and
 keep things in Aleph if you know your
 production systems are using Aleph line
@@ -469,6 +502,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjUyNzgwNywtMTIzNzI3MTAwNSwtOT
+eyJoaXN0b3J5IjpbMjA5NzI0OTIwOCwtMTIzNzI3MTAwNSwtOT
 Y4ODY5MzUxXX0=
 -->
