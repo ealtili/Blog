@@ -1,3 +1,5 @@
+# Troubleshooting Kubernetes Deployments
+
 what is up YouTube and welcome to
 another video in this video we're going
 to be taking a look at troubleshooting
@@ -502,5 +504,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMzQ5NjUyXX0=
+eyJoaXN0b3J5IjpbLTk2ODg2OTM1MV19
 -->
