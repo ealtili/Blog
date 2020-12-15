@@ -1,11 +1,7 @@
 # Troubleshooting Kubernetes Deployments
 
-Lets look at troubleshooting
-kubernetes workloads such as pods
-deployments and services. Troubleshooting these things is not that complicated. We will look at 
-different scenarios and we will see that
-thought process and the pattern of
-troubleshooting these things is very
+Let's look at troubleshooting kubernetes workloads such as pods, deployments and services. Troubleshooting these things is not that complicated. We will look at 
+different scenarios and we will see that thought process and the pattern of troubleshooting these things is very
 similar. 
 
  1. **Line Endings Issues**
@@ -23,11 +19,7 @@ the file.
 
 ![](https://i.stack.imgur.com/Bzehj.png)
 
- for that to take effect now
-when you're working with git and source
-control kids will automatically check
-out these files as well so for developer
-windows developer come and checks out
+When you're working with git based source control tool it will automatically check out these files as well so for developer windows developer come and checks out
 the file it will automatically switch it
 back to crlf and if a linux person
 checks it out it will set it to a live
@@ -493,5 +485,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTMwNzAwNywtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbMTE0NjkyNjMyOSwtOTY4ODY5MzUxXX0=
 -->
