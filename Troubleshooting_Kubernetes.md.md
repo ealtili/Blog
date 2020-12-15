@@ -16,7 +16,7 @@ When you are working with git based source control tool it will automatically ch
 checks it out it will set it to a lf. This can cause problems because sometimes that file, config file or code
 can be in a docker container. Which ends up in a production environment and CI/CD can fail and you can have problems in production. To prevent this in the git repository you can create and .gitattributes file and 
 inside that file you can target files like *.sh files (shell scripts), *.conf (configuration files) ,  YAML files
-and code files. 
+and code files to keep things in lf.
 
 ![](https://i.stack.imgur.com/j64Es.png)
 
@@ -52,8 +52,7 @@ and code files.
 
 ```
 
-
- and with the line innings and
+and with the line innings and
 keep things in Aleph if you know your
 production systems are using Aleph line
 endings now this will only help about
@@ -502,6 +501,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDc0MjU4NCwtMTIzNzI3MTAwNSwtOT
+eyJoaXN0b3J5IjpbMTE1OTg2MDMzNCwtMTIzNzI3MTAwNSwtOT
 Y4ODY5MzUxXX0=
 -->
