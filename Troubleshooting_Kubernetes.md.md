@@ -53,11 +53,7 @@ and code files to keep things in lf.
 ```
 
 Now this will only help about 80% of the cases. A lot of the time files may still end up with the wrong line
-endings so when you work with docker you might have source files being copied
-into container images with the wrong
-line endings and when you have
-kubernetes clusters you might have
-config maps and secrets which are being
+endings. When you work with docker you might have source files being copied into container images with the wrong line endings. When you have kubernetes clusters you might have config maps and secrets which are being
 uploaded from a developer in this
 machine right into the environment also
 containing the wrong line endings and
@@ -495,6 +491,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjMwOTMxMSwtMTIzNzI3MTAwNSwtOT
+eyJoaXN0b3J5IjpbMTIwNzQ4MjYyNCwtMTIzNzI3MTAwNSwtOT
 Y4ODY5MzUxXX0=
 -->
