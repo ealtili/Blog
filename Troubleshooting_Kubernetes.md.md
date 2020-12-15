@@ -12,8 +12,8 @@ similar.
 Line ending issues are the most encountered issues. Mostly occurs because developers
 works on different operating systems and
 each operating system has its own way of
-defining where lines e
-aim you can see windows over here user
+defining where and how lines ends.
+In windows over here user
 crlf to determine the end of lines but
 when you work on docker containers that
 run in kubernetes or any kind of a Linux
@@ -496,5 +496,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkwMzgzNTgsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbMTkwMjE0NjU3OCwtOTY4ODY5MzUxXX0=
 -->
