@@ -6,20 +6,13 @@ similar.
 
  1. **Line Endings Issues**
 
-Line ending issues are the most encountered issues. Mostly occurs because developers
-works on different operating systems and
-each operating system has its own way of
-defining where and how lines ends.
-Windows uses crlf to determine the end of lines. But
-when you work on docker containers that
-run in kubernetes or any kind of a Linux
-system you have to make sure config file
-scripts and even yaml files are set to LF. In the vscode (Visual Studio Code) open the file look at the bottom right corner you will see crlf line endings so just click this and we can toggle back to LF and remember to save
+Line ending issues are the most encountered issues. Mostly occurs because developers works on different operating systems and each operating system has its own way of defining where and how lines ends. Windows uses crlf to determine the end of lines. But when you work on docker containers that run in kubernetes or any kind of a Linux system you have to make sure config files,
+scripts and yaml files are set to LF. In the vscode (Visual Studio Code) open the file look at the bottom right corner you will see crlf line endings so just click this and we can toggle back to LF and remember to save
 the file.
 
 ![](https://i.stack.imgur.com/Bzehj.png)
 
-When you're working with git based source control tool it will automatically check out these files as well so for developer windows developer come and checks out
+When you are working with git based source control tool it will automatically check out these files as well so for developer windows developer come and checks out
 the file it will automatically switch it
 back to crlf and if a linux person
 checks it out it will set it to a live
@@ -485,5 +478,5 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjkyNjMyOSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbMjQ4MzEyMjkwLC05Njg4NjkzNTFdfQ==
 -->
