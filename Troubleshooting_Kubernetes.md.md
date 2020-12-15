@@ -52,14 +52,8 @@ and code files to keep things in lf.
 
 ```
 
-and with the line innings and
-keep things in Aleph if you know your
-production systems are using Aleph line
-endings now this will only help about
-80% of the cases a lot of the time files
-may still end up with the wrong line
-endings so when you work with docker you
-might have source files being copied
+Now this will only help about 80% of the cases. A lot of the time files may still end up with the wrong line
+endings so when you work with docker you might have source files being copied
 into container images with the wrong
 line endings and when you have
 kubernetes clusters you might have
@@ -501,6 +495,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTg2MDMzNCwtMTIzNzI3MTAwNSwtOT
+eyJoaXN0b3J5IjpbMTM4NjMwOTMxMSwtMTIzNzI3MTAwNSwtOT
 Y4ODY5MzUxXX0=
 -->
