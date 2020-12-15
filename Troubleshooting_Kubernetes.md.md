@@ -21,9 +21,9 @@ and code files.
 ![](https://i.stack.imgur.com/j64Es.png)
 
 ```
-Change `* text=auto` to `* text=false` to disable automatic handling
+# Change * text=auto to * text=false to disable automatic handling
     
-# Handle line endings automatically for files detected as text # and leave all files detected as binary untouched.
+# Handle line endings automatically for files detected as text and leave all files detected as binary untouched.
 * text=auto
 
 # Never modify line endings of our bash scripts
@@ -502,6 +502,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTY2OTE4LC0xMjM3MjcxMDA1LC05Nj
-g4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbMTc3NDc0MjU4NCwtMTIzNzI3MTAwNSwtOT
+Y4ODY5MzUxXX0=
 -->
