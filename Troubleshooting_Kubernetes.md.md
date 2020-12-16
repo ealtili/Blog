@@ -64,11 +64,10 @@ not found. You'll be pulling your
 hair out trying to figure out and
 meanwhile it's just a line endings.
 
- **2. Troubleshooting steps**
+ **2. Troubleshooting steps: Deployments, Pods then Status and Events**
 
-so the basic strategy I try and
-follow is first look at deployments then
-look at pods and for both of those two
+Basic strategy is first look at deployments then
+pods and for both of those two
 we're going to look at status and events
 and that's generally enough to cover all
 most of the scenarios when it comes to
@@ -477,6 +476,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNDUwNzIyLC0xODI3ODAzOTgwLC0xMj
+eyJoaXN0b3J5IjpbMzY3MTA2MTA4LC0xODI3ODAzOTgwLC0xMj
 M3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
