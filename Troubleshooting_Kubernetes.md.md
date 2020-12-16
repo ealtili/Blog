@@ -71,13 +71,13 @@ pods and for both of those two to look at status and events.
 
 That's generally enough to cover most of the scenarios when it comes to kubernetes and deployment failures. Lets look at a few scenarios and to apply them.
 
- - **Deployment Failing and you**
+ - **Deployment failing and you are seeing crash**
 
- hey man how's it going
-your deployments failing Oh what are you
-seeing crash oh okay let's have a look
-so the first thing we're gonna do is we
-say cube CTL get deployed so as I said
+Let's have a look so the first thing we're gonna do is 
+
+    kubectl get deployments
+
+ CTL get deployed so as I said
 we look at the deployment first and we
 can see here now we're gonna look at
 statuses and events so the first thing
@@ -475,6 +475,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDUyNDQ2MCwtMTgyNzgwMzk4MCwtMT
-IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbLTE3NDA0NDU4MTMsLTE4Mjc4MDM5ODAsLT
+EyMzcyNzEwMDUsLTk2ODg2OTM1MV19
 -->
