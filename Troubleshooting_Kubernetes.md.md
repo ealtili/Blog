@@ -88,7 +88,23 @@ We look at the deployment first and see the states and events.  So the first thi
     and
     kubectl describe deploy nginx-deployment
 
-Now lets check the states and the events. so we describe and we look
+Now lets check the states and the events. 
+
+    ble
+  OldReplicaSets:  <none>
+  NewReplicaSet:   nginx-deployment-1564180365 (3/3 replicas created)
+  Events:
+    Type    Reason             Age   From                   Message
+    ----    ------             ----  ----                   -------
+    Normal  ScalingReplicaSet  2m    deployment-controller  Scaled up replica set nginx-deployment-2035384211 to 3
+    Normal  ScalingReplicaSet  24s   deployment-controller  Scaled up replica set nginx-deployment-1564180365 to 1
+    Normal  ScalingReplicaSet  22s   deployment-controller  Scaled down replica set nginx-deployment-2035384211 to 2
+    Normal  ScalingReplicaSet  22s   deployment-controller  Scaled up replica set nginx-deployment-1564180365 to 2
+    Normal  ScalingReplicaSet  19s   deployment-controller  Scaled down replica set nginx-deployment-2035384211 to 1
+    Normal  ScalingReplicaSet  19s   deployment-controller  Scaled up replica set nginx-deployment-1564180365 to 3
+    Normal  ScalingReplicaSet  14s   deployment-controller  Scaled down replica set nginx-deployment-2035384211 to 0
+```
+so we describe and we look
 through and we look at the event so we
 can see deployment is trying to scale up
 to two and we can also see that there's
@@ -476,6 +492,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMzMjEyNDgsLTEyNzk1MjY0MTgsLT
-E4Mjc4MDM5ODAsLTEyMzcyNzEwMDUsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbMTczNzE0NDEyMywtMTI3OTUyNjQxOCwtMT
+gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
