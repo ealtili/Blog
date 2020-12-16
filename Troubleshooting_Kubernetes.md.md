@@ -79,11 +79,13 @@ Let's have a look so the first thing we're gonna do is
 
 ```
 NAME             READY UP-TO-DATE AVAILABLE AGE
-example-deployment 0/3     0          0    3m9s
+test-deployment 0/3     0          0    3m9s
 ```
 
-We look at the deployment first and see the states and events.  So the first thing states we can see there's 0 ready out of 3. For some reason the pods are
-not being created so what we do next as
+We look at the deployment first and see the states and events.  So the first thing states we can see there's 0 ready out of 3. For some reason the pods are not being created. What we do next is
+
+    kubectl describe deploy test-deployment
+
 we described so you always do a get
 check the statuses describe check the
 events so we describe and we look
@@ -474,6 +476,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDA2MzE4OCwtMTI3OTUyNjQxOCwtMT
-gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbMTk3NzMzMzAwLC0xMjc5NTI2NDE4LC0xOD
+I3ODAzOTgwLC0xMjM3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
