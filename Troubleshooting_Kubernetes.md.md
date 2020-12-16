@@ -55,7 +55,7 @@ and code files to keep things in lf.
 Now this will only help about 80% of the cases. A lot of the time files may still end up with the wrong line
 endings. When you work with docker you might have source files being copied into container images with the wrong line endings. When you have kubernetes clusters you might have config maps and secrets which are being
 uploaded from a developer machine right into the environment containing the wrong line endings. This can cause weird problems. For example you created a script, a basic batch script and line ending is crlf.
-When you run a Debian or linux based container and when you go into that container and run that script. You will end up like  bad interpreter at con
+When you run a Debian or linux based container and when you go into that container and run that script. You will end up with errors like bad interpreter,  con
 interpret the shebang and we get no such
 file or directory not to show you
 another Linux environment I created an
@@ -482,6 +482,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzMyODMwOCwtMTgyNzgwMzk4MCwtMT
-IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbNzI5NzYxNTc0LC0xODI3ODAzOTgwLC0xMj
+M3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
