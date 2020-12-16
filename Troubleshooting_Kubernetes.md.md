@@ -77,6 +77,8 @@ Let's have a look so the first thing we're gonna do is
 
     kubectl get deploy
 
+    enter code here
+
 We look at the deployment first and see the statuses and events. so the first thing
 statuses we can see there's 0 radiate of
 2 so we want to but for some reason the
@@ -472,6 +474,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODAxMDk1NiwtMTI3OTUyNjQxOCwtMT
-gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbLTExMzA4MTcwNTMsLTEyNzk1MjY0MTgsLT
+E4Mjc4MDM5ODAsLTEyMzcyNzEwMDUsLTk2ODg2OTM1MV19
 -->
