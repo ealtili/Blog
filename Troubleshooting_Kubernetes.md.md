@@ -64,15 +64,12 @@ not found. You'll be pulling your
 hair out trying to figure out and
 meanwhile it's just a line endings.
 
- **2. Troubleshooting steps: Deployments, Pods then Status and Events**
+ **2. Troubleshooting steps: Deployments, Pods and Status, Events**
 
 Basic strategy is first look at deployments then
-pods and for both of those two
-we're going to look at status and events
-and that's generally enough to cover all
-most of the scenarios when it comes to
-kubernetes and deployment failures so
-now we're gonna run through a few
+pods and for both of those two to look at status and events.
+
+That's generally enough to cover most of the scenarios when it comes to kubernetes and deployment failures. Letsa few
 scenarios and i'm going to show you how
 to apply them hey man how's it going
 your deployments failing Oh what are you
@@ -476,6 +473,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MTA2MTA4LC0xODI3ODAzOTgwLC0xMj
-M3MjcxMDA1LC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDI1NTQyMiwtMTgyNzgwMzk4MCwtMT
+IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
