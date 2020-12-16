@@ -93,7 +93,7 @@ Now lets check the states and the events.
 ``` 
 Name:                   nginx-deployment
 Namespace:              default
-CreationTimestamp:      Thu, 30 Nov 2017 10:56:25 +0000
+CreationTimestamp:      Wed, 16 Dec 2020 10:56:25 +0000
 Labels:                 app=nginx
 Annotations:            deployment.kubernetes.io/revision=2
 Selector:               app=nginx
@@ -516,6 +516,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTM2MjUzOCwtMTI3OTUyNjQxOCwtMT
+eyJoaXN0b3J5IjpbMTQ3NjAzMjE1NiwtMTI3OTUyNjQxOCwtMT
 gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
