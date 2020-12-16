@@ -64,6 +64,8 @@ not found. You'll be pulling your
 hair out trying to figure out and
 meanwhile it's just a line endings.
 
+ **2. Troubleshooting steps**
+
 so the basic strategy I try and
 follow is first look at deployments then
 look at pods and for both of those two
@@ -475,6 +477,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc3NTc3MywtMTgyNzgwMzk4MCwtMT
-IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbODQzNDUwNzIyLC0xODI3ODAzOTgwLC0xMj
+M3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
