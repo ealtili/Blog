@@ -85,8 +85,10 @@ nginx-deployment 0/3     0          0    3m9s
 We look at the deployment first and see the states and events.  So the first thing states we can see there's 0 ready out of 3. For some reason the pods are not being created. What we do next is describe
 
     kubectl describe deployments
-    or
-    kubectl describe deploy 
+    and
+    kubectl describe deploy nginx-deployment
+
+
 
 
 we described so you always do a get
@@ -479,6 +481,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzk3ODgxLC0xMjc5NTI2NDE4LC0xOD
-I3ODAzOTgwLC0xMjM3MjcxMDA1LC05Njg4NjkzNTFdfQ==
+eyJoaXN0b3J5IjpbMTM4NzQ2MDA5MywtMTI3OTUyNjQxOCwtMT
+gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
