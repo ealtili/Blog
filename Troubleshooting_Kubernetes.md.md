@@ -57,16 +57,14 @@ endings. When you work with docker you might have source files being copied into
 uploaded from a developer machine right into the environment containing the wrong line endings. This can cause weird problems. For example you created a script, a basic batch script and line ending is crlf.
 When you run a Debian or linux based container and when you go into that container and run that script. You will end up with errors like bad interpreter, cant
 interpret the shebang, no such
-file or directory etc.  You could be running a Python
-application or dotnet WordPress site you
-could be trying to load some
+file or directory etc.  Imagine running a Python
+application and trying to load some
 configuration and you'll get like a file
-not found and you'll be pulling your
+not found. You'll be pulling your
 hair out trying to figure out and
-meanwhile it's just a line endings that
-you could switch so always keep that
-alarm bell in your head about line
-ending so the basic strategy I try and
+meanwhile it's just a line endings.
+
+so the basic strategy I try and
 follow is first look at deployments then
 look at pods and for both of those two
 we're going to look at status and events
@@ -477,6 +475,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI0MDI0NzQsLTE4Mjc4MDM5ODAsLT
-EyMzcyNzEwMDUsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbLTEyNjc3NTc3MywtMTgyNzgwMzk4MCwtMT
+IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
