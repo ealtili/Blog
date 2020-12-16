@@ -75,10 +75,9 @@ That's generally enough to cover most of the scenarios when it comes to kubernet
 
 Let's have a look so the first thing we're gonna do is 
 
-    kubectl get deployments
+    kubectl get deploy
 
- CTL get deployed so as I said
-we look at the deployment first and we
+We look at the deployment first and we
 can see here now we're gonna look at
 statuses and events so the first thing
 statuses we can see there's 0 radiate of
@@ -475,6 +474,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk1MjY0MTgsLTE4Mjc4MDM5ODAsLT
-EyMzcyNzEwMDUsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbLTEyMTk3NDk5MTgsLTEyNzk1MjY0MTgsLT
+E4Mjc4MDM5ODAsLTEyMzcyNzEwMDUsLTk2ODg2OTM1MV19
 -->
