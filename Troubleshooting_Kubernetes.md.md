@@ -77,9 +77,7 @@ Let's have a look so the first thing we're gonna do is
 
     kubectl get deploy
 
-We look at the deployment first and we
-can see here now we're gonna look at
-statuses and events so the first thing
+We look at the deployment first and see the statuses and events. so the first thing
 statuses we can see there's 0 radiate of
 2 so we want to but for some reason the
 pods are
@@ -474,6 +472,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk3NDk5MTgsLTEyNzk1MjY0MTgsLT
-E4Mjc4MDM5ODAsLTEyMzcyNzEwMDUsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbLTQ4ODAxMDk1NiwtMTI3OTUyNjQxOCwtMT
+gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
