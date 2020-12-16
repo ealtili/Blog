@@ -79,12 +79,14 @@ Let's have a look so the first thing we're gonna do is
 
 ```
 NAME             READY UP-TO-DATE AVAILABLE AGE
-test-deployment 0/3     0          0    3m9s
+nginx-deployment 0/3     0          0    3m9s
 ```
 
 We look at the deployment first and see the states and events.  So the first thing states we can see there's 0 ready out of 3. For some reason the pods are not being created. What we do next is describe
 
-    kubectl describe deploy test-deployment
+    kubectl describe deployments
+    or
+    kubectl describe deploy 
 
 
 we described so you always do a get
@@ -477,6 +479,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NTU5NTQ1LC0xMjc5NTI2NDE4LC0xOD
+eyJoaXN0b3J5IjpbMzgzMzk3ODgxLC0xMjc5NTI2NDE4LC0xOD
 I3ODAzOTgwLC0xMjM3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
