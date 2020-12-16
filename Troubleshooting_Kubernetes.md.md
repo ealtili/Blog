@@ -78,11 +78,11 @@ Let's have a look so the first thing we're gonna do is
     kubectl get deploy
 
 ```
-NAME            READY UP-TO-DATE AVAILABLE AGE
-nginx-deployment 0/3     0          0      1s
+NAME             READY UP-TO-DATE AVAILABLE AGE
+example-deployment 0/3     0          0    3m9s
 ```
 
-We look at the deployment first and see the statuses and events. so the first thing
+We look at the deployment first and see the stateses and events. so the first thing
 statuses we can see there's 0 radiate of
 2 so we want to but for some reason the
 pods are
@@ -477,6 +477,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjYwNjc1NCwtMTI3OTUyNjQxOCwtMT
-gyNzgwMzk4MCwtMTIzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
+eyJoaXN0b3J5IjpbOTk4NDQ0NDg2LC0xMjc5NTI2NDE4LC0xOD
+I3ODAzOTgwLC0xMjM3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
