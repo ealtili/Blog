@@ -71,7 +71,7 @@ pods and for both of those two to look at status and events.
 
 That's generally enough to cover most of the scenarios when it comes to kubernetes and deployment failures. Lets look at a few scenarios and to apply them.
 
- - **Deployment failing and you are seeing crash**
+ - **CrashloopBackoff:**Deployment failing and you are seeing crash
 
 Let's have a look so the first thing we're gonna do is 
 
@@ -475,6 +475,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA0NDU4MTMsLTE4Mjc4MDM5ODAsLT
-EyMzcyNzEwMDUsLTk2ODg2OTM1MV19
+eyJoaXN0b3J5IjpbNzU4NDUxNTg2LC0xODI3ODAzOTgwLC0xMj
+M3MjcxMDA1LC05Njg4NjkzNTFdfQ==
 -->
