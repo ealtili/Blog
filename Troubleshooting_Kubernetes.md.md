@@ -69,9 +69,11 @@ meanwhile it's just a line endings.
 Basic strategy is first look at deployments then
 pods and for both of those two to look at status and events.
 
-That's generally enough to cover most of the scenarios when it comes to kubernetes and deployment failures. Letsa few
-scenarios and i'm going to show you how
-to apply them hey man how's it going
+That's generally enough to cover most of the scenarios when it comes to kubernetes and deployment failures. Lets look at a few scenarios and to apply them.
+
+ - **Deployment Failing and you**
+
+ hey man how's it going
 your deployments failing Oh what are you
 seeing crash oh okay let's have a look
 so the first thing we're gonna do is we
@@ -473,6 +475,6 @@ peace
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI1NTQyMiwtMTgyNzgwMzk4MCwtMT
+eyJoaXN0b3J5IjpbMTI2MDUyNDQ2MCwtMTgyNzgwMzk4MCwtMT
 IzNzI3MTAwNSwtOTY4ODY5MzUxXX0=
 -->
