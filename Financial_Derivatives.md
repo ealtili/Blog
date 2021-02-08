@@ -26,12 +26,12 @@ They can also be broken down by the type of underlying asset. Things like
  - Commodity derivatives 
  - Credit derivatives. 
 
-Finally they can be
-broken down by the market in which they
-trade so we've got exchange-traded
-derivatives and over-the-counter
-derivatives derivatives can be used for
-the purpose of speculation or for
+Finally they can be broken down by the market in which they trade. Things like 
+
+ - Exchange-traded derivatives
+ - Over-the-counter derivatives
+ 
+Derivatives can be used for the purpose of speculation or for
 hedging a speculator is a trader who's
 taking position
 with the goal of making a profit a hedge
@@ -189,5 +189,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTY2Nzk5NF19
+eyJoaXN0b3J5IjpbLTEyNjY2NTUwMjFdfQ==
 -->
