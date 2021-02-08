@@ -9,17 +9,8 @@ In this series of blog I will share my notes on financial derivatives. Today we'
 ## What is a Financial Derivative 
  
 A financial derivative is an economic contract whose value depends on or is derived from the value of another
-instrument or underlying asset. So a derivative is not a security like a stock or a bond where you have ownership in a company or have lent money to a company. A derivative is simply a side bet with
-another party on how a different
-security will perform these derivatives
-are not issued by companies the way
-stocks and bonds are they don't raise
-money for companies the way an IPO or a
-bond offering does they're quite simply
-a side bet on how another financial
-product will perform and they derived
-their price from that financial product
-which we refer to as the underlying
+instrument or underlying asset. So a derivative is not a security like a stock or a bond where you have ownership in a company or have lent money to a company. A derivative is simply a side bet with another party on how a different security will perform. These derivatives are not issued by companies the way stocks and bonds are. They don't raise money for companies the way an IPO or a bond offering does. They are simply a side bet on how another financial product will perform and they derived
+their price from that financial product which refer to as the underlying
 derivatives are often broken down or
 categorized by the relationship between
 the underlying asset and the derivative
@@ -192,5 +183,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzY1MTU1M119
+eyJoaXN0b3J5IjpbLTg0NjQ1NDI2NV19
 -->
