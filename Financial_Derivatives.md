@@ -6,18 +6,10 @@ In this series of blog I will share my notes on financial derivatives. Today we'
  - Who Trades
  - Why
 
-## 
- what are financial
-derivatives who trades them and why so
-let's get started what is a financial
-derivative a financial derivative is an
-economic contract whose value depends on
-or is derived from the value of another
-instrument or underlying so a derivative
-is not a security like a stock or a bond
-where you have ownership in a company or
-have lent money to a company a
-derivative is simply a side bet with
+## What is a Financial Derivative 
+ 
+A financial derivative is an economic contract whose value depends on or is derived from the value of another
+instrument or underlying asset. So a derivative is not a security like a stock or a bond where you have ownership in a company or have lent money to a company. A derivative is simply a side bet with
 another party on how a different
 security will perform these derivatives
 are not issued by companies the way
@@ -200,5 +192,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDUwMTQzNF19
+eyJoaXN0b3J5IjpbLTMzMzY1MTU1M119
 -->
