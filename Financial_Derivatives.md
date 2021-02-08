@@ -14,14 +14,19 @@ their price from that financial product which referred to as the underlying asse
 
 Things like 
 
- - Forwards and Futur
+ - Forwards and Futures
  - Options
  - Swaps
 
-forwards, options or swaps. 
+They can also be broken down by the type of underlying asset. Things like 
 
-They can also be broken down by the type of underlying asset. Things like equity derivatives, foreign exchange derivatives, interest rate derivatives, commodity derivatives and
-credit derivatives. Finally they're
+ - Equity derivatives, 
+ - Foreign exchange derivatives, 
+ - Interest rate derivatives, 
+ - Commodity derivatives 
+ - Credit derivatives. 
+
+Finally they can be
 broken down by the market in which they
 trade so we've got exchange-traded
 derivatives and over-the-counter
@@ -184,5 +189,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE2MjgwNzZdfQ==
+eyJoaXN0b3J5IjpbMTkyOTY2Nzk5NF19
 -->
