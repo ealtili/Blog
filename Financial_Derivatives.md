@@ -1,13 +1,6 @@
 
 # Financial Derivatives
-
-hi my name is Patrick Boyle welcome to
-my youtube channel this is the first
-video in a new series on financial
-derivatives where I aim to take you from
-the beginner level to the expert level
-over a series of videos in today's video
-we're going to learn what are financial
+In this series of blog I will share my notes on financial derivatives. Today we're going to lea what are financial
 derivatives who trades them and why so
 let's get started what is a financial
 derivative a financial derivative is an
@@ -200,5 +193,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUwMjg3NzldfQ==
+eyJoaXN0b3J5IjpbLTIwMDkzMDU3OTRdfQ==
 -->
