@@ -1,6 +1,13 @@
 
 # Financial Derivatives
-In this series of blog I will share my notes on financial derivatives. Today we're going to lea what are financial
+In this series of blog I will share my notes on financial derivatives. Today we're going to look at
+
+ - What are Financial Derivative
+ - Who Trades
+ - Why
+
+## 
+ what are financial
 derivatives who trades them and why so
 let's get started what is a financial
 derivative a financial derivative is an
@@ -193,5 +200,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkzMDU3OTRdfQ==
+eyJoaXN0b3J5IjpbLTgyNDUwMTQzNF19
 -->
