@@ -12,9 +12,16 @@ A financial derivative is an economic contract whose value depends on or is deri
 instrument or underlying asset. So a derivative is not a security like a stock or a bond where you have ownership in a company or have lent money to a company. A derivative is simply a side bet with another party on how a different security will perform. These derivatives are not issued by companies the way stocks and bonds are. They don't raise money for companies the way an IPO or a bond offering does. They are simply a side bet on how another financial product will perform and they derived
 their price from that financial product which referred to as the underlying asset or underlying. Derivatives are often broken down or categorized by the relationship between the underlying asset and the derivative. 
 
-Things like forwards, options or swaps. They can also be broken down by the type of underlying asset. Things like equity derivatives, foreignexchange derivatives interest rate
-derivatives commodity derivatives are
-credit derivatives and finally they're
+Things like 
+
+ - Forwards and Futur
+ - Options
+ - Swaps
+
+forwards, options or swaps. 
+
+They can also be broken down by the type of underlying asset. Things like equity derivatives, foreign exchange derivatives, interest rate derivatives, commodity derivatives and
+credit derivatives. Finally they're
 broken down by the market in which they
 trade so we've got exchange-traded
 derivatives and over-the-counter
@@ -177,5 +184,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ3MTE1NTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDE2MjgwNzZdfQ==
 -->
