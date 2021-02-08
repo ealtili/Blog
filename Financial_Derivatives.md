@@ -34,10 +34,8 @@ Finally they can be broken down by the market in which they trade. Things like
 Derivatives can be used for the purpose of speculation or for hedging. 
 A ***speculator*** is a trader who's taking position
 with the goal of making a profit. 
-A ***hedger** is a trader who already has an
-economic exposure and who takes an
-offsetting position in order to reduce a
-risk that they already have exposure to
+A ***hedger*** is a trader who already has an economic exposure and who takes an offsetting position in order to reduce a risk that they already have exposure to.
+
 often people are a little bit confused
 by the term hedging they think it
 relates to the idea of a hedge fund
@@ -188,5 +186,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNjIyMjUyXX0=
+eyJoaXN0b3J5IjpbMTEwNTY5Mzc1NF19
 -->
