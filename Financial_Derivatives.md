@@ -31,11 +31,10 @@ Finally they can be broken down by the market in which they trade. Things like
  - Exchange-traded derivatives
  - Over-the-counter derivatives
  
-Derivatives can be used for the purpose of speculation or for
-hedging a speculator is a trader who's
-taking position
-with the goal of making a profit a hedge
-er is a trader who already has an
+Derivatives can be used for the purpose of speculation or for hedging. 
+A ***speculator*** is a trader who's taking position
+with the goal of making a profit. 
+A ***hedger** is a trader who already has an
 economic exposure and who takes an
 offsetting position in order to reduce a
 risk that they already have exposure to
@@ -189,5 +188,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjY2NTUwMjFdfQ==
+eyJoaXN0b3J5IjpbOTUyNjIyMjUyXX0=
 -->
