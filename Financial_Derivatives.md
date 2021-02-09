@@ -63,8 +63,7 @@ affect their respective businesses. Essentially what we've got in that case is i
 in advance for a trade that they'll be doing at some point in the future. 
 
 *Speculators* are individuals who seek exposure to risky assets with the aim of making a profit. They're often
-things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading like buying holding or selling and short selling stocks, bonds, commodities, currencies, real estate, derivatives or any valuable asset to attempt to profit from fluctuations in its price. Irrespective of its underlying value. Many try to differentiate the
-concept of speculation from investing
+things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading like buying holding or selling and short selling stocks, bonds, commodities, currencies, real estate, derivatives or any valuable asset to attempt to profit from fluctuations in its price. Irrespective of its underlying value. Many try to differentiate the concept of speculation from investing
 but for our purposes a speculator and an
 investor are the same thing they're
 individuals or companies who take a
@@ -143,6 +142,6 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3ODI0MDMzLC0xOTAxNDA2ODcyLC0xMj
-MzNjgwNjMwLDExMDU2OTM3NTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMjAzMTg3OSwyODc4MjQwMzMsLTE5MD
+E0MDY4NzIsLTEyMzM2ODA2MzAsMTEwNTY5Mzc1NF19
 -->
