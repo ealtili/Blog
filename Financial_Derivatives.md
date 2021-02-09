@@ -73,12 +73,7 @@ fair value for long periods of time. The term arbitrage in  academics is a trans
 
 Next let's discuss about  ***middleman*** who are the final group of market participants in the derivatives market. They're usually investment banks, market makers,
 brokers. They trade derivatives with the goal of earning a commission or a bid-ask spread between customers who are undertaking opposing positions. These market participants typically are not aiming to accurately predict or profit from movements in the price of the underlying. They just aim to profit from the commission or spread that they get to charge their customers. While in the ordinary running of their business middlemen can sometimes end up holding a position which might cause a profit or loss. They typically do avoid this though and will usually hedge any residual exposures they're left with
-if at all possible middlemen benefit
-from churns so they really like a lot of
-activity in the markets rather than
-benefiting from actual accurate
-predictions of price changes so chances
-are if you made it this far in the video
+if at all possible. Middlemen benefit from churns. So they really like a lot of activity in the markets rather than benefiting from actual accurate predictions of price changes. So chances are if you made it this far in the video
 you've found it at least a little bit
 useful if so please hit the like button
 below and if you'd like to see more
@@ -93,7 +88,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzQ0OTU0NSw0OTc1ODAwODQsMjg3OD
+eyJoaXN0b3J5IjpbLTczMDM3NDIxNSw0OTc1ODAwODQsMjg3OD
 I0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgwNjMwLDExMDU2OTM3
 NTRdfQ==
 -->
