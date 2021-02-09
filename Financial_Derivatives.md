@@ -58,12 +58,7 @@ Let's talk about is who trades derivatives. Lots of people trade derivatives.  T
 
 *Hedgers* are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
 the underlying asset to be transferred from one party to another. For example a corn farmer and the breakfast cereal manufacturing company like Kellogg's could enter into a futures contract to exchange a specified
-amount of cash for a specified amount of
-corn at some point in the future in
-doing so both parties will have reduced
-a future risk and thus would be
-considered hedgers both parties reduce
-their exposure to certain variations in
+amount of cash for a specified amount of corn at some point in the future. In doing so both parties will have reduced a future risk and thus both would be considered hedgers. Both parties reduce their exposure to certain variations in
 the price of corn which could materially
 affect their respective businesses
 essentially what we've got in that case
@@ -162,5 +157,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTIxNDQzNCwxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbLTE5NjU0MjM2MzcsMTEwNTY5Mzc1NF19
 -->
