@@ -69,13 +69,7 @@ profiting from it rather than with the goal of reducing their risk or hedging th
 ***Arbitrageurs*** arbitrage is the practice of taking
 advantage of a price difference between two or more markets. It usually involves the simultaneous purchase and sale of an asset. The profit being the difference
 between the market prices. Arbitrage is a trade that profits by exploiting price differences of identical or extremely similar financial instruments on different markets or in different forms. Arbitrage exists as a result of market inefficiencies. It provides a mechanism to ensure that prices do not deviate substantially from
-fair value for long periods of time. TheArbitrage is used by academics
-an arbitrage is a transaction that
-involves no negative cash flow at any
-probabilistic or temporal State and the
-positive cash flow in at least one state
-so in simple terms what that means is
-that it's the possibility of a risk-free
+fair value for long periods of time. The term arbitrage in  academics is a transaction that involves no negative cash flow at any probabilistic or temporal state and the positive cash flow in at least one state. In simple terms that means is that it's the possibility of a risk-free
 profit at zero costs we'll find
 ourselves talking a fair bit about
 arbitrage over the course of these
@@ -124,7 +118,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYzMTUyOTEsNDk3NTgwMDg0LDI4Nz
-gyNDAzMywtMTkwMTQwNjg3MiwtMTIzMzY4MDYzMCwxMTA1Njkz
-NzU0XX0=
+eyJoaXN0b3J5IjpbLTI3NDIzOTYwNCw0OTc1ODAwODQsMjg3OD
+I0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgwNjMwLDExMDU2OTM3
+NTRdfQ==
 -->
