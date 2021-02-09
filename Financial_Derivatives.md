@@ -37,11 +37,8 @@ with the goal of making a profit.
 A ***hedger*** is a trader who already has an economic exposure and who takes an offsetting position in order to reduce a risk that they already have exposure to.
 
 Often people are a bit confused by the term hedging they think it relates to the idea of a hedge fund. A hedger is not a hedge fund. It's simply a person who is trading a
-financial instrument in order to reduce their risks.  are to hedge their risk they
-usually are already exposed to a
-financial risk and their trading
-activity reduces that risk exposure
-there are a number of underlines for
+financial instrument in order to reduce their risks. They are hedging their risk that are already exposed to a
+financial risk. Their trading activity reduces that risk exposure. There are a number of underlying for
 derivatives available right now and new
 ones are being developed all the time
 some of the most popular underlyings are
@@ -180,5 +177,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4NjEwODgyLDExMDU2OTM3NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMzk0ODk5NjEsMTEwNTY5Mzc1NF19
 -->
