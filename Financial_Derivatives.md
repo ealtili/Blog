@@ -80,12 +80,18 @@ if at all possible. Middlemen benefit from churns. So they really like a lot of 
 The most common types of derivative contracts are as follows: 
 1. **Forwards**: An OTC contract between two parties, where payment takes place at a specific time in the future at today’s predetermined price. 
 2. **Futures**: An exchange-listed contract to buy or sell an asset on or before a future date at a price specified today. A futures contract differs from a forward contract in that the futures contract is a standardized contract which is then backed by a clearing house working with an exchange where the contract can be bought and sold; the forward contract is a non-standardized OTC contract written by the parties themselves.
+3. **Options**: An option is a derivative financial instrument that specifies a contract between two parties for a future transaction on an asset at a reference
+price—the strike. The buyer of the option gains the right, but not the obligation, to engage in that transaction, while the seller incurs the corresponding
+obligation to fulfil the transaction. Options can be either exchange-traded or OTC. An option which conveys the right to buy something at a specific price is called a call; an option which conveys the right to sell something at a specific price is called a put.
+4. **Warrants**: A warrant is quite similar to an option, but it is typically issued by a company on its own stock and, when exercised, new equity is issued causing ownership dilution to common stock holders.
+5. Swaps: A swap is an OTC derivative in which counterparties exchange cash
+flows of one party’s financial instrument for those of the other party’s financial instrument.
 
 Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, and Swaps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkxNjM2MzMsLTUwNzcxNDI4MCw0OT
-c1ODAwODQsMjg3ODI0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgw
-NjMwLDExMDU2OTM3NTRdfQ==
+eyJoaXN0b3J5IjpbMTQwNjI4MDI0MCwtNTA3NzE0MjgwLDQ5Nz
+U4MDA4NCwyODc4MjQwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2
+MzAsMTEwNTY5Mzc1NF19
 -->
