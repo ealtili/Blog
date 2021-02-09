@@ -75,13 +75,17 @@ Next let's discuss about  ***middleman*** who are the final group of market part
 brokers. They trade derivatives with the goal of earning a commission or a bid-ask spread between customers who are undertaking opposing positions. These market participants typically are not aiming to accurately predict or profit from movements in the price of the underlying. They just aim to profit from the commission or spread that they get to charge their customers. While in the ordinary running of their business middlemen can sometimes end up holding a position which might cause a profit or loss. They typically do avoid this though and will usually hedge any residual exposures they're left with
 if at all possible. Middlemen benefit from churns. So they really like a lot of activity in the markets rather than benefiting from actual accurate predictions of price changes. 
 
-## Major Derivative Contract Types The most common types of derivative contracts are as follows: 1. Forwards: An OTC contract between two parties, where payment takes place at a specific time in the future at today’s predetermined price. 2. Futures: An exchange-listed contract to buy or sell an asset on or before a future date at a price specified today. A futures contract differs from a forward contract in that the futures contract is a standardized contract which is then backed by a clearing house working with an exchange where the contract can be bought and sold; the forward contract is a non-standardized OTC contract written by the parties themselves.
+## Major Derivative Contract Types 
+
+The most common types of derivative contracts are as follows: 
+1. **Forwards**: An OTC contract between two parties, where payment takes place at a specific time in the future at today’s predetermined price. 
+2. **Futures**: An exchange-listed contract to buy or sell an asset on or before a future date at a price specified today. A futures contract differs from a forward contract in that the futures contract is a standardized contract which is then backed by a clearing house working with an exchange where the contract can be bought and sold; the forward contract is a non-standardized OTC contract written by the parties themselves.
 
 Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, and Swaps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTMxNTIyMSwtNTA3NzE0MjgwLDQ5Nz
-U4MDA4NCwyODc4MjQwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2
-MzAsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbLTIwMjkxNjM2MzMsLTUwNzcxNDI4MCw0OT
+c1ODAwODQsMjg3ODI0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgw
+NjMwLDExMDU2OTM3NTRdfQ==
 -->
