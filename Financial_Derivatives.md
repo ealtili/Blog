@@ -34,6 +34,7 @@ Finally they can be broken down by the market in which they trade. Things like
 Derivatives can be used for the purpose of speculation or for hedging. 
 A ***speculator*** is a trader who's taking position
 with the goal of making a profit. 
+
 A ***hedger*** is a trader who already has an economic exposure and who takes an offsetting position in order to reduce a risk that they already have exposure to.
 
 Often people are a bit confused by the term hedging they think it relates to the idea of a hedge fund. A hedger is not a hedge fund. It's simply a person who is trading a
@@ -42,7 +43,8 @@ financial risk. Their trading activity reduces that risk exposure.
 
 There are a number of underlyings for derivatives available and new ones are being developed all the time.
 Some of the most popular underlyings are:
-equities which are also known as stocks which are listed on public exchanges companies like Apple, GE, Citigroup our Vodafone for example then
+*Equities* which are also known as stocks which are listed on public exchanges companies like Apple, GE, Tesla, Verizon.  
+Then
 we have fixed income derivatives things
 like government bonds corporate bonds
 credit spreads baskets of mortgages
@@ -174,5 +176,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY4NzQ3MSwxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbMTU4OTQxNTE1NiwxMTA1NjkzNzU0XX0=
 -->
