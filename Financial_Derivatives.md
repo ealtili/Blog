@@ -54,7 +54,7 @@ like weather events.
 
 ## Who Trades Derivatives
 
-Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers, speculators . 
+Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers, speculators and arbitrageurs. 
 
 ***Hedgers*** are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
 the underlying asset to be transferred from one party to another. For example a corn farmer and the breakfast cereal manufacturing company like Kellogg's could enter into a futures contract to exchange a specified
@@ -66,11 +66,8 @@ in advance for a trade that they'll be doing at some point in the future.
 things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading like buying holding or selling and short selling stocks, bonds, commodities, currencies, real estate, derivatives or any valuable asset to attempt to profit from fluctuations in its price. Irrespective of its underlying value. Many try to differentiate the concept of speculation from investing. But for our purposes a speculator and an investor are individuals or companies who take a derivatives position with the goal of
 profiting from it rather than with the goal of reducing their risk or hedging their exposure. 
 
-our next group we're
-going to talk about our arbitrage earth
-so arbitrage is the practice of taking
-advantage of a price difference between
-two or more markets it usually involves
+***Arbitrageurs*** arbitrage is the practice of taking
+advantage of a price difference between two or more markets. t usually involves
 the simultaneous purchase and sale of an
 asset the profit being the difference
 between the market prices
@@ -138,7 +135,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAzMDA4NjksNDk3NTgwMDg0LDI4Nz
-gyNDAzMywtMTkwMTQwNjg3MiwtMTIzMzY4MDYzMCwxMTA1Njkz
-NzU0XX0=
+eyJoaXN0b3J5IjpbOTQzOTk4NzU4LDQ5NzU4MDA4NCwyODc4Mj
+QwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2MzAsMTEwNTY5Mzc1
+NF19
 -->
