@@ -67,14 +67,8 @@ things like pension plan managers, insurance companies are asset management firm
 profiting from it rather than with the goal of reducing their risk or hedging their exposure. 
 
 ***Arbitrageurs*** arbitrage is the practice of taking
-advantage of a price difference between two or more markets. t usually involves
-the simultaneous purchase and sale of an
-asset the profit being the difference
-between the market prices
-arbitrage is a trade that profits by
-exploiting price differences of
-identical or extremely similar financial
-instruments on different markets or in
+advantage of a price difference between two or more markets. It usually involves the simultaneous purchase and sale of an asset. The profit being the difference
+between the market prices. Arbitrage is a trade that profits by exploiting price differences of identical or extremely similar financial instruments on different markets or in
 different forms our patrasche exists as
 a result of market inefficiencies it
 provides a mechanism to ensure that
@@ -135,7 +129,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzOTk4NzU4LDQ5NzU4MDA4NCwyODc4Mj
+eyJoaXN0b3J5IjpbMjA2Mzk2Njc3LDQ5NzU4MDA4NCwyODc4Mj
 QwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2MzAsMTEwNTY5Mzc1
 NF19
 -->
