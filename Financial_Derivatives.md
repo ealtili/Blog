@@ -62,13 +62,8 @@ amount of cash for a specified amount of corn at some point in the future. In do
 affect their respective businesses. Essentially what we've got in that case is it's really just that they fixed a price
 in advance for a trade that they'll be doing at some point in the future. 
 
-*Speculators are individuals
-who seek exposure to risky assets with
-the aim of making a profit they're often
-things like pension plan managers
-insurance companies are asset management
-firms financial speculation can involve
-trading by the I mean buying holding are
+*Speculators* are individuals who seek exposure to risky assets with the aim of making a profit. They're often
+things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading by the I mean buying holding are
 selling and short selling stocks bonds
 commodities currencies real estate
 derivatives are any valuable asset to
@@ -154,5 +149,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIwNTAyNzQsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbLTEyMzM2ODA2MzAsMTEwNTY5Mzc1NF19
 -->
