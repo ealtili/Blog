@@ -54,7 +54,7 @@ like weather events.
 
 ## Who Trades Derivatives
 
-Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers, speculatorsarbitrageurs. 
+Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers, speculators, arbitrageurs and middleman. 
 
 ***Hedgers*** are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
 the underlying asset to be transferred from one party to another. For example a corn farmer and the breakfast cereal manufacturing company like Kellogg's could enter into a futures contract to exchange a specified
@@ -71,12 +71,8 @@ advantage of a price difference between two or more markets. It usually involves
 between the market prices. Arbitrage is a trade that profits by exploiting price differences of identical or extremely similar financial instruments on different markets or in different forms. Arbitrage exists as a result of market inefficiencies. It provides a mechanism to ensure that prices do not deviate substantially from
 fair value for long periods of time. The term arbitrage in  academics is a transaction that involves no negative cash flow at any probabilistic or temporal state and the positive cash flow in at least one state. In simple terms that means it's the possibility of a risk-free profit at zero costs. It's an important idea in pricing derivatives. The key idea being that any two assets with the same cash flows and risk should have the same price.
 
-Next let's discuss about  ***middleman*** who are our final group of market participants
-in the derivatives market they're
-usually investment banks market makers
-are brokers they trade derivatives with
-the goal of earning a commission or a
-bid-ask spread between customers who are
+Next let's discuss about  ***middleman*** who are the final group of market participants in the derivatives market. They're usually investment banks, market makers,
+brokers. They trade derivatives with the goal of earning a commission or a bid-ask spread between customers who are
 undertaking opposing positions these
 market participants typically are not
 aiming to accurately predict or profit
@@ -110,7 +106,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDA3NjE1NSw0OTc1ODAwODQsMjg3OD
+eyJoaXN0b3J5IjpbLTE2NjY1ODQ2Miw0OTc1ODAwODQsMjg3OD
 I0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgwNjMwLDExMDU2OTM3
 NTRdfQ==
 -->
