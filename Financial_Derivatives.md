@@ -52,11 +52,9 @@ underlyings for derivatives. There are
 even derivatives that pay off on things
 like weather events. 
 
-## Who Tra
-so our next thing we
-want to talk about is who trades
-derivatives with lots of people trade
-derivatives we often break derivatives
+## Who Trades Derivatives
+
+Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break derivatives
 traders down into different groups like
 hedgers and speculators hedgers are
 often producers or consumers of an
@@ -175,5 +173,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTg1ODU2MywxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbLTE5ODYyNDU2NTYsMTEwNTY5Mzc1NF19
 -->
