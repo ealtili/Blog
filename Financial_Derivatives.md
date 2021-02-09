@@ -95,12 +95,31 @@ There are two groups of derivative contracts, which are distinguished by the way
 Over-the-counter derivatives are contracts that are traded directly between two parties, without going through an exchange. Products such as swaps, forward rate agreements, exotic options—and other exotic derivatives—are typically traded in this way. The OTC derivatives market is the largest market for derivatives. The OTC market is largely made up of banks, large corporations, and other highly sophisticated parties. Knowing the size of the OTC market is not easy as trades can occur in private, without the activity being visible on any exchange. According to the Bank for International Settlements, the total outstanding notional amount of OTC derivatives is US$532 trillion as of June 2017. Of this total notional amount, approximately 67% are interest rate contracts, 8% are credit default swaps (CDS), 9% are foreign exchange contracts, 2% are commodity contracts, 1% are equity contracts,
 and 12% are classified as “other.” Because OTC derivatives are not traded on an exchange, there is no central counterparty. Thus they are subject to counterparty risk, the risk of one party defaulting at settlement or closure of the contract, like any ordinary legal contract. Despite the complexity risks of OTC trading, most transactions are quite standardized, with standardized documentation.
 
+### Exchange-traded Derivatives
+
+Exchange-traded derivatives are those that are traded via a specialized derivatives exchange such as the CME group or Eurex Exchange. A derivatives exchange is a
+market where standardized contracts that have been defined by the exchange are traded. A derivatives exchange acts as an intermediary to all related transactions, and takes margin payments from the customers who trade with them to act as a guarantee. According to the Bank for International Settlements, the combined turnover in the world’s derivatives exchanges totaled $8,989 billion in June 2018. Some types of derivative instruments also may trade on traditional exchanges. For instance, hybrid instruments such as convertible bonds and/or convertible
+preferred stock may be listed on stock or bond exchanges. Warrants or rights may
+be listed on equity exchanges (see Chapter 3).
+Most exchange traded derivatives are traded electronically. Historically,
+financial markets were physical locations where buyers and sellers met and
+negotiated. With the improvement in communications technology in the late 20th
+century, the need for a physical location became less important, since traders
+could transact from remote locations. One of the earliest examples of widespread
+electronic trading was on Globex, the CME Group’s electronic trading platform
+that allows access to a variety of financial, foreign exchange, and commodity
+markets. The Chicago Board of Trade produced a rival system “E Open Outcry,”
+an electronic trading platform that allowed for electronic trading to take place
+alongside the trading that took place in the CBOT pits. Electronic trading makes
+transactions easier to complete, monitor, clear, and settle. Electronic trading
+brought down the cost of trading, improved liquidity and increased transparency
+when introduced.
 
 Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, and Swaps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk1MTc1OCwtNTA3NzE0MjgwLDQ5Nz
-U4MDA4NCwyODc4MjQwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2
-MzAsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbNTA0NTQ1MjA0LC0xMDk5NTE3NTgsLTUwNz
+cxNDI4MCw0OTc1ODAwODQsMjg3ODI0MDMzLC0xOTAxNDA2ODcy
+LC0xMjMzNjgwNjMwLDExMDU2OTM3NTRdfQ==
 -->
