@@ -38,14 +38,11 @@ A ***hedger*** is a trader who already has an economic exposure and who takes an
 
 Often people are a bit confused by the term hedging they think it relates to the idea of a hedge fund. A hedger is not a hedge fund. It's simply a person who is trading a
 financial instrument in order to reduce their risks. They are hedging their risk that are already exposed to a
-financial risk. Their trading activity reduces that risk exposure. There are a number of underlying for
-derivatives available right now and new
-ones are being developed all the time
-some of the most popular underlyings are
-equities which are also known as stocks
-which are listed on public exchanges
-companies like General Electric
-Citigroup our Vodafone for example then
+financial risk. Their trading activity reduces that risk exposure. 
+
+There are a number of underlyings for derivatives available and new ones are being developed all the time.
+Some of the most popular underlyings are:
+equities which are also known as stocks which are listed on public exchanges companies like Apple, GE, Citigroup our Vodafone for example then
 we have fixed income derivatives things
 like government bonds corporate bonds
 credit spreads baskets of mortgages
@@ -177,5 +174,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk0ODk5NjEsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbLTIxMTY4NzQ3MSwxMTA1NjkzNzU0XX0=
 -->
