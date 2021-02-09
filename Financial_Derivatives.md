@@ -4,7 +4,8 @@ In this series of blog I will share my notes on financial derivatives. Today we'
 
  - What are Financial Derivative
  - Who Trades
- - Why
+ - Major Derivatives Types
+ - 
 
 ## What is a Financial Derivative 
  
@@ -109,7 +110,7 @@ Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjYxOTgyNiwtMTA5OTUxNzU4LC01MD
+eyJoaXN0b3J5IjpbMTMxODA0NTQ5OSwtMTA5OTUxNzU4LC01MD
 c3MTQyODAsNDk3NTgwMDg0LDI4NzgyNDAzMywtMTkwMTQwNjg3
 MiwtMTIzMzY4MDYzMCwxMTA1NjkzNzU0XX0=
 -->
