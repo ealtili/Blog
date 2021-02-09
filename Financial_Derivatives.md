@@ -56,16 +56,8 @@ like weather events.
 
 Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers and speculators. 
 
-*Hedgers* are often producers or consumers of an underlying. They are required to typically have exposure to a
-particular underlying in the normal
-running of their business derivatives
-allow the risk related to the price of
-the underlying asset to be transferred
-from one party to another
-so for example a corn farmer on the
-breakfast cereal manufacturing company
-like Kellogg's could enter into a
-futures contract to exchange a specified
+*Hedgers* are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
+the underlying asset to be transferred from one party to another. For example a corn farmer and the breakfast cereal manufacturing company like Kellogg's could enter into a futures contract to exchange a specified
 amount of cash for a specified amount of
 corn at some point in the future in
 doing so both parties will have reduced
@@ -170,5 +162,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjk3NTEyNCwxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbMTc2NTIxNDQzNCwxMTA1NjkzNzU0XX0=
 -->
