@@ -72,11 +72,7 @@ between the market prices. Arbitrage is a trade that profits by exploiting price
 fair value for long periods of time. The term arbitrage in  academics is a transaction that involves no negative cash flow at any probabilistic or temporal state and the positive cash flow in at least one state. In simple terms that means it's the possibility of a risk-free profit at zero costs. It's an important idea in pricing derivatives. The key idea being that any two assets with the same cash flows and risk should have the same price.
 
 Next let's discuss about  ***middleman*** who are the final group of market participants in the derivatives market. They're usually investment banks, market makers,
-brokers. They trade derivatives with the goal of earning a commission or a bid-ask spread between customers who are undertaking opposing positions. These market participants typically are not aiming to accurately predict or profit from movements in the price of the underlying. They just aim to profit from the commission or spread that they get to charge their customers while in the ordinary running of their business middlemen can sometimes end up
-holding a position which might cause a
-profit or loss they typically doing to
-avoid this though and will usually hedge
-any residual exposures they're left with
+brokers. They trade derivatives with the goal of earning a commission or a bid-ask spread between customers who are undertaking opposing positions. These market participants typically are not aiming to accurately predict or profit from movements in the price of the underlying. They just aim to profit from the commission or spread that they get to charge their customers. While in the ordinary running of their business middlemen can sometimes end up holding a position which might cause a profit or loss. They typically do avoid this though and will usually hedge any residual exposures they're left with
 if at all possible middlemen benefit
 from churns so they really like a lot of
 activity in the markets rather than
@@ -97,7 +93,7 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4MTUzMjYsNDk3NTgwMDg0LDI4Nz
-gyNDAzMywtMTkwMTQwNjg3MiwtMTIzMzY4MDYzMCwxMTA1Njkz
-NzU0XX0=
+eyJoaXN0b3J5IjpbLTczMzQ0OTU0NSw0OTc1ODAwODQsMjg3OD
+I0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgwNjMwLDExMDU2OTM3
+NTRdfQ==
 -->
