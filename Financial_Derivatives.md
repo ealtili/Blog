@@ -83,15 +83,14 @@ The most common types of derivative contracts are as follows:
 3. **Options**: An option is a derivative financial instrument that specifies a contract between two parties for a future transaction on an asset at a reference
 price—the strike. The buyer of the option gains the right, but not the obligation, to engage in that transaction, while the seller incurs the corresponding
 obligation to fulfil the transaction. Options can be either exchange-traded or OTC. An option which conveys the right to buy something at a specific price is called a call; an option which conveys the right to sell something at a specific price is called a put.
-4. **Warrants**: A warrant is quite similar to an option, but it is typically issued by a company on its own stock and, when exercised, new equity is issued causing ownership dilution to common stock holders.
-5. Swaps: A swap is an OTC derivative in which counterparties exchange cash
-flows of one party’s financial instrument for those of the other party’s financial instrument.
+4. **Warrants**: A warrant is quite similar to an option, but it is typically issued by a company on its own stock and, when exercised, new equity is issued causing ownership dilution to common stockholders.
+5. **Swaps**: A swap is an OTC derivative in which counterparties exchange cash flows of one party’s financial instrument for those of the other party’s financial instrument.
 
 Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, and Swaps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjI4MDI0MCwtNTA3NzE0MjgwLDQ5Nz
+eyJoaXN0b3J5IjpbMTEwNTI5ODEwNiwtNTA3NzE0MjgwLDQ5Nz
 U4MDA4NCwyODc4MjQwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2
 MzAsMTEwNTY5Mzc1NF19
 -->
