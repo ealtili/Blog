@@ -36,11 +36,7 @@ A ***speculator*** is a trader who's taking position
 with the goal of making a profit. 
 A ***hedger*** is a trader who already has an economic exposure and who takes an offsetting position in order to reduce a risk that they already have exposure to.
 
-often people are a little bit confused
-by the term hedging they think it
-relates to the idea of a hedge fund
-which they often hear about in the press
-a hedge er is not a hedge fund it's
+Often people are a bit confused by the term hedging they think it relates to the idea of a hedge fund.  hedge er is not a hedge fund it's
 simply a person who is trading a
 financial instrument in order to reduce
 their risks are to hedge their risk they
@@ -186,5 +182,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbLTUzODUyMzQ3OCwxMTA1NjkzNzU0XX0=
 -->
