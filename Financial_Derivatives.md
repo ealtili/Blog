@@ -93,20 +93,14 @@ There are two groups of derivative contracts, which are distinguished by the way
 ### Over-the-counter derivatives (OTC)
 
 Over-the-counter derivatives are contracts that are traded directly between two parties, without going through an exchange. Products such as swaps, forward rate agreements, exotic options—and other exotic derivatives—are typically traded in this way. The OTC derivatives market is the largest market for derivatives. The OTC market is largely made up of banks, large corporations, and other highly sophisticated parties. Knowing the size of the OTC market is not easy as trades can occur in private, without the activity being visible on any exchange. According to the Bank for International Settlements, the total outstanding notional amount of OTC derivatives is US$532 trillion as of June 2017. Of this total notional amount, approximately 67% are interest rate contracts, 8% are credit default swaps (CDS), 9% are foreign exchange contracts, 2% are commodity contracts, 1% are equity contracts,
-and 12% are classified as “other.” Because OTC derivatives are not traded on an exchange, there is no central counterparty. Thus they are subject to counterparty risk, the risk of one party defaulting at settlement or closure of the contract, like
-any ordinary legal contract. Despite the complexity risks of OTC trading, most
-transactions are quite standardized, with standardized documentation.
-There is a large push from governments and financial regulators, post-2008,
-to bring a sizeable proportion of the OTC markets onto “clearing” platforms.
-Controllable, transparent, and measurable market flows with clearinghouses
-providing trade completion assurance to all counterparties adds to overall
-financial stability
+and 12% are classified as “other.” Because OTC derivatives are not traded on an exchange, there is no central counterparty. Thus they are subject to counterparty risk, the risk of one party defaulting at settlement or closure of the contract, like any ordinary legal contract. Despite the complexity risks of OTC trading, most transactions are quite standardized, with standardized documentation.
+
 
 Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, and Swaps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIwMjUyNzgsLTUwNzcxNDI4MCw0OT
-c1ODAwODQsMjg3ODI0MDMzLC0xOTAxNDA2ODcyLC0xMjMzNjgw
-NjMwLDExMDU2OTM3NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwOTk1MTc1OCwtNTA3NzE0MjgwLDQ5Nz
+U4MDA4NCwyODc4MjQwMzMsLTE5MDE0MDY4NzIsLTEyMzM2ODA2
+MzAsMTEwNTY5Mzc1NF19
 -->
