@@ -54,12 +54,9 @@ like weather events.
 
 ## Who Trades Derivatives
 
-Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break derivatives
-traders down into different groups like
-hedgers and speculators hedgers are
-often producers or consumers of an
-underlying or companies that are
-required to typically have exposure to a
+Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers and speculators. 
+
+*Hedgers* are often producers or consumers of an underlying or companies that are required to typically have exposure to a
 particular underlying in the normal
 running of their business derivatives
 allow the risk related to the price of
@@ -173,5 +170,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYyNDU2NTYsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbOTA3MTE1MzAxLDExMDU2OTM3NTRdfQ==
 -->
