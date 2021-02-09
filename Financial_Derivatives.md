@@ -44,13 +44,16 @@ financial risk. Their trading activity reduces that risk exposure.
 There are a number of underlyings for derivatives available and new ones are being developed all the time.
 Some of the most popular underlyings are:
 *Equities* which are also known as stocks which are listed on public exchanges companies like Apple, GE, Tesla, Verizon etc.  
-Then there are fixed income derivatives like government bonds, corporate bonds, credit spreads, baskets of mortgages etc. We also have things
-like commodities like gold, silver, cotton,
-electricity etc. then we also have indices
-and foreign exchange which are popular
-underlyings for derivatives there are
+Then there are fixed income derivatives like government *bonds*, corporate bonds, credit spreads, baskets of mortgages etc. We also have things
+like *commodities* like gold, silver, cotton,
+electricity etc. Then we also have *indices*
+and *foreign exchange* which are popular
+underlyings for derivatives. There are
 even derivatives that pay off on things
-like weather events so our next thing we
+like weather events. 
+
+## Who Tra
+so our next thing we
 want to talk about is who trades
 derivatives with lots of people trade
 derivatives we often break derivatives
@@ -172,5 +175,5 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjYxNTQ4OCwxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbMTU1NTg1ODU2MywxMTA1NjkzNzU0XX0=
 -->
