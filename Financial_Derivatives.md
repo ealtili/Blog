@@ -9,16 +9,11 @@ In this series of blog I will share my notes on financial derivatives. In this p
 
 ## Derivatives—A Zero Sum Game
 
-In game theory and economic theory, a zero-sum game is a mathematical representation of a situation in which a participant’s gain (or loss) of utility is exactly balanced by the losses (or gains) of the utility of the other participant(s). If the total gains of the participants are added up, and the total losses are subtracted, they will sum to zero. Many economic situations are not zero-sum, since valuable goods and services can be created, destroyed, or allocated in a number of ways,
-and any of these will create a net gain or loss of utility to the combined various
-stakeholders.
+In game theory and economic theory, a zero-sum game is a mathematical representation of a situation in which a participant’s gain (or loss) of utility is exactly balanced by the losses (or gains) of the utility of the other participant(s). If the total gains of the participants are added up, and the total losses are subtracted, they will sum to zero. Many economic situations are not zero-sum, since valuable goods and services can be created, destroyed, or allocated in a number of ways, and any of these will create a net gain or loss of utility to the combined various stakeholders.
+
 Derivatives are bilateral contracts, so one party’s loss is equal to its counterparty’s gain and therefore the transaction as a whole is a zero-sum game. Often
-derivatives traders also trade in the underlying security, such as trading a stock
-option against the underlying stock. In this case their overall outcome will not be
-a zero sum game due to the impact of the underlying security.
-Certain securities, such as mortgage-backed bonds, can be considered derivatives, but the line between securities and derivatives is quite easy to understand.
-Derivatives are a zero-sum game, while if a security goes to zero, no one else
-makes a corresponding profit.
+derivatives traders also trade in the underlying security, such as trading a stock option against the underlying stock. In this case their overall outcome will not be
+a zero sum game due to the impact of the underlying security. Certain securities, such as mortgage-backed bonds, can be considered derivatives, but the line between securities and derivatives is quite easy to understand. Derivatives are a zero-sum game, while if a security goes to zero, no one else makes a corresponding profit.
 
 ## What is a Financial Derivative 
  
@@ -123,7 +118,7 @@ Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDA5NjgyMiwtMTA5OTUxNzU4LC01MD
+eyJoaXN0b3J5IjpbLTk4MDg2MTY2NiwtMTA5OTUxNzU4LC01MD
 c3MTQyODAsNDk3NTgwMDg0LDI4NzgyNDAzMywtMTkwMTQwNjg3
 MiwtMTIzMzY4MDYzMCwxMTA1NjkzNzU0XX0=
 -->
