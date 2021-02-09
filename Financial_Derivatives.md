@@ -56,21 +56,17 @@ like weather events.
 
 Let's talk about is who trades derivatives. Lots of people trade derivatives.  They are often break down into different groups like hedgers and speculators. 
 
-*Hedgers* are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
+***Hedgers*** are often producers or consumers of an underlying. They are required to typically have exposure to a particular underlying in the normal running of their business. Derivatives allow the risk related to the price of
 the underlying asset to be transferred from one party to another. For example a corn farmer and the breakfast cereal manufacturing company like Kellogg's could enter into a futures contract to exchange a specified
 amount of cash for a specified amount of corn at some point in the future. In doing so both parties will have reduced a future risk and thus both would be considered hedgers. Both parties reduce their exposure to certain variations in the price of corn which could materially
 affect their respective businesses. Essentially what we've got in that case is it's really just that they fixed a price
 in advance for a trade that they'll be doing at some point in the future. 
 
-*Speculators* are individuals who seek exposure to risky assets with the aim of making a profit. They're often
-things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading like buying holding or selling and short selling stocks, bonds, commodities, currencies, real estate, derivatives or any valuable asset to attempt to profit from fluctuations in its price. Irrespective of its underlying value. Many try to differentiate the concept of speculation from investing
-but for our purposes a speculator and an
-investor are the same thing they're
-individuals or companies who take a
-derivatives position with the goal of
-profiting from it rather than with the
-goal of reducing their risk or hedging
-their exposure our next group we're
+***Speculators*** are individuals who seek exposure to risky assets with the aim of making a profit. They're often
+things like pension plan managers, insurance companies are asset management firms. Financial speculation can involve trading like buying holding or selling and short selling stocks, bonds, commodities, currencies, real estate, derivatives or any valuable asset to attempt to profit from fluctuations in its price. Irrespective of its underlying value. Many try to differentiate the concept of speculation from investing. But for our purposes a speculator and an investor are individuals or companies who take a derivatives position with the goal of
+profiting from it rather than with the goal of reducing their risk or hedging their exposure. 
+
+our next group we're
 going to talk about our arbitrage earth
 so arbitrage is the practice of taking
 advantage of a price difference between
@@ -142,6 +138,6 @@ you later bye
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAzMTg3OSwyODc4MjQwMzMsLTE5MD
-E0MDY4NzIsLTEyMzM2ODA2MzAsMTEwNTY5Mzc1NF19
+eyJoaXN0b3J5IjpbNDk3NTgwMDg0LDI4NzgyNDAzMywtMTkwMT
+QwNjg3MiwtMTIzMzY4MDYzMCwxMTA1NjkzNzU0XX0=
 -->
