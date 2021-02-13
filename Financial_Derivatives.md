@@ -1,5 +1,6 @@
 
-# Financial Derivatives
+# Financial Derivatives: Forwards, Futures, Options, Warrants, Swaps
+
 In this series of blog I will share my notes on financial derivatives. In this post we're going to look at
 
  - What are Financial Derivative
@@ -118,7 +119,8 @@ Source: Trading and Pricing Financial Derivatives: A Guide to Futures, Options, 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDg2MTY2NiwtMTA5OTUxNzU4LC01MD
-c3MTQyODAsNDk3NTgwMDg0LDI4NzgyNDAzMywtMTkwMTQwNjg3
-MiwtMTIzMzY4MDYzMCwxMTA1NjkzNzU0XX0=
+eyJoaXN0b3J5IjpbMTc0OTI1MzM0NCwtOTgwODYxNjY2LC0xMD
+k5NTE3NTgsLTUwNzcxNDI4MCw0OTc1ODAwODQsMjg3ODI0MDMz
+LC0xOTAxNDA2ODcyLC0xMjMzNjgwNjMwLDExMDU2OTM3NTRdfQ
+==
 -->
