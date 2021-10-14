@@ -41,28 +41,14 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 |Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)|  | ✓ |  | 
 [Traveler's checks](https://en.wikipedia.org/wiki/Traveler%27s_cheque "Traveler's cheque") of non-bank issuers  |  | | ✓  | ✓  | ✓  | ✓  |
 [Demand deposits](https://en.wikipedia.org/wiki/Demand_deposit "Demand deposit")   |   |   | ✓  |✓ |✓| ✓  |
-   |   |   |   |   |   |   |   |   |
+Other checkable deposits (OCDs), which consist primarily of [negotiable order of withdrawal](https://en.wikipedia.org/wiki/Negotiable_order_of_withdrawal_account "Negotiable order of withdrawal account") (NOW) accounts at depository institutions and credit union share draft accounts.   |   |   | ✓  | ✓  | ✓  |  ✓ |
+[Savings deposits](https://en.wikipedia.org/wiki/Savings_deposit "Savings deposit")   |   | |  |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |
 
 
 
 
-✓
 
-✓
-
-✓
-
-✓
-
-[Savings deposits](https://en.wikipedia.org/wiki/Savings_deposit "Savings deposit")
-
-✓
-
-✓
-
-✓
 
 [Time deposits](https://en.wikipedia.org/wiki/Time_deposits "Time deposits") less than $100,000 and [money-market deposit accounts](https://en.wikipedia.org/wiki/Money_market_account "Money market account") for individuals
 
@@ -94,5 +80,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjczNDc0MiwtNzE3NDI0ODldfQ==
+eyJoaXN0b3J5IjpbLTQ1MDE0NzU5MiwtNzE3NDI0ODldfQ==
 -->
