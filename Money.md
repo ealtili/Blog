@@ -40,35 +40,13 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 |Notes and coins in bank vaults (vault cash)     |   | ✓  |   |   |   |   |   |   |   |  |
 |Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)|  | ✓ |  | 
 [Traveler's checks](https://en.wikipedia.org/wiki/Traveler%27s_cheque "Traveler's cheque") of non-bank issuers  |  | | ✓  | ✓  | ✓  | ✓  |
-[Demand deposits](https://en.wikipedia.org/wiki/Demand_deposit "Demand deposit")   |   |   |   |
+[Demand deposits](https://en.wikipedia.org/wiki/Demand_deposit "Demand deposit")   |   |   | ✓  |✓ |✓| ✓  |
+   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-✓
-
-✓
-
-✓
-
-✓
-
-Other checkable deposits (OCDs), which consist primarily of [negotiable order of withdrawal](https://en.wikipedia.org/wiki/Negotiable_order_of_withdrawal_account "Negotiable order of withdrawal account") (NOW) accounts at depository institutions and credit union share draft accounts.
 
 ✓
 
@@ -116,5 +94,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAxNTY1NjcsLTcxNzQyNDg5XX0=
+eyJoaXN0b3J5IjpbMTA0NjczNDc0MiwtNzE3NDI0ODldfQ==
 -->
