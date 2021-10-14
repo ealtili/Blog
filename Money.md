@@ -16,7 +16,7 @@ The ratio of the total money added to the money supply (in this case, $1,000,000
 
 Cash (notes and coins) accounts for only 3% of the money in circulation, whilst the remaining 97% of the money in circulation within the United Kingdom economy comprises of credit money that has been created by banks. [(Ryan-Collins, Greenham, Werner, & Jackson, 2011)](https://www.economicsnetwork.ac.uk/archive/starkey_banking#ryancollins).
 
-<![if !vml]>![](file:///C:/Users/Eray/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)<![endif]>
+<![if !vml]>![](https://www.bankofengland.co.uk/-/media/boe/images/knowledgebank/2019/coins-and-notes.svg?h=40&la=en&mh=40&mw=40&w=40&hash=A9504CE2C4633F437DA1A14627966458C8015192)<![endif]>
 
 Bank deposits account for approximately 97% of the money supply in the United Kingdom economy. Bank deposits are sometimes referred to as ‘credit money’, because the majority of bank deposits were originally created by banks issuing new loans. **A bank creates credit money when generating a bank deposit that is a consequence of fulfilling a loan agreement, extending an overdraft facility, or purchasing assets**. Credit money represents the total amount of money that is owed to banks by borrowers. The term credit money is a consequence of commercial bank’s IOU (abbreviated from the phrase "I owe you" is an informal document acknowledging debt) only remaining valid whilst the bank remains solvent. Bankruptcy of a bank would destroy a significant proportion, if not all, of the credit money created by a bank. The credit money component of money supply is reduced when money borrowed from a bank is repaid.
 
@@ -138,5 +138,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1ODc0MjRdfQ==
+eyJoaXN0b3J5IjpbLTcxNzQyNDg5XX0=
 -->
