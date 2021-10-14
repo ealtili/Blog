@@ -34,7 +34,7 @@ The money supply is understood to increase through activities by government auth
 
 The different types of money are typically classified as "**M**"s. The "M"s usually range from M0 (narrowest) to M3 (broadest) but which "M"s are actually focused on in policy formulation depends on the country's central bank. The typical layout for each of the "M"s is as follows:
 
-|Type of Money|M0|M1 |   |   |   |   |   |   |   |   |
+|Type of Money|M0|MB|M1|M2|M3|MZM||
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
@@ -148,5 +148,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4NzI3OTIsLTcxNzQyNDg5XX0=
+eyJoaXN0b3J5IjpbLTY1Mzk0ODQzNCwtNzE3NDI0ODldfQ==
 -->
