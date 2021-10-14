@@ -10,7 +10,7 @@ Money is an item and verifiable record that is generally accepted **based on tru
 
 Money as a medium of exchange for goods and services. [Deposit accounts](https://en.wikipedia.org/wiki/Deposit_account "Deposit account") are a form of [liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting) "Liability (financial accounting)"). Liabilities are obligations or promise to provide services. [Interests](https://en.wikipedia.org/wiki/Interest "Interest") are a [payment](https://en.wikipedia.org/wiki/Payment "Payment") for a liability. Payments are made by providing services. Money is created when promises to provide services are made. Money is destroyed when promised services were provided. Money to pay for interests is created by promising to provide services. The below attributes help us distinguish among five different means of payment: (1) central bank money; (2) crypto-currency; (3) b-money, which currently is issued by banks; (4) electronic money, or e-money, offered by new private sector providers; and (5)i-money, short for investment money, issued by private investment funds.
 
-![Money Tree](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.elibrary.imf.org%2Fview%2Fjournals%2F063%2F2019%2F001%2Fimages%2F9781498324908_f0003-01.jpg&imgrefurl=https%3A%2F%2Fwww.elibrary.imf.org%2Fview%2Fjournals%2F063%2F2019%2F001%2Farticle-A001-en.xml&tbnid=PPZJ1Jr--78VYM&vet=12ahUKEwjWiYrmt8nzAhVW8rsIHZ0wD4QQMygCegUIARCsAQ..i&docid=O-Ef428iaJQitM&w=550&h=257&q=money%20tree%20imf&ved=2ahUKEwjWiYrmt8nzAhVW8rsIHZ0wD4QQMygCegUIARCsAQ)
+![Money Tree](https://www.elibrary.imf.org/view/journals/063/2019/001/images/9781498324908_f0003-01.jpg)
 
 The ratio of the total money added to the money supply (in this case, $1,000,000) to the total money added originally in the monetary base (in this case, $100,000) is the [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier "Money multiplier"). In this context, the money multiplier relates changes in the [monetary base](https://en.wikipedia.org/wiki/Monetary_base "Monetary base"), which is the sum of [bank reserves](https://en.wikipedia.org/wiki/Bank_reserves "Bank reserves") and issued currency, to changes in the [money supply](https://en.wikipedia.org/wiki/Money_supply "Money supply").
 
@@ -138,5 +138,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjIzODYyNF19
+eyJoaXN0b3J5IjpbNDc1ODc0MjRdfQ==
 -->
