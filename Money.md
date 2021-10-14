@@ -1,6 +1,4 @@
-<![endif]-->
-
-## Money
+# Money
 
 Money is an item and verifiable record that is generally accepted **based on trust** as payment for goods, services and repayment of debts with distinguished functions **of medium of exchange, a unit of account, a store of value and a standard of deferred payment.**
 
@@ -58,9 +56,7 @@ All money market funds|   |   |   |   |   | ✓  |
 The ratio of a pair of these measures, most often M2 / M0, is called an (actual, empirical) [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier "Money multiplier").
 
 
-
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzUyNzc1NywtNzE3NDI0ODldfQ==
+eyJoaXN0b3J5IjpbLTg2NDYxMTYzMSwtNzE3NDI0ODldfQ==
 -->
