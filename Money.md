@@ -38,8 +38,8 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 |---|---|---|---|---|---|---|
 |Notes and coins in circulation (outside Federal Reserve Banks and the vaults of depository institutions|  ✓  | ✓  | ✓  |  ✓ | ✓  | ✓  |
 |Notes and coins in bank vaults (vault cash)     |   | ✓  |   |   |   |   |   |   |   |  |
-|Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)
-   |   | ✓  |   |   |   |   |   |   |   |   |
+|Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)|  | ✓ |
+   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
@@ -53,7 +53,7 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 
 ✓
 
-[Traveler's checks](https://en.wikipedia.org/wiki/Traveler%27s_cheque "Traveler's cheque") of non-bank issuers
+
 
 ✓
 
@@ -121,5 +121,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5MTI5NzA0LC03MTc0MjQ4OV19
+eyJoaXN0b3J5IjpbMTk3NDM2Nzc4NSwtNzE3NDI0ODldfQ==
 -->
