@@ -36,6 +36,7 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 
 
 
+
 **Type of money**
 
 **M0**
@@ -140,5 +141,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg1NjMyMDEsLTcxNzQyNDg5XX0=
+eyJoaXN0b3J5IjpbLTE4NTcxNzQwNjMsLTcxNzQyNDg5XX0=
 -->
