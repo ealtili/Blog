@@ -37,20 +37,19 @@ The different types of money are typically classified as "**M**"s. The "M"s usua
 |Type of Money|M0|MB|M1|M2|M3|MZM|
 |---|---|---|---|---|---|---|
 |Notes and coins in circulation (outside Federal Reserve Banks and the vaults of depository institutions|  ✓  | ✓  | ✓  |  ✓ | ✓  | ✓  |
-|Notes and coins in bank vaults (vault cash)   |   |   |   |   |   |   |   |   |   |   |
+|Notes and coins in bank vaults (vault cash)     |   | ✓  |   |   |   |   |   |   |   |  |
+|Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)
+   |   | ✓  |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |
 
 
 
 
 
 
-✓
 
-Federal Reserve Bank credit (required reserves and excess reserves not physically present in banks)
 
 ✓
 
@@ -122,5 +121,5 @@ The ratio of a pair of these measures, most often M2 / M0, is called an (actual,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjQ5ODg3MSwtNzE3NDI0ODldfQ==
+eyJoaXN0b3J5IjpbNjY5MTI5NzA0LC03MTc0MjQ4OV19
 -->
